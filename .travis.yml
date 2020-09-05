@@ -1,3 +1,4 @@
+language: minimal
 deploy:
   provider: gcs
   access_key_id: GOOGO6IWP5PIPVGT3MGHLYQJ
