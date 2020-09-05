@@ -1,1 +1,225 @@
-Hello, world!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Jack Trip Foundation</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/media_queries.css">
+
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<link rel="stylesheet" href="css/signup-form.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+</head>
+
+<body>
+  <nav class="topnav panel_shadow">
+    <a href="index.html" class="logo">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="technology.html">Technology</a>
+        <a href="programs.html">Programs</a>
+        <a href="beta.html">Beta</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </nav>
+
+  <nav class="mainmenu panel_shadow">
+    <a href="index.html" class="logo_mm">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+    <div id="myLinks">
+      <a href="beta.html">Beta</a>
+      <a href="programs.html">Programs</a>
+      <a href="technology.html">Technology</a>
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+
+
+
+
+  <section id="hero" class="hero panel_shadow u-full-width">
+    <video autoplay muted loop id="myVideo">
+      <source src="video/jacktrip_choir.mp4" type="video/mp4">
+    </video>
+    <div class="poster-img"><img src="images/mobile_poster.jpg" alt="Static image of mens choir."></div>
+    <a onclick="toggleMute()"><div class="unmuteBtn"><img src="images/unmute_btn.png" alt="Muted button image"></div></a>
+    <div class="container centered">
+      <div class="twelve columns hero_pos">
+        <h2 class="textShadow">Does COVID-19 have your music practice on hold?</h2>
+        <h1 class="separator textShadow font-title">Never skip with JackTrip!</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="sec-block-0" class="sec-block-0 main">
+
+        
+      <div class="left-side-content about-us">
+          <h3 class="separator dark-text-title mainHead">About Us</h3>
+          <p class="dark-text font-400" >The JackTrip Foundation is a newly formed non-profit organization dedicated to advancing 
+            technologies to enable music collaboration over the Internet, and to facilitate the creation of music that transcends 
+            distance constraints. 
+          </p>
+
+          <p class="dark-text font-400" >The Covid-19 pandemic has tragically closed down many musical activities around the world, 
+            devastating musicians and music organizations alike.  Unlike many business functions, which have pivoted quickly to 
+            Internet collaboration tools, the time-delay inherent in Internet transmissions have precluded musicians from being 
+            able to make a similar transition online.
+          </p>
+
+          <p class="dark-text font-400" >The mission of the JackTrip Foundation is to make the performance of music over the Internet 
+            feasible and accessible to everyone.  By utilizing existing and newly-developed technologies aimed at reducing latency, 
+            the Foundation plans to develop and operate a music collaboration cloud service which will allow musicians to rehearse, 
+            perform and collaborate in real time over common Internet connections.   
+          </p>
+
+          <p class="dark-text font-400" >JackTrip is a free, open source program authored by Chris Chafe and Juan Pablo Caceres at 
+            Stanford University. Many musicians use JackTrip because it was made for professional-quality sound and low latency, 
+            because it works with existing hardware and does not require any financial investment, and because its developers and 
+            others have created a supportive community around it.  
+          </p>
+
+        </div>
+
+          <div class="right-side-content form-bg">
+            
+            <h4 class="separator dark-text main-margin-title-l" style="color:#0D2233; text-align: center; margin-bottom:30px;">Sign up for our newsletter!</h4>
+            
+            <script>
+              hbspt.forms.create({
+              portalId: "8327526",
+              formId: "14859337-23da-47bb-91ca-4a703e253e60"
+            });
+            </script>
+            <!-- <form id="MYFORM" name="emaildata" action="">
+
+              <label for="Name">Name:</label>
+              <input type="text" id="fname" placeholder="Full Name" name="Name">
+
+              <label class="u-full-width" for="Associated Company">Organization:</label>
+              <input type="text" id="cname" placeholder="Organization Name" name="Company">
+
+              <label class="u-full-width" for="Email">Email:</label>
+              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" name="Email">
+
+              <input type="submit" name="submit" value="Submit">
+            </form> -->
+
+            <!-- onclick="ValidateEmail(document.emaildata.Email)" -->
+          
+        </div>  
+      
+    </div>
+  </section>
+
+  <section id="sec-block-1" class="sec-block-1 main align-center-content ">
+
+        <div class="left-side-content">
+          <h4 class="separator dark-text main-margin-title-l" >Founder Stanford professor Chris Chafe</h4>
+          <p class="dark-text font-400" >Stanford professor Chris Chafe, Director of Stanford University’s 
+            Center for Computer Research in Music and Acoustics (CCRMA - ccrma.standford.edu), co-developer of the JackTrip 
+            software to reduce latency in audio transmissions over the Internet, allowing musicians to collaborate in real time.
+          </p>
+        </div>
+
+        <div class="right-side-content main-img-01 right-image">
+          <img src="images/chris_chafe.jpg" alt="Image of founder Stanford professor Chris Chafe">
+        </div>
+
+
+
+    </div>
+  </section>
+
+  <section id="sec-block-2" class="sec-block-2 main reverse align-center-content marg-bottom">
+        <div class="right-side-content main-img-02 left-image">
+          <img src="images/mike_dickey.jpg" alt="Image of founder Mike Dickey, software entrepreneur">
+        </div>
+
+        <div class="left-side-content left-marg">
+          <h4 class="separator dark-text main-margin-title-l">Founder Mike Dickey, software entrepreneur</h4>
+          <p class="dark-text font-400">Mike Dickey, software entrepreneur, developed a Web server
+            application and easy-to-use interface allowing users to easily log in and make music together in real time
+            and in large groups. 
+          </p>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="latency" class="latency main sec-padding" style="max-width: none; margin:0;">
+
+      <div class="container left-side-content">
+          <h3 class="separator light-text mainHead light-text-title">Understanding latency and why it is important</h3>
+          <div class="centered video-container">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/Sj6Ij1Oxe1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+          </div>
+          <div class="light-text main-margin-l"><p>All communications create latency as it takes time for a sound to travel
+            across distance.  When making a sound, the further away you are from someone, the longer it takes to be heard.</p>
+
+            <p>JackTrip has found a way to help minimize latency when communicating through the internet.  Learn how latency works,
+              how to minimize it, and the different types of models there are to connecting with each other.</p>
+
+              <h4 class="center-text btn-margin" >
+                <a href="technology.html"><button class="button inverted">Learn More</button></a>
+              </h4>
+        </div>
+        </div>
+  </section>
+
+
+  <section class="footer panel_shadow u-full-width">
+    <div class="container">
+        <div class="twelve columns center-text center-div">
+          <h6 class="light-text footer-txt">&copy 2020 JackTrip Foundation.</h6>
+        </div>
+    </div>
+  </section>
+
+  
+
+  <script src="js/index.js"></script>
+  <!-- <script src="js/email-validation.js"></script> -->
+  <script type="text/javascript">
+    function autorun() {
+      // var emailEnter = document.querySelector('document.emailData.lname');
+    }
+    if (window.addEventListener) window.addEventListener("load", autorun, false);
+    else if (window.attachEvent) window.attachEvent("onload", autorun);
+    else window.onload = autorun;
+  </script>
+
+</body>
+</html>

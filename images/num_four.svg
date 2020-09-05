@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Setup" transform="translate(-72.000000, -1063.000000)">
+            <g id="Group-18" transform="translate(40.000000, 847.000000)">
+                <g id="Group-16" transform="translate(32.000000, 56.000000)">
+                    <g id="Group" transform="translate(0.000000, 160.000000)">
+                        <ellipse id="Oval" fill="#001E34" cx="14.5288845" cy="14.5" rx="14.5288845" ry="14.5"></ellipse>
+                        <path d="M17.2933578,20 L17.2933578,17.46875 L18.7074203,17.46875 L18.7074203,15.9453125 L17.2933578,15.9453125 L17.2933578,8.625 L15.3324203,8.625 L10.4261703,16.3125 L10.4808578,17.46875 L15.3949203,17.46875 L15.3949203,20 L17.2933578,20 Z M15.3949203,15.9453125 L12.4183578,15.9453125 L15.2542953,11.4453125 L15.3949203,11.1953125 L15.3949203,15.9453125 Z" id="4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

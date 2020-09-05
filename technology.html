@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Jack Trip Foundation</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/tech.css">
+  <link rel="stylesheet" href="css/media_queries.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+  <nav class="topnav panel_shadow">
+    <a href="index.html" class="logo">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="technology.html">Technology</a>
+        <a href="programs.html">Programs</a>
+        <a href="beta.html">Beta</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </nav>
+
+  <nav class="mainmenu panel_shadow">
+    <a href="index.html" class="logo_mm">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+    <div id="myLinks">
+      <a href="beta.html">Beta</a>
+      <a href="programs.html">Programs</a>
+      <a href="technology.html">Technology</a>
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+
+
+  <section id="hero" class="hero panel_shadow u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <!-- <div class="twelve columns hero_pos">
+        <h2 class="textShadow">Covid-19 stole our ability to perform music together.</h2>
+        <h1 class="separator textShadow">Use technology to take it back.</h1>
+        <h4 class="centered">
+          <button class="button inverted">Join Us!</button>
+        </h4>
+        
+      </div> -->
+    </div>
+  </section>
+
+  <section id="latency-in-depth" class="latency-in-depth panel-padding panel_shadow u-full-width"
+    style="padding-top:100px;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text-title mainHead">Why is Latency Important?</h3>
+          <p class="dark-text font-400 twelve columns">The Internet is widely used for audio communications. Numerous
+            collaboration
+            applications exist that make it trivial to carry on a conversation with almost anyone, worldwide. Likely,
+            you already use these applications regularly. What is thought of as traditional phone lines have even
+            largely migrated towards running over the Internet. So, why is performing music any different?</p>
+
+          <div class="pic_env float_r seven columns" reset-margin-padding><img src="images/band.jpg" alt=""></div>
+
+          <p class="dark-text font-400  five columns">The answer can be found in what is known as a “beat” or “pulse.”
+            These are
+            terms used to describe the concept of something that is recurring at a regular time interval throughout a
+            musical composition. This is what you may tap your feet to, and it exists regardless of whether you do tap
+            your feet, or even play a note along with it. This pulse makes music what it is, and the shared perception
+            of it enables multiple musicians to perform in sync with one another. A steady pulse is necessary for
+            performers to know precisely when to play specific notes. If the pulse is disrupted (or you “lose the
+            beat”),
+            the cohesion of the performance will dissolve.</p>
+
+
+          <p class="dark-text font-400 twelve columns">When performing with other people, a person’s ability to maintain
+            a steady pulse
+            is heavily impacted by what is known as latency. This is a term used to measure how long it takes one
+            performer
+            to hear the sound created by another and is often measured in milliseconds, or 1/1000 of a second. Our
+            brains
+            have a very low tolerance for this latency, and research has demonstrated that the ability to perform music
+            together requires a latency of below 25-35 milliseconds. There isn’t a hard and fast number for this because
+            everyone is different, and it is heavily influenced by the tempo of a piece (the frequency of its pulse).
+          </p>
+
+          <div class="pic_env float_l six columns"><img src="images/graphic_25ft_25ms.png" alt=""></div>
+
+          <p class="dark-text font-400 float_r six columns">To help put this into perspective, sound travels about 25
+            feet through air in 25
+            milliseconds. Think about what it’s like to perform with someone who is located 10, 20, and 50 feet away
+            from
+            you. As they are farther away, your ability to maintain a steady pulse with them becomes increasingly
+            difficult.
+            This is why latency is so important.</p>
+
+
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="optimizing-in-depth-01" class="optimizing-in-depth-01 panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text-title mainHead">Optimizing Latency</h3>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">When performing music over the
+            Internet, the sound you make has to
+            pass through many stages of possible stages to reach another performer. Each of these stages adds latency.
+            We’ve color-coded these to help illustrate the relative speed of each stage, with slow being orange and the
+            slowest red. The Internet backbone stage is blue because it is special.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns opt-in-depth">
+          <div class="pic_env float_l"><img src="images/graphic_internet_backbone.svg" alt=""></div>
+        </div>
+        <div class="eight columns float_r" style="margin: 4% 0 0 0">
+          <div class="warn-cont">
+            <h5 class="bold-text-bullets" style="font-size: 1.55rem; font-weight: 400;">Neutral <div class="warning-colors"><img
+                  src="images/blue_rect.svg" alt=""></div>
+            </h5>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">The Internet backbone latency</h4>
+          </div>
+          <div class="line-separator" style="margin-top:0;"></div>
+          <ul style="padding-left: 2%; padding-top:2%;">
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">
+              Geographical distance between performers</li>
+          </ul>
+        </div>
+        <div class="twelve columns float_l">
+          <p class="dark-text font-400">Geography has the largest impact on the latency of the Internet backbone.
+            Typically,
+            the farther away one performer is from another, the longer it will take the sound to reach them. This is
+            limited
+            not just by the speed of light, but also how many different backbone networks (or “network hops”) it has to
+            pass
+            through. This limitation means you are likely unable to experience low latency with anyone that is
+            physically
+            located more than a few hundred miles away from you. But the Internet backbone is usually very fast
+            (a few milliseconds) if your physical distance from other performers is less than a few hundred miles.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="optimizing-in-depth-02" class="optimizing-in-depth-02 panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="four columns opt-in-depth;">
+          <div class="pic_env float_l"><img src="images/graphic_internet_connection.svg" alt=""></div>
+        </div>
+        <div class="eight columns float_r" style="margin: 4% 0 0 0">
+          <div class="warn-cont">
+            <h5 class="bold-text-bullets" style="font-size: 1.55rem; font-weight: 400;">High Level <div class="warning-colors">
+                <img src="images/red_rect.svg" alt=""></div>
+            </h5>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Internet connection latency</h4>
+          </div>
+          <div class="line-separator" style="margin-top:0;"></div>
+          <ul style="padding-left: 2%; padding-top:2%;">
+            <li class="dark-text bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;"> The
+              connection between your home and the Internet</li>
+            <li class="dark-text bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The
+              connection between you and the other performer’s home and the Internet</li>
+          </ul>
+
+        </div>
+        <div class="twelve columns float_l">
+          <p class="dark-text font-400">Internet connection latency depends on what type of you have, with
+            fiber-to-the-home
+            (FTTH) being fastest (about 2 milliseconds) and cable being one of the slowest (about 10-15 milliseconds).
+            Note that latency is very different from the bandwidth of your Internet connection, which is how much data
+            it is
+            able to transmit over a given period of time. Having a high bandwidth rate (even gigabit) often does not
+            correspond
+            to having low latency. Given that the Internet connection to your home is not easy to change, and the
+            availability
+            of low latency connections is relatively poor, we will focus on optimizing latency for the other stages.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="optimizing-in-depth-03" class="optimizing-in-depth-03 panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="four columns opt-in-depth">
+          <div class="pic_env float_l"><img src="images/graphic_home_network.svg" alt=""></div>
+        </div>
+        <div class="eight columns float_r" style="margin: 4% 0 0 0">
+          <div class="warn-cont">
+            <h5 class="bold-text-bullets" style="font-size: 1.55rem; font-weight: 400;">Medium Level <div
+                class="warning-colors"><img src="images/yellow_rect.svg" alt=""></div>
+            </h5>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Home network latency</h4>
+          </div>
+          <div class="line-separator" style="margin-top:0;"></div>
+          <ul style="padding-left: 2%; padding-top:2%;">
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;"> Your
+              home network</li>
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The
+              other performer’s home network</li>
+          </ul>
+        </div>
+        <div class="twelve columns float_l">
+          <p class="dark-text font-400">The home network is the easiest to optimize. Quite simply, do not use WiFi. Even
+            the best
+            WiFi routers add significant latency and jitter (the range of latency over time). Connect the computer or
+            device you
+            are using directly into your home network using an Ethernet cable. This will reduce latency for the home
+            network
+            stage to less than 1 millisecond.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="optimizing-in-depth-04" class="optimizing-in-depth-04 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="four columns opt-in-depth">
+        <div class="pic_env float_l"><img src="images/graphic_adc_dac.svg" alt=""></div>
+      </div>
+      <div class="eight columns float_r" style="margin: 4% 0 0 0">
+        <div class="warn-cont">
+          <h5 class="bold-text-bullets" style="font-size: 1.55rem; font-weight: 400;">Medium Level <div class="warning-colors">
+              <img src="images/yellow_rect.svg" alt=""></div>
+          </h5>
+          <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">ADC and DAC latency in computers</h4>
+        </div>
+        <div class="line-separator" style="margin-top:0;"></div>
+        <ul style="padding-left: 2%; padding-top:2%;">
+          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">An
+            analog-to-digital (ADC) electronics in your computer</li>
+          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">A
+            digital-to-analog (DAC) electronics in the other performer’s computer</li>
+        </ul>
+      </div>
+      <div class="twelve columns float_l">
+        <p class="dark-text font-400">The latency from ADC and DAC are determined by the hardware you are using, often
+          referred
+          to as your “sound card.” Every sound card is different and our testing of various devices indicates a very
+          large range.
+          Laptops can easily have latency over 100 milliseconds, and even the best USB hardware has latency in the range
+          of 5-15 milliseconds.
+          Low latency simply isn’t a consideration for sound card manufacturers, because the most common use cases like
+          playing back recorded
+          music, music video soundtracks, video games, and conversations, do not require it.</p>
+
+        <p class="dark-text font-400">The best way to reduce your latency for ADC and DAC is using a hardware device
+          which is specifically
+          designed for it. The most economical way we’ve found to do this is using our JackTrip Device, which includes a
+          Raspberry Pi computer
+          bundled with HiFiBerry sound card. It provides very high-quality audio at a low price, while also enabling you
+          to reduce this latency
+          to about 1 millisecond.</p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="line-separator"></div>
+    </div>
+    </div>
+  </section>
+
+  <section id="optimizing-in-depth-05" class="optimizing-in-depth-05 panel-padding panel_shadow u-full-width">
+    <div class="container">
+
+      <div class="row">
+        <div class="four columns opt-in-depth">
+          <div class="pic_env float_l"><img src="images/graphic_audio_hardware.svg" alt=""></div>
+        </div>
+        <div class="eight columns float_r" style="margin: 4% 0 0 0">
+          <div class="warn-cont">
+            <h5 class="bold-text-bullets" style="font-size: 1.55rem; font-weight: 400;">Low Level <div class="warning-colors">
+                <img src="images/black_rect.svg" alt=""></div>
+            </h5>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Audio hardware latency</h4>
+          </div>
+          <div class="line-separator" style="margin-top:0;"></div>
+          <ul style="padding-left: 2%; padding-top:2%;">
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">The air
+              between you and your microphone</li>
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">Your
+              microphone electronics and cabling</li>
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">The
+              other performer’s headphone or speaker electronics and cabling</li>
+            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The air
+              between the other performer and their headphones or speakers</li>
+          </ul>
+        </div>
+        <div class="twelve columns float_l">
+          <p class="dark-text font-400">To keep latency low, it is recommended to use analog microphones and headphones
+            with your setup.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech-models-1" class="tech-models panel-padding panel_shadow u-full-width" style="padding-bottom: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text-title mainHead">Understanding the Technology Models</h3>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">When performing music over the
+            There are two technology models commonly available today for the transmission of audio (including music)
+            over the Internet: the client-server model, and the peer-to-peer (P2P) model. Let’s explore the differences
+            of each model.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text main-margin-title-l">The Peer-to-Peer Model</h4>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">In the Peer-to-Peer (or P2P) model,
+            each performer’s computer sends a copy of their audio input directly to every other performer. A performer’s
+            computer mixes all the audio streams together and plays the result to their audio output. You can visualize
+            this model as a mesh pattern:
+          </p>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="model-tint" class="model-tint panel_shadow u-full-width light-text" style="padding: 5% 5% 2% 5%;">
+
+    <div class="container centered" style="max-width:1000px;">
+      <div class="six columns peer2peer">
+        <h5 class="main-margin-title-l-light center-text center-div">
+          Peer-to-Peer Model
+        </h5>
+        <!-- <img src="images/pros_cons_image1.jpg"> -->
+        <p class="model-p">
+          Pros:
+        </p>
+        <ul class="model-ul">
+          <li>Does not require a central server</li>
+          <li>Has the potential for lowest latency</li>
+        </ul>
+        <p class="model-p">
+          Cons:
+        </p>
+        <ul class="model-ul">
+          <li>Has high processing requirements on each
+            performer’s computer, which typically have very
+            limited capacity</li>
+          <li>Has high upload and download bandwidth
+            requirements for each performer’s home Internet
+            connection</li>
+          <li>Requires changes in each performer’s home
+            Internet firewall to forward ports to their computer</li>
+        </ul>
+
+      </div>
+
+      <div class="six columns imgs">
+        <img src="images/pros_cons_image1.jpg">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="tech-models-2" class="tech-models panel-padding panel_shadow u-full-width" style="padding-top:5%;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">It’s important to note that the
+            processing and bandwidth requirements on each performer’s computer for the P2P model are directly
+            proportional
+            to the number of performers. Even the most powerful laptops and the best home Internet connections cannot
+            handle
+            more than about five performers. This model is not viable for larger groups.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text main-margin-title-l">The Client Server Model</h4>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">In the Client-Server Model, every
+            performer’s
+            computer sends a single copy of their audio input to a central server. The server mixes all the audio
+            streams together
+            and sends a single copy of the mix back to every performer’s computer, which plays it to their audio output.
+            You can visual this model as a hub and spoke pattern:
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <section id="model-tint2" class="model-tint2 panel_shadow u-full-width light-text" style="padding: 5% 5% 2% 5%;">
+    <div class="container centered" style="max-width:1000px;">
+      <div class="six columns client-server">
+        <h5 class="main-margin-title-l-light center-text center-div" >
+          The Client-Server Model
+        </h5>
+
+        <p class="model-p">
+          Pros:
+        </p>
+        <ul class="model-ul">
+          <li>Only very rarely requires any changes in the
+            performers’ home Internet firewalls</li>
+          <li>Has minimal upload, download and processing
+            requirements for the performers computers and
+            home Internet connections</li>
+        </ul>
+        <p class="model-p">
+          Cons:
+        </p>
+        <ul class="model-ul">
+          <li>Requires configuration and management of a
+            central server</li>
+          <li>Adds latency through an additional stage in the
+            audio path (the server)
+          </li>
+          <li style="visibility: hidden; padding-bottom:5%;">Please ignore.Please ignore.Please
+          </li>
+        </ul>
+      </div>
+
+      <div class="six columns imgs">
+        <img src="images/pros_cons_image2.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section id="tech-models" class="tech-models panel-padding panel_shadow u-full-width" style="padding-top:5%;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">The processing and bandwidth
+            requirements
+            for each performer in the client-server model remain constantly low, regardless of the number of performers.
+            However, this is not completely free. The server’s processing and bandwidth requirements still grow
+            proportionally
+            with the number of performers. The key difference is that servers are designed for this, and can easily be
+            scaled to
+            handle up to handle hundreds of performers. This makes the client-server model most suitable for use with
+            groups
+            that are larger than a handful of performers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="server" class="server panel_shadow u-full-width">
+    <div class="server-image"></div>
+    <div class="container centered"> 
+    </div>
+  </section>
+
+  
+  <section id="why-jacktrip" class="why-jacktrip panel-padding panel_shadow u-full-width" style="padding-top:5%;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text-title mainHead">Why JackTrip?</h3>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            The mission of JackTrip is to make performing music over the Internet as easy and accessible as possible. 
+            Most companies you may be familiar with use a peer-to-peer based technology. They are designed to help you jam 
+            with a buddy, or at best connect with a few other bandmates. Instead, we are using client-server technology to 
+            facilitate both small and large groups.
+          </p>
+
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            Configuring and managing your own central server can be hard. Some applications make it easy to run a server on 
+            your own computer, but this can increase everyone’s latency significantly. Your home Internet connection is always 
+            one of the slowest stages, and running your own server requires that everyone’s sound traverses it not once, but 
+            twice, usually adding over 10 milliseconds of latency. Few people also have server-class hardware in their homes, 
+            or the upstream bandwidth required to handle more than a few performers.
+          </p>
+
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            Our servers are located in an optimal location on the Internet backbone. They include sufficient bandwidth and
+            processing power to handle up to hundreds of performers. Provided that you live within one of our supported 
+            geographical locations, the additional latency of using a JackTrip server compared to P2P will be insignificant.
+          </p>
+
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            Our web application does all the work of managing servers for you. You can easily pause servers when you are not 
+            using them, and you only have to pay for the resources they consume while they are running.
+
+          </p>
+
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            You can use the popular, open-source JackTrip and Jamulus clients directly with JackTrip servers. For the best 
+            possible experience, we offer free disk images for Raspberry Pi that supports both USB and popular HAT sound devices. 
+            Users of these images can also use our web application to fully manage their devices. You never need to use a Unix 
+            command line, or even plug in a keyboard or monitor. We also offer fully assembled devices for the ultimate 
+            plug-and-play experience.
+          </p>
+
+          <p class="dark-text"><a href="https://ccrma.stanford.edu/groups/soundwire/software/jacktrip/">Click here</a> to learn more.</p>
+
+
+          <h3 class="separator dark-text-title mainHead">Why Not JackTrip?</h3>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            JackTrip is not ideal for everyone. The additional latency of using our servers can become a barrier if all performers 
+            do not reside within one of our supported geographical areas. If this is you, please keep checking back with us. 
+            We intend to expand these over time.
+          </p>
+
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 5%;">
+            If you are able to make firewall changes, and just want to jam with a few other performers, one of the available P2P 
+            applications may be a viable alternative. We recommend trying out JamKazam, SoundJack and the Raspberry Jam project.
+          </p>
+
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns center-text center-div">
+          <h6 class="light-text" style="padding: 2% 0">&copy 2020 JackTrip Foundation.</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+    function autorun() {
+      //  init();
+    }
+    if (window.addEventListener) window.addEventListener("load", autorun, false);
+    else if (window.attachEvent) window.attachEvent("onload", autorun);
+    else window.onload = autorun;
+  </script>
+
+
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+
+
+
+<!-- <div class="three columns model-cells">
+        <h5 class="center-text center-div" style="margin: 5% 2% 0 2%; font-size:calc(.8em + .75vmin);">
+          The Client-Server Model
+        </h5>
+        
+        <p class="model-p">
+          Pros:
+        </p>
+        <ul class="model-ul">
+          <li>Only very rarely requires any changes in the
+            performers’ home Internet firewalls</li>
+          <li>Has minimal upload, download and processing
+            requirements for the performers computers and
+            home Internet connections</li>
+        </ul>
+        <p class="model-p">
+          Cons:
+        </p>
+        <ul class="model-ul">
+          <li>Requires configuration and management of a
+            central server</li>
+          <li>Adds latency through an additional stage in the
+            audio path (the server)
+          </li>
+          <li style="visibility: hidden; padding-bottom:5%;">Please ignore.Please ignore.Please 
+          </li>
+        </ul>
+      </div> -->

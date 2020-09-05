@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Jack Trip Foundation</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/setup.css">
+  <link rel="stylesheet" href="css/media_queries.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+  <nav class="topnav panel_shadow">
+    <a href="index.html" class="logo">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#technology">Technology</a>
+      <a href="#setup">Setup</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <nav class="mainmenu panel_shadow">
+    <a href="index.html" class="logo_mm">
+      <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+    </a>
+    <div id="myLinks">
+      <a href="#contact">Contact</a>
+      <a href="#setup">Setup</a>
+      <a href="#technology">Technology</a>
+      <a href="#about">About</a>
+      <a href="#home">Home</a>
+    </div>
+  </nav>
+
+
+  <section id="hero" class="hero panel_shadow u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <!-- <div class="twelve columns hero_pos">
+        <h2 class="textShadow">Covid-19 stole our ability to perform music together.</h2>
+        <h1 class="separator textShadow">Use technology to take it back.</h1>
+        <h4 class="centered">
+          <button class="button inverted">Join Us!</button>
+        </h4>
+        
+      </div> -->
+    </div>
+  </section>
+
+  <section id="intro-products" class="intro-products panel-padding panel_shadow u-full-width" style="padding-top:60px;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text">Device Setup</h3>
+          <p class="dark-text font-400 twelve columns">The 20 Hertz Device connects directly to your Internet router or
+            switch via an Ethernet cable to enable the lowest possible audio latency. These instructions will help you
+            set up the device and peripherals that connect to it.</p>
+          <div class="row">
+            <div class="wrap-cont twelve columns">
+              <div class="aside-block seven columns">
+                <p style="font-weight: 400; margin-left: 2%">We will need the following pieces of equipment:</p>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column num_img" style="padding-left:0;">
+                    <img src="images/num_one.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    Microphone cord 3.5mm (1/8 Inch) TRS to XLR cable - <a href="">example</a>
+                  </div>
+                </div>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column" style="padding-left:0;">
+                    <img src="images/num_two.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    Your choice of professional microphone - <a href="">examples</a>
+                  </div>
+                </div>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column" style="padding-left:0;">
+                    <img src="images/num_three.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    3.5mm stereo jack / RCA stereo plug (x2) adapter - <a href="">example</a>
+                  </div>
+                </div>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column" style="padding-left:0;">
+                    <img src="images/num_four.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    A 20 Hertz device power supply
+                  </div>
+                </div>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column" style="padding-left:0;">
+                    <img src="images/num_five.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    A 20 Hertz device - <a href="">example</a>
+                  </div>
+                </div>
+
+                <div class="row" style="margin: 2% 0 0 2%;">
+                  <div class="one column" style="padding-left:0;">
+                    <img src="images/num_six.svg" alt="">
+                  </div>
+                  <div class="eleven columns" style="width: 90%; margin-left: 1.3em;">
+                    A CAT5 or better Ethernet cable - <a href="">example</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wrap-cont float_r five columns" style="padding-left: 0;">
+                <div class="row">
+                  <div class="dark-text font-400 twelve columns">
+                    Here are the ports found on the 20 Hertz device that we will be focusing on.
+                  </div>
+                  <div class="pic_img twelve columns"><img src="images/website_02.jpg" alt=""></div>
+                  <div class="pic_img twelve columns"><img src="images/website_03.jpg" alt=""></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="line-separator"></div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-1" class="step-by-step-1 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="left-side-content six columns">
+          <h4 class="separator dark-text steps-txt">Step 1. Connect the Ethernet Cable</h4>
+          <p class="dark-text font-400" style="margin-top: 2%;">Plug one end of the ethernet cable into the device’s
+            ethernet port.
+            Leave the other end unplugged for the moment.</p>
+        </div>
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_04.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+
+
+  <section id="step-by-step-2" class="step-by-step-2 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_05.jpg" alt="">
+        </div>
+        <div class="left-side-content six columns">
+          <h4 class="separator dark-text steps-txt">Step 2. Connect the RCA Jacks</h4>
+          <p class="dark-text font-400" style="margin-top: 2%;">Connect the RCA jacks on the headphone adapter.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-2-2" class="step-by-step-2 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_06.jpg" alt="">
+        </div>
+        <div class="left-side-content six columns">
+          <div class="separator steps-txt"></div>
+          <p class="dark-text font-400" style="margin-top: 2%;">Use the 3.5mm adapter to connect your favorite
+            pair of wired headphones (not shown).
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-3" class="step-by-step-1 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="left-side-content six columns">
+          <h4 class="separator dark-text steps-txt">Step 3. Connect the Microphone</h4>
+          <p class="dark-text font-400" style="margin-top: 2%;">Connect 3.5mm jack (located left of the RCA jacks)
+            to your microphone. Connect the XLR cable to your microphone.</p>
+        </div>
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_07.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-4" class="step-by-step-2 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_08.jpg" alt="">
+        </div>
+        <div class="left-side-content six columns">
+          <h4 class="separator dark-text steps-txt">Step 4. Connect the Power Supply</h4>
+          <p class="dark-text font-400" style="margin-top: 2%;">Connect USB-C power adapter to the power jack located
+            below the microphone jack, in the lower left corner.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-5" class="step-by-step-2 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class=" wrap-cont twelve columns">
+        <h4 class=" dark-text steps-txt" style="margin-top:0%">Step 5. Connecting the Device to Your Internet Router or
+          Switch
+        </h4>
+        <p class="dark-text font-400 twelve columns">Before you connect power to the device, connect the other end of
+          the Ethernet cable to your Internet router. If you have a network switch that is connected to your router
+          via Ethernet cables, it’s OK to plug the device into that. Please do not use any form of WiFi to Ethernet
+          bridge device, as this will add significant latency and jitter that degrades audio quality.</p>
+      </div>
+    </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="step-by-step-6" class="step-by-step-1 panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="left-side-content six columns">
+          <h4 class="separator dark-text steps-txt" style="margin:10% 0 1% 0;">Step 6. Connecting the Device to Power
+          </h4>
+          <p class="dark-text font-400" style="margin-top: 2%;">After following steps one through five, it is now safe
+            to plug
+            the device into a power outlet. The device will light up with the color red when powered ON. Now turn the
+            device
+            to the side where the ethernet cable is connected and confirm a green light comes on and is flickering. A
+            green light
+            means that there is a live network connection and that you are now ready to register the device on the 20Hz
+            website
+            for the next steps.
+          </p>
+        </div>
+        <div class="right-side-content six columns step-img">
+          <img src="images/website_09.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="line-separator"></div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="intro-app" class="intro-app panel-padding panel_shadow u-full-width" style="padding-top:60px;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text">JackTrip Setup
+          </h3>
+          <p class="dark-text font-400 twelve columns">The 20 Hertz Device connects directly to your Internet router or
+            switch
+            via an Ethernet cable to enable the lowest possible audio latency. These instructions will help you set up
+            the
+            device and peripherals that connect to it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro-app" class="intro-app panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text steps-txt" style="margin:0 0 1% 0;">Step 1. Enter 20Hz URL
+          </h4>
+          <p class="dark-text font-400 twelve columns">Once you have completed setting up the hardware, type the
+            following URL
+            into your browser (http://20hz.local). Be careful to type both “http://” at the beginning and “.local” at
+            the end,
+            and ensure that you use “http” and not “https”.Last, do not append anything (.io, .com, etc.) to the end of
+            the
+            URL, only (.local).</p>
+
+          <div id="step-img"
+            style="position:relative; margin: 0 auto; margin-bottom:5%; width: 100%; max-width: 600px;"><img
+              style="width:100%" src="images/app_screen_00.jpg" alt=""></div>
+
+          <p class="dark-text font-400 twelve columns">Once you enter the URL, your web browser should redirect to a
+            regular
+            (https) connection with a location starting with “https://20hz.io/app/devices/...” (it should end in “.io”
+            and
+            not “.com”). If so, you may proceed to Step 2.
+          </p>
+
+          <p class="dark-text font-400 twelve columns">If your browser reports a name resolution error, ensure that your
+            device is plugged into the same network as the computer your browser is running on. There cannot be a router
+            or
+            firewall located in between them.</p>
+
+          <p class="dark-text font-400 twelve columns">This is known to work properly on Windows 10, OSX, Linux as well
+            as any
+            iOS or Android devices, but not on older versions of Windows. If you have trouble, try using a different
+            computer
+            or device. Some users have also reported that “http://20hz” (without “.local”) works better for them.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro-app-1" class="intro-app panel-padding panel_shadow u-full-width">
+    <div class="row">
+      <div class="wrap-cont twelve columns">
+        <div class="right-side-content four columns step-img">
+          <img src="images/app_screen_01.jpg" alt="">
+        </div>
+        <div class="left-side-content eight columns" style="width: 45%; margin-top:10%;">
+          <h4 class="separator dark-text steps-txt">Step 2. Log In </h4>
+          <p class="dark-text font-400" style="margin-top: 2%;"><b>Option 1:</b> Create a new account using your email
+            id and password and sign-in.
+          </p>
+          <p class="dark-text font-400" style="margin-top: 2%;"><b>Option 2:</b> Sign-in with either Google, Facebook,
+            Microsoft, or Apple.
+          </p>
+          <p class="dark-text font-400" style="margin-top: 2%;"><b>Option 3:</b> If you have an account already, enter
+            your user email address and password.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="line-separator"></div>
+    </div> -->
+    </div>
+  </section>
+
+  <section id="intro-app-2" class="intro-app panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text steps-txt" style="margin:0 0 1% 0;">Step 3: Complete Registration
+
+          </h4>
+          <p class="dark-text font-400 twelve columns">After logging in, you should now see the device registration
+            form. If you would like to rename your
+            device, please feel free to do so here. Click or tap the “Register Device” button to complete the
+            registration process.
+          </p>
+          <div id="step-img" style="margin-bottom:5%; width: 100%;"><img style="width:100%"
+              src="images/app_screen_02.jpg" alt=""></div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connecting-1" class="connecting panel-padding panel_shadow u-full-width" style="padding-top:60px;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator dark-text">Connecting in JackTrip</h3>
+          <h4 class="separator dark-text steps-txt" style="margin:3% 0 1% 0;">Step 1:  Audio Devices Menu</h4>
+          <p class="dark-text font-400 twelve columns">You should now see your new device, amongst any other registered 
+            devices, within the Audio Devices menu.  Please click or tap the EDIT button associated with your new device.
+          </p>
+          <div id="step-img" style=" width: 100%;"><img style="width:100%"
+            src="images/app_screen_03.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connecting-2" class="connecting panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text steps-txt" style="margin:3% 0 1% 0;">Step 2:  Subscribing to Loopback Test Server</h4>
+          <p class="dark-text font-400 twelve columns">From the "Edit Audio Device" listing of your device, you can now click or
+            tap the "Subscribe" button to connect to the "Loopback Test Server." Once subscribed, click or tap the "CANCEL" button
+            to go back to the "Audio Devices" menu.
+
+          </p>
+          <div id="step-img" style=" width: 100%;"><img style="width:100%"
+            src="images/app_screen_04.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connecting-3" class="connecting panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text steps-txt" style="margin:3% 0 1% 0;">Step 3:  Setting the Input and Output volume levels</h4>
+          <p class="dark-text font-400 twelve columns">From the "Edit Audio Device" listing of your device, you can now click or tap 
+            the "Subscribe" button to connect to the "Loopback Test Server." Once subscribed, click or tap the "CANCEL" button to go 
+            back to the "Audio Devices" menu.
+          </p>
+          <p class="dark-text font-400 twelve columns">The last step to take before testing your device is to unmute both the "Input Volume" 
+            and the "Output Volume" and move both sliders to the 100% level.  If need be, toggle the "Boost" slider to ON to help get better 
+            sound quality.  If your device connected correctly, and the server "Loopback Test Server" is active, you should now be able to 
+            hear your audio on the device, played back in stereo. Note that your audio goes first to the remote server, and then is sent back 
+            to the device, so the delay you hear is roughly equivalent to what everyone else hears. If this seems large, you may have problems 
+            singing with others over your Internet connection. Ideally, you want this delay to be less than 25 milliseconds. To get a feel for 
+            what that sounds like, play the last audio track in this blog article.
+          </p>
+          <p class="dark-text font-400 twelve columns">If everything sounds good, you can use the “Remove” button to unsubscribe from the 
+            Loopback Test Server. You are now ready to subscribe to a group server to perform music with others.
+          </p>
+          <div id="step-img" style=" width: 100%;"><img style="width:100%"
+            src="images/app_screen_05.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="connecting-4" class="connecting panel-padding panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text steps-txt" style="margin:3% 0 1% 0;">Troubleshooting - Firewall ports</h4>
+          <p class="dark-text font-400 twelve columns">Most Internet firewalls are configured by default to allow all outbound (egress) traffic 
+            that originates from your home network. If you run into problems with not being able to hear any sound on the loopback test, you 
+            may need to update your firewall's configuration to allow the following outbound traffic:
+            <ul>
+              <li>For JackTrip servers: TCP port 4464 and UDP ports 61000-62000</li>
+              <!-- <li>* For Jamulus servers: UDP port 22124</li> -->
+            </ul> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer panel_shadow u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns center-text center-div">
+          <h6 class="light-text" style="padding: 2% 0">&copy 2020 JackTrip Foundation.</h6>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+    function autorun() {
+      //  init();
+    }
+    if (window.addEventListener) window.addEventListener("load", autorun, false);
+    else if (window.attachEvent) window.attachEvent("onload", autorun);
+    else window.onload = autorun;
+  </script>
+
+
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
+
+
+
+<!-- <div class="three columns model-cells">
+        <h5 class="center-text center-div" style="margin: 5% 2% 0 2%; font-size:calc(.8em + .75vmin);">
+          The Client-Server Model
+        </h5>
+        
+        <p class="model-p">
+          Pros:
+        </p>
+        <ul class="model-ul">
+          <li>Only very rarely requires any changes in the
+            performers’ home Internet firewalls</li>
+          <li>Has minimal upload, download and processing
+            requirements for the performers computers and
+            home Internet connections</li>
+        </ul>
+        <p class="model-p">
+          Cons:
+        </p>
+        <ul class="model-ul">
+          <li>Requires configuration and management of a
+            central server</li>
+          <li>Adds latency through an additional stage in the
+            audio path (the server)
+          </li>
+          <li style="visibility: hidden; padding-bottom:5%;">Please ignore.Please ignore.Please 
+          </li>
+        </ul>
+      </div> -->

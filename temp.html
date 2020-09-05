@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section>
+      <div class="row">
+        <div class="hero"><img src="images/hero_main.jpg" alt=""></div>
+
+        <!-- Mobile Navigation -->
+        <div class="topnav">
+          <a href="index.html" class="logo">
+            <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+          </a>
+          <!-- Top Navigation Menu -->
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#technology">Technology</a>
+            <a href="#setup">Setup</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!-- End Mobile Navigation -->
+
+        <!-- Tablet Desktop Nav -->
+        <div class="mainmenu">
+          <a href="index.html" class="logo_mm">
+            <img src="images/logo.svg" alt="JackTrip Foundation Logo">
+          </a>
+          <div id="myLinks">
+            <a href="#contact">Contact</a>
+            <a href="#setup">Setup</a>
+            <a href="#technology">Technology</a>
+            <a href="#about">About</a>
+            <a href="#home">Home</a>
+          </div>
+        </div>
+
+        <div class="txt_cont_1">
+          <h5 class="subTxt">
+            Covid-19 stole our ability to perform music together.
+          </h5>
+          <h2 class="titleTxt">
+            Use technology to take it back.
+          </h2>
+          <div class="button-main">
+            <div class="cta">Join Us!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row clearfix:after">
+        <div class="txt_cont_2">
+          <h5 class="subTxt">
+            Covid-19 stole our ability to perform music together.
+          </h5>
+          <h2 class="titleTxt">
+            Use technology to take it back.
+          </h2>
+          <div class="button-main">
+            <div class="cta">Join Us!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+    function autorun() {
+      //  init();
+    }
+    if (window.addEventListener) window.addEventListener("load", autorun, false);
+    else if (window.attachEvent) window.attachEvent("onload", autorun);
+    else window.onload = autorun;
+  </script>
+
+
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

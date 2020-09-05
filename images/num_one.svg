@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Setup" transform="translate(-72.000000, -946.000000)">
+            <g id="Group-18" transform="translate(40.000000, 847.000000)">
+                <g id="Group-16" transform="translate(32.000000, 56.000000)">
+                    <g id="Group" transform="translate(0.000000, 43.000000)">
+                        <ellipse id="Oval" fill="#001E34" cx="14.5288845" cy="14.5" rx="14.5288845" ry="14.5"></ellipse>
+                        <polygon id="1" fill="#FFFFFF" fill-rule="nonzero" points="16.0121078 20 16.0121078 8.5859375 15.7699203 8.5859375 11.3324203 10.21875 11.3324203 11.8203125 14.1214828 10.8671875 14.1214828 20"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
