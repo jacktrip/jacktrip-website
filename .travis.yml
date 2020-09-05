@@ -1,10 +1,14 @@
 language: minimal
+dist: focal
+env:
+  global:
+    - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 deploy:
-  provider: gcs
-  access_key_id: GOOGO6IWP5PIPVGT3MGHLYQJ
-  secret_access_key:
-    secure: SfUeM+mgxN2v3WbqyGz3Vj0FGdxImJjTG0IuWRRrHq2RrkM4KO9+Zpm+zXPNEPWfoKnLKB1mpwA8WK1C6+Ni48mqeRF8giyHYF1UoG5zEUPfny3b3E8RJG5LUlU/TgXhJ6TKp9NtUd/b03HirkNxB5E/4L5m5OJ52wtmVN5WIOU6JShV6cZEra1qxCGpnVTYd4etRVeG0L9pU4+VD/MnVimfn1CuJ8eyquA8EHi3VU9gyPEH2MHBOLjEPsgGbkfM0L8+jMteREOvsh3uTrpKQpI6AYoWOIil5VH3KwI4qXmWZEcy/kzPmnLPkxBMBCHyfeiVMSEfNQGly9gsm8D2cc0r/xWvX43tqb5awJCbkcLOiP3JiNn0OdEKDwTgdHHo30v/WuD8pPQEGf8bdI6KpFUHAgHoyOODKWC1sPch2yNmOeLMI7NhEqTshJfNUnm8mQklwKuHFOQuY38bUXitDmbzZdWWDOlpHFb2lsir3zKppl6pvsF7XNTIpgV9sjRoChKBHVYHiodz0/7zcTtiD9N2YxfKSms1TAup2bZJjeoz9n8+efvuh9oQSGIVCBNTn1BnWyZdS4bnJvLiwpahM7MRL9qjY834rZsDPSotPilpu+berQXHI6dPbPrcdVsYow+Z/EUJnrvS3othZ+fHqtEn2Z+WS6spJzI3+WNH93k=
-  bucket: www.jacktrip.org
-  cleanup: false
+  provider: script
+  script: bash deploy/deploy.sh
   on:
     branch: main
+
+# Note that as of Sept 5, 2020 the TravisCI deploy provider "gcs" fails with "broken pipe" errors
+# See https://github.com/travis-ci/travis-ci/issues/8100
+# and https://github.com/travis-ci/dpl/pull/916
