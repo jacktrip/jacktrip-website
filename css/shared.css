@@ -52,8 +52,8 @@ h4 {
 }
 
 .button {
-    color: #fff;
-    border: 1px solid #fff;
+    color: #cee4f5;
+    border: 1px solid #cee4f5;
     cursor: pointer;
 }
 
@@ -166,7 +166,8 @@ h4 {
 }
 
 .light-text{
-    color:#f7f8f7;
+    /* color:#f7f8f7; */
+    color: #cee4f5;
     font-weight: 300;
 }
 
@@ -181,7 +182,7 @@ h4 {
 }
 
 .light-text-title{
-    color:#f7f8f7;
+    color:#cee4f5;
     font-weight: 300;
 }
 
@@ -332,7 +333,7 @@ input[type="submit"]:hover{
 
 .main-margin-title-l-light{
     font-weight: 600;
-    color: #FAFBFB;
+    color: #b2d4ee;
     /* padding: 70px 30px 5px 10px; */
     font-size: 21px;
 }
