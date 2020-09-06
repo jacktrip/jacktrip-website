@@ -68,7 +68,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px 5% 30px;
+    padding: 30px;
 }
 
 .model-tint, .model-tint2{
@@ -200,4 +200,8 @@
 
 .hero .separator:before {
     background-color: white;
+}
+
+.model-graphic img{
+    width: 100%;
 }

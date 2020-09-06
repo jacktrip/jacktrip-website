@@ -10,6 +10,13 @@
         width: 100%;
     }
 
+    .model-graphic{
+        position: relative;
+        width: 100%;
+        margin: 0 auto 30px 0;
+        /* margin-bottom: 80px; */
+    }
+
     .left-side-content.ext-links-layout{
         width:auto; 
         padding:0 30px 0 30px;
@@ -249,6 +256,13 @@
 }
 
 @media (min-width: 750px) {
+
+    .model-graphic{
+
+        width: 50%;
+        margin: 40px auto 80px auto;
+        padding: 0 20%;
+    }
 
     .hero h2 {
         font-size: 3rem;
