@@ -104,7 +104,7 @@
 
           <p class="pic_env dark-text font-400 float_r lp six columns">To help put this into perspective, sound traveling 25
             feet (roughly 8 meters) through air takes about 25
-            milliseconds. We're comfortable playing or singing together at distances around this range. As a group spreads out, say across a football field, its ability to maintain a coordinated rhythm becomes increasingly
+            milliseconds. We're comfortable playing or singing together at distances within this range. As a group spreads out, say across a football field, its ability to maintain a coordinated rhythm becomes increasingly
             difficult.
             This is why minimizing latency is so important.</p>
 
@@ -271,7 +271,7 @@
                 class="warning-colors">
                 <img src="images/black_rect.svg" alt=""></div>
             </h5>
-            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Acoustic latency</h4>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Acoustical latency</h4>
           </div>
           <div class="line-separator" style="margin-top:0;"></div>
           <ul style="padding-left: 2%; padding-top:2%;">
@@ -297,78 +297,12 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h3 class="separator dark-text-title mainHead">Understanding the Technology Models</h3>
-          <p class="dark-text font-400 twelve columns" >When performing music over the
-            There are two technology models commonly available today for the transmission of audio (including music)
-            over the Internet: the client-server model, and the peer-to-peer (P2P) model. Let’s explore the differences
-            of each model.</p>
+          <h3 class="separator dark-text-title mainHead">Understanding Connection Topologies</h3>
+          <p class="dark-text font-400 twelve columns" >When connecting music performers together over the Internet, there are two common ways to wire-up multiple sites: the client-server method (hub and spoke) and the peer-to-peer method (p2p). Let’s explore the differences between these.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="twelve columns">
-          <h4 class="separator dark-text main-margin-title-l">The Peer-to-Peer Model</h4>
-          <p class="dark-text font-400 twelve columns" style="margin-bottom: 50px;">In the Peer-to-Peer (or P2P) model,
-            each performer’s computer sends a copy of their audio input directly to every other performer. A performer’s
-            computer mixes all the audio streams together and plays the result to their audio output. You can visualize
-            this model as a mesh pattern:
-          </p>
-        </div> 
-      </div>
-      <div class="model-graphic" ><img src="images/point-to-point.svg" alt="Graphic of the Point to Point Model."></div>
-  </section>
 
 
-  <section id="model-tint" class="model-tint panel_shadow u-full-width light-text">
-
-    <div class="container centered" style="max-width:1000px;">
-      <div class="six columns peer2peer">
-        <h5 class="main-margin-title-l-light center-text center-div">
-          Peer-to-Peer Model
-        </h5>
-        <!-- <img src="images/pros_cons_image1.jpg"> -->
-        <p class="model-p">
-          Pros:
-        </p>
-        <ul class="model-ul">
-          <li>Does not require a central server</li>
-          <li>Has the potential for lowest latency</li>
-        </ul>
-        <p class="model-p">
-          Cons:
-        </p>
-        <ul class="model-ul">
-          <li>Has high processing requirements on each
-            performer’s computer, which typically have very
-            limited capacity</li>
-          <li>Has high upload and download bandwidth
-            requirements for each performer’s home Internet
-            connection</li>
-          <li>Requires changes in each performer’s home
-            Internet firewall to forward ports to their computer</li>
-        </ul>
-
-      </div>
-
-      <div class="six columns imgs">
-        <img src="images/pros_cons_image1.jpg" alt="Image a woman singing into a mic.">
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <section id="tech-models-2" class="tech-models panel-padding panel_shadow u-full-width" style="margin: 40px auto 0px auto;">
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <p class="dark-text font-400 twelve columns" style="margin-bottom: 0;">It’s important to note that the
-            processing and bandwidth requirements on each performer’s computer for the P2P model are directly
-            proportional
-            to the number of performers. Even the most powerful laptops and the best home Internet connections cannot
-            handle
-            more than about five performers. This model is not viable for larger groups.
-          </p>
-        </div>
-      </div>
       <div class="row">
         <div class="twelve columns">
           <h4 class="separator dark-text main-margin-title-l" style="margin-top:40px;">The Client Server Model</h4>
@@ -435,6 +369,60 @@
             handle up to handle hundreds of performers. This makes the client-server model most suitable for use with
             groups
             that are larger than a handful of performers.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="separator dark-text main-margin-title-l">The Peer-to-Peer Model</h4>
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 50px;">In the peer-to-peer (or p2p) method, each performer’s computer sends a copy of their audio input directly to every other performer. A performer’s computer mixes all the incoming audio streams together and plays the result to their audio output. You can visualize this as a mesh pattern:
+          </p>
+        </div> 
+      </div>
+      <div class="model-graphic" ><img src="images/point-to-point.svg" alt="Graphic of the Point to Point Model."></div>
+  </section>
+
+
+  <section id="model-tint" class="model-tint panel_shadow u-full-width light-text">
+
+    <div class="container centered" style="max-width:1000px;">
+      <div class="six columns peer2peer">
+        <h5 class="main-margin-title-l-light center-text center-div">
+          Peer-to-Peer
+        </h5>
+        <!-- <img src="images/pros_cons_image1.jpg"> -->
+        <p class="model-p">
+          Pros:
+        </p>
+        <ul class="model-ul">
+          <li>Does not require a central server</li>
+          <li>Has the potential for lowest latency</li>
+        </ul>
+        <p class="model-p">
+          Cons:
+        </p>
+        <ul class="model-ul">
+          <li>High processing requirements for each performer’s computer</li>
+          <li>High upload and download bandwidth requirements for each performer’s home Internet connection</li>
+          <li>Requires changes in each performer’s home Internet firewall to forward ports to their computer</li>
+        </ul>
+
+      </div>
+
+      <div class="six columns imgs">
+        <img src="images/pros_cons_image1.jpg" alt="Image a woman singing into a mic.">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="tech-models-2" class="tech-models panel-padding panel_shadow u-full-width" style="margin: 40px auto 0px auto;">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p class="dark-text font-400 twelve columns" style="margin-bottom: 0;">The processing and bandwidth requirements for each performer’s computer are directly proportional to the number of performers. Today's laptops and home Internet connections tend to max out beyond a dozen or so performers. This method is not viable for larger groups.
           </p>
         </div>
       </div>
