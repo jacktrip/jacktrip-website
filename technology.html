@@ -147,7 +147,7 @@
           </ul>
         </div>
         <div class="twelve columns float_l">
-          <p class="dark-text font-400"> The farther away one performer is from another, the longer it will take the sound to reach them. The globe is laced with fiberoptic cables  running across land and undersea which connect together to form the Internet. Data travels near the speed-of-light across these segments (“backbone” networks) and passes between them at relay points (or “network hops”). The greater the distance and the greater the number of hops the longer a sound is delayed. Good rhythmically tight latencies are achievable when musicians are physically located no more than a few hundred miles apart. A dozen milliseconds to go one way across a large metropolitan area is typical.</p>
+          <p class="dark-text font-400"> The farther away one performer is from another, the longer it will take the sound to travel between them. The globe is laced with fiberoptic cables running across land and under the sea. Connected together, these form the Internet. Data travels near the speed-of-light across these “backbone” network segments and transits from one to another at relay points, or “network hops”. The greater the distance and the greater the number of hops the longer a sound takes to get from source to destination. Good rhythmically tight latencies are achievable when musicians are physically located no more than a few hundred miles apart. A dozen milliseconds to go across a large metropolitan area one way is typical.</p>
         </div>
       </div>
 
@@ -169,29 +169,20 @@
                 class="warning-colors">
                 <img src="images/red_rect.svg" alt=""></div>
             </h5>
-            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Internet connection latency
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Internet service latency
             </h4>
           </div>
           <div class="line-separator" style="margin-top:0;"></div>
           <ul style="padding-left: 2%; padding-top:2%;">
             <li class="dark-text bold-text-bullets"
-              style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;"> The connection between your home and the Internet</li>
+              style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;"> Connection from home to Internet</li>
             <li class="dark-text bold-text-bullets"
-              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The connection between you and the other performer’s home and the Internet</li>
+              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">Service plans</li>
           </ul>
 
         </div>
         <div class="twelve columns float_l">
-          <p class="dark-text font-400">Internet connection latency depends on what type of you have, with
-            fiber-to-the-home
-            (FTTH) being fastest (about 2 milliseconds) and cable being one of the slowest (about 10-15 milliseconds).
-            Note that latency is very different from the bandwidth of your Internet connection, which is how much data
-            it is
-            able to transmit over a given period of time. Having a high bandwidth rate (even gigabit) often does not
-            correspond
-            to having low latency. Given that the Internet connection to your home is not easy to change, and the
-            availability
-            of low latency connections is relatively poor, we will focus on optimizing latency for the other stages.</p>
+          <p class="dark-text font-400">Each musician's home or studio has an Internet connection. Latency depends on the type of connection with fiber-to-the-home (FTTH) being fastest (about 2 milliseconds) and cable or DSL being among the slowest (about 10-15 milliseconds). Connection latency is not the same as the bandwidth of your Internet connection which specifies how much data can be transmitted over a given period of time. Having a high bandwidth rate (even gigabit) may not correspond to having low latency. The typical tools to measure quality-of-service (QoS) of a connection are speed test and round-trip ping time (to a test point elsewhere on the Internet). However, these only give a rough approximation of the QoS required for network music performance. What matters most for latency is the smoothness of very fast data flows (audio packet jitter). This is best when connections are uncongested.</p>
         </div>
       </div>
 
@@ -217,21 +208,13 @@
           <div class="line-separator" style="margin-top:0;"></div>
           <ul style="padding-left: 2%; padding-top:2%;">
             <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">
-              Your
-              home network</li>
-            <li class="bold-text-bullets"
-              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The
-              other performer’s home network</li>
+              Wired only (not WiFi)</li>
+
           </ul>
         </div>
         <div class="twelve columns float_l">
-          <p class="dark-text font-400">The home network is the easiest to optimize. Quite simply, do not use WiFi. Even
-            the best
-            WiFi routers add significant latency and jitter (the range of latency over time). Connect the computer or
-            device you
-            are using directly into your home network using an Ethernet cable. This will reduce latency for the home
-            network
-            stage to less than 1 millisecond.</p>
+          <p class="dark-text font-400">Quite simply, do not use WiFi. Even the best
+            WiFi routers add significant latency and an impossible amount of jitter (occasionally stalling audio packet flows for 10's of milliseconds). Computers or devices being used for JackTrip need to be connected to the home network using an Ethernet cable (usually plugged into ethernet ports in the back of the WiFi router). Latency across the wired portions of a home network can be less than 1 millisecond.</p>
         </div>
       </div>
 
@@ -257,30 +240,14 @@
         </div>
         <div class="line-separator" style="margin-top:0;"></div>
         <ul style="padding-left: 2%; padding-top:2%;">
-          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">An
-            analog-to-digital (ADC) electronics in your computer</li>
-          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">A
-            digital-to-analog (DAC) electronics in the other performer’s computer</li>
+          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">Analog-to-digital (ADC) electronics in your computer</li>
+          <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">Digital-to-analog (DAC) electronics in the other performer’s computer</li>
         </ul>
       </div>
       <div class="twelve columns float_l">
-        <p class="dark-text font-400">The latency from ADC and DAC are determined by the hardware you are using, often
-          referred
-          to as your “sound card.” Every sound card is different and our testing of various devices indicates a very
-          large range.
-          Laptops can easily have latency over 100 milliseconds, and even the best USB hardware has latency in the range
-          of 5-15 milliseconds.
-          Low latency is often not a high priority for sound card manufacturers, because the most common use cases like
-          playing back recorded
-          music, music video soundtracks, video games, and conversations, do not require it.</p>
+        <p class="dark-text font-400">The latency from ADC and DAC are determined by the hardware you are using, often referred to as your “sound card” or audio interface. Every sound card is different and there's a very large range. Laptops can easily have latencies over 100 milliseconds, and even the best USB-based audio interfaces have latencies in the range of 5-15 milliseconds (total in / out). Low latency is more of a priority for sound card manufacturers targeting music studio applications, rather than use cases like music players, video players, gaming, and dialog recording. Unfortunately, USB microphones are not yet proving to be low enough, either.</p>
 
-        <p class="dark-text font-400">The best way to reduce your sound card latency is using a hardware device
-          which is specifically
-          designed for it. The most economical way we’ve found to do this is using our JackTrip Device, which includes a
-          Raspberry Pi computer
-          bundled with HiFiBerry sound card. It provides very high-quality audio at a low price, while also enabling you
-          to reduce this latency
-          to about 1 millisecond.</p>
+        <p class="dark-text font-400">The best way to reduce sound card latency is using a hardware device which is designed for minimal latency.  An economical way we’ve found is what's bundled in our Raspberry Pi JackTrip Device, which includes a HiFiBerry sound card. Latency is exceptionally good at about 1 millisecond.</p>
 
       </div>
     </div>
@@ -304,27 +271,19 @@
                 class="warning-colors">
                 <img src="images/black_rect.svg" alt=""></div>
             </h5>
-            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Audio hardware latency</h4>
+            <h4 class="separator dark-text main-margin-title-l" style="margin-bottom: 1%; ">Acoustic latency</h4>
           </div>
           <div class="line-separator" style="margin-top:0;"></div>
           <ul style="padding-left: 2%; padding-top:2%;">
             <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">
-              The air
-              between you and your microphone</li>
+              The distance to your microphone and loudspeakers. </li>
+
             <li class="bold-text-bullets"
-              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">Your
-              microphone electronics and cabling</li>
-            <li class="bold-text-bullets" style="list-style:disc; margin-top: 1%; font-size: 1.5rem; font-weight: 400;">
-              The
-              other performer’s headphone or speaker electronics and cabling</li>
-            <li class="bold-text-bullets"
-              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The air
-              between the other performer and their headphones or speakers</li>
+              style="list-style:disc; margin-top: 1%; font-size: 1.5rem;  font-weight: 400;">The distance between the other performer and their microphone and loudspeakers</li>
           </ul>
         </div>
         <div class="twelve columns float_l">
-          <p class="dark-text font-400">To keep latency low, it is recommended to use analog microphones and headphones
-            with your setup.</p>
+          <p class="dark-text font-400">Bluetooth devices are out, analog only. Remembering that the speed of sound in air is significant (1 millisecond per foot), care should be taken to keep the microphone close to the sound source. Analog headphones are obviously great for proximity but loudspeakers can also be used, bearing in mind that they should be in near proximity (while avoiding the possibility of feedback). Electronic instruments (guitars, keyboards, etc.) can be plugged directly into the analog input of the audio interface. Monitor their sound by mixing it to the headphones or loudspeakers via the device's direct monitoring.</p>
         </div>
       </div>
 
