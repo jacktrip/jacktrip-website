@@ -260,7 +260,7 @@
     .model-graphic{
 
         width: 50%;
-        margin: 40px auto 80px auto;
+        /* margin: 40px auto 80px auto; */
         padding: 0 20%;
     }
 
