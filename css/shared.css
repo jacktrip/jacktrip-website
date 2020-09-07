@@ -376,3 +376,7 @@ input[type="submit"]:hover{
     list-style-position: outside; 
     font-size:16px;
 }
+
+.bottom-margin-rem{
+    margin-bottom:.5rem;
+}
