@@ -5,9 +5,10 @@ env:
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 deploy:
   provider: script
-  script: bash deploy/deploy.sh
+  script: bash deploy/deploy.sh $TRAVIS_BRANCH
   on:
-    branch: main
+    all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^(staging|main)$
 
 # Note that as of Sept 5, 2020 the TravisCI deploy provider "gcs" fails with "broken pipe" errors
 # See https://github.com/travis-ci/travis-ci/issues/8100
