@@ -38,7 +38,7 @@
     position: relative;
     width: 100%;
     /* max-width: 1200px; */
-    margin: 0 auto 100px auto;
+    margin: 0 auto 75px auto;
     padding: 0;
     min-height: 700px;
     text-align: center;
@@ -109,7 +109,7 @@
 }
 
 .sec-padding{
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .marg-top{
@@ -158,4 +158,13 @@ input[type="submit"]{
     min-width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.pic-full-length{
+    width: 100%;
+    height: auto;
+}
+
+.pic-full-length img{
+    width: 100%;
 }

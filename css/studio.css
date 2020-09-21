@@ -1,0 +1,26 @@
+.affiliates_cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content:center;
+  }
+  
+.aff {
+    flex-grow: 3;
+    width:200px;
+    margin: 25px;
+    height: auto;
+    /* opacity: .5; */
+    /* background-color: red; */
+    text-align: center;
+}
+
+.aff_img{
+    margin:0 auto;
+    width:200px;
+    height:200px;
+}
+
+.aff_img img{
+    width:100%;
+}
