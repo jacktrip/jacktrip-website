@@ -178,7 +178,7 @@
     }
 
     .left-side-content.txt-blk-bg{
-        padding:20px;
+        padding:40px 20px 40px 20px;
         background-color: #46667A;
         min-height: 300px;
         transform: none;
@@ -186,7 +186,7 @@
     }
 
     .right-side-content.txt-blk-bg{
-        padding: 20px;
+        padding: 40px 20px 40px 20px;
         background-color: #46667A;
         min-height: 300px;
         transform: none;
@@ -550,18 +550,22 @@
 @media (min-width: 950px){
     .studio-block-right.main{
         flex-direction: row;
+        margin: 0 auto 100px auto;
     }
 
     .studio-block-left.main{
         flex-direction: row;
+        margin: 0 auto 100px auto;
     }
 
     .left-side-content.txt-blk-bg{
+        padding: 20px;
         transform: translate(30px, 0);
         margin:0;
     }
 
     .right-side-content.txt-blk-bg{
+        padding: 20px;
         transform: translate(-30px, 0);
         margin:0;
     }
