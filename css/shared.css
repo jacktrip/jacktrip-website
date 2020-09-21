@@ -342,7 +342,8 @@ input[type="submit"]:hover{
     font-weight: 600;
     color: #FAFBFB;
     /* padding: 70px 30px 5px 10px; */
-    font-size: 21px;
+    font-size: 18px;
+    padding: 0 30px 0 30px;
 }
 
 .left-side-content{

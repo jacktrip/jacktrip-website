@@ -24,3 +24,10 @@
 .aff_img img{
     width:100%;
 }
+
+.txt-block-studio{
+    margin-bottom:0; 
+    padding: 0 30px;
+    font-size: 1.4rem;
+    color: #fafbfb;;
+}
