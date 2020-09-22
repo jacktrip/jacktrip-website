@@ -35,3 +35,19 @@
 p {
     margin-top: 10px;
 }
+
+.hero-image-studio {
+    background: url("../images/guitar_player_hero.jpg") no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: cover;
+    background-position: 50% 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .75;
+    border-bottom: 20px solid #0f0d0d;
+}

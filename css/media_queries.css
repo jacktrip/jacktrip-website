@@ -178,7 +178,7 @@
     }
 
     .left-side-content.txt-blk-bg{
-        padding:40px 20px 40px 20px;
+        padding:40px 0px 40px 0px;
         background-color: #46667A;
         min-height: 300px;
         transform: none;
@@ -186,7 +186,7 @@
     }
 
     .right-side-content.txt-blk-bg{
-        padding: 40px 20px 40px 20px;
+        padding: 40px 0px 40px 0px;
         background-color: #46667A;
         min-height: 300px;
         transform: none;
@@ -273,7 +273,15 @@
 
 @media (min-width: 550px) {
 
-    
+    .left-side-content.txt-blk-bg{
+        padding:40px 20px 40px 20px;
+
+    }
+
+    .right-side-content.txt-blk-bg{
+        padding: 40px 20px 40px 20px;
+    }
+
 
     .imgs.six.columns{
         margin: auto;
