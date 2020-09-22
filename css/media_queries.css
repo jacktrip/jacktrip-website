@@ -491,13 +491,7 @@
         border-bottom: 1px solid #1EAEDB;
     }
 
-    .mainmenu {
-        display: block;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        height: 77px;
-    }
+    
 
     .hero {
         height: 0;
@@ -510,13 +504,10 @@
         
     }
 
-    .topnav {
-        display: none;
-    }
-
-    .mainmenu {
+    
+    /* .mainmenu {
         display: block;
-    }
+    } */
 
     /* .main.reverse{
         flex-direction: row;
@@ -602,6 +593,23 @@
 
 
 }
+
+@media (min-width: 985px) {
+    .mainmenu {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 77px;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+}
+
+
 @media (min-width: 1000px){
     
     #aff1.aff{
