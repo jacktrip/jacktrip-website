@@ -10,6 +10,8 @@
         flex-direction: column;
     }
 
+    
+
     .left-image-studio img {
         border: 1px solid #CFCFCF;
         position: relative;
@@ -337,10 +339,8 @@
 @media (min-width: 750px) {
     
     .model-graphic{
-
         width: 50%;
-        /* margin: 40px auto 80px auto; */
-        padding: 0 20%;
+        margin: 30px auto;
     }
 
     .hero h2 {
@@ -473,25 +473,10 @@
     }
 
     #myLinks a {
-        font-weight: 300;
-        color: #fff;
-        float: right;
-        margin: 22px 24px;
-        text-decoration: none;
-        font-size: 18px;
-        text-align: center;
+
         display: block;
-        cursor: pointer;
+
     }
-
-    #myLinks a:hover {
-
-        color: #1EAEDB;
-        cursor: pointer;
-        border-bottom: 1px solid #1EAEDB;
-    }
-
-    
 
     .hero {
         height: 0;

@@ -403,3 +403,30 @@ input[type="submit"]:hover{
     flex-direction:column;
     
 }
+
+#myLinks a {
+    font-weight: 300;
+    color: #fff;
+    float: right;
+    margin: 22px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myLinks a:hover {
+
+    color: #FAFBFB;
+    cursor: pointer;
+    border-bottom: 1px solid #FAFBFB;
+}
+
+a {
+    color: #205480;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #102A40;
+}
