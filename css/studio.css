@@ -49,5 +49,21 @@ p {
     bottom: 0;
     left: 0;
     opacity: .75;
-    border-bottom: 20px solid #0f0d0d;
+    /* border-bottom: 20px solid #0f0d0d; */
+}
+
+.txt-block-studio a{
+    color: #FFC778;
+    font-weight: 400;
+}
+
+.txt-block-studio a:hover{
+    color: #ffb349;
+    font-weight: 400;
+}
+
+.herotxt{
+    text-align: left;
+    margin: 0 30px;
+    text-shadow: 2px 2px #000;
 }
