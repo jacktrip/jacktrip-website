@@ -423,3 +423,9 @@ a {
 a:hover {
     color: #0297F5;
 }
+
+.herotxt{
+    text-align: left;
+    margin: 0 30px;
+    text-shadow: 2px 2px #000;
+}
