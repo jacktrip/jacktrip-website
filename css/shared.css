@@ -82,7 +82,7 @@ h4 {
     font-size: 18px;
     text-align: center;
     display: block;
-   
+    background: #0f0d0d;
 }
 
 /* Style the hamburger menu */
@@ -403,24 +403,17 @@ input[type="submit"]:hover{
     flex-direction:column;
     
 }
-
-#myLinks a {
-    font-weight: 300;
-    color: #fff;
-    float: right;
-    margin: 22px 24px;
+.topnav a {
+    color: white;
+    padding: 12px 16px;
     text-decoration: none;
     font-size: 18px;
     text-align: center;
-    cursor: pointer;
+    display: block;
+    background: #0f0d0d;
 }
 
-#myLinks a:hover {
 
-    color: #FAFBFB;
-    cursor: pointer;
-    border-bottom: 1px solid #FAFBFB;
-}
 
 a {
     color: #0A6BA8;
