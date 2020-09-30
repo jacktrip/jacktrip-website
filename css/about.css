@@ -8,7 +8,7 @@
 .aff {
     flex-grow: 3;
     width:200px;
-    margin: 25px;
+    margin: 25px 100px;
     height: auto;
     /* opacity: .5; */
     /* background-color: red; */
