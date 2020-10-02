@@ -121,7 +121,7 @@
     }
 
     .sec-block-0 .right-side-content {
-        padding: 50px;
+        padding: 50px 50px 125px 50px;
     }
 
     .lp.six.columns{
@@ -338,7 +338,7 @@
     }
 
     .sec-block-0 .right-side-content{
-        padding: 46px 72px 50px 72px;
+        padding: 46px 72px 100px 72px;
     }
 
     .pic_env.six.columns{
@@ -411,7 +411,7 @@
         margin:50px 0 0 0;
     }
     .sec-block-0 .right-side-content{
-        padding: 46px 72px 30px 72px;
+        padding: 46px 72px 120px 72px;
         margin-top: 60px;
     }
     
@@ -650,7 +650,7 @@
     }
 
     .sec-block-0 .right-side-content{
-        padding: 46px 62px 10px 62px;
+        padding: 46px 62px 120px 62px;
     }
 
     .sec-block-beta-0 .right-side-content {
