@@ -6,6 +6,15 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
+
+    .fineprint.txtAlignR{
+        text-align: center;
+    }
+
+    .fineprint.txtAlignL{
+        text-align: center;
+    }
+
     .studio-block-right.main{
         flex-direction: column;
     }
@@ -282,10 +291,13 @@
         display: none;
     }
 
+    
+
 }
 
 
 @media (min-width: 550px) {
+    
 
     .left-side-content.txt-blk-bg{
         padding:40px 20px 40px 20px;
@@ -355,6 +367,13 @@
 }
 
 @media (min-width: 750px) {
+    .fineprint.txtAlignR{
+        text-align: right;
+    }
+
+    .fineprint.txtAlignL{
+        text-align: left;
+    }
 
     .title-line{
         width: 100%;
