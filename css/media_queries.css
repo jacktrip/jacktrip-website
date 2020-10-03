@@ -522,25 +522,7 @@
     }
 
 
-    #myLinks a {
-        font-weight: 300;
-        color: #fff;
-        float: right;
-        margin: 22px 24px;
-        text-decoration: none;
-        font-size: 18px;
-        text-align: center;
-        cursor: pointer;
-        display: block;
-    }
     
-    #myLinks a:hover {
-    
-        color: #FAFBFB;
-        cursor: pointer;
-        border-bottom: 1px solid #FAFBFB;
-    }
-
     .hero {
         height: 0;
         min-height: 700px;
@@ -654,6 +636,26 @@
     .topnav {
         display: none;
     }
+
+    #myLinks a {
+        font-weight: 300;
+        color: #fff;
+        float: right;
+        margin: 22px 24px;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+    }
+    
+    #myLinks a:hover {
+    
+        color: #FAFBFB;
+        cursor: pointer;
+        border-bottom: 1px solid #FAFBFB;
+    }
+
 
 }
 
