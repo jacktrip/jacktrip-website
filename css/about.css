@@ -8,7 +8,7 @@
 .aff {
     flex-grow: 3;
     width:200px;
-    margin: 25px 100px;
+    margin: 25px 80px;
     height: auto;
     /* opacity: .5; */
     /* background-color: red; */
@@ -23,4 +23,13 @@
 
 .aff_img img{
     width:100%;
+}
+
+.aff-name{
+    text-align: center;
+}
+
+
+.aff-web{
+    text-align: center;
 }

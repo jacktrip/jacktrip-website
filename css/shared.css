@@ -289,7 +289,7 @@ h4 {
 
 
 .footer-txt{
-    padding: 40px 0;
+    padding: 20px 0 0 0;
     margin-bottom: 0;
 }
 
@@ -429,3 +429,31 @@ a:hover {
     margin: 0 30px;
     text-shadow: 2px 2px #000;
 }
+
+
+.fp{
+    position: relative;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.fineprint {
+    /* border:1px solid #575D60; */
+    /* border-radius: 15px; */
+    flex-grow: 3;
+    width:200px;
+    margin: 25px;
+    height: auto;
+    padding:150px 0;
+    /* opacity: .5; */
+    /* background-color: red; */
+    text-align: center;
+}
+
+.fineprint_cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content:center;
+  }
