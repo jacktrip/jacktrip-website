@@ -137,3 +137,8 @@ p {
 .studio.left-side-content{
     padding:30px;
 }
+
+#studio-video{
+    width: 100%;
+    height: auto;
+}
