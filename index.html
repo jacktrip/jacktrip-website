@@ -47,11 +47,11 @@ maximum-scale=1.0, user-scalable=no" />
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
       <a style="cursor:default; color:#F61B1B; pointer-events: none;">Home</a>
-      <a href="about.html">About</a>
+      <a href="foundation.html">Foundation</a>
       <a href="technology.html">Technology</a>
       <a href="studio.html">Virtual Studio</a>
       <a href="news.html">News</a>
-      <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Support</a>
+      <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
@@ -64,11 +64,11 @@ maximum-scale=1.0, user-scalable=no" />
       <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
     </a>
     <div id="myLinks">
-      <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Support</a>
+      <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
       <a href="news.html">News</a>
       <a href="studio.html">Virtual Studio</a>
       <a href="technology.html">Technology</a>
-      <a href="about.html">About</a>
+      <a href="foundation.html">Foundation</a>
       <a style="cursor:default; color:#F61B1B; pointer-events: none;">Home</a>
     </div>
   </nav>
@@ -76,162 +76,109 @@ maximum-scale=1.0, user-scalable=no" />
 
 
 
-  <section id="hero" class="hero panel_shadow u-full-width" style="margin-bottom:75px;">
-    <video autoplay muted loop id="myVideo" poster="images/jacktrip_choir.jpg">
-      <source src="video/jacktrip_choir.mp4" type="video/mp4">
-    </video>
-    <div class="poster-img"><img src="images/mobile_poster.jpg" alt="Static image of mens choir."></div>
-    <a onclick="toggleMute()">
-      <div class="unmuteBtn"><img src="images/unmute_btn.png" alt="Muted button image"></div>
-    </a>
-    <div class="container centered">
-      <div class="twelve columns hero_pos">
-        <h1 class="separator textShadow font-title">Virtual singing has never sounded so sweet!</h1>
-        <h2 class="textShadow">A low latency solution for your ensemble.</h2>
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- <section id="introduction " class="introduction panel_shadow u-full-width" style="margin-bottom:75px;">
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <h3 class="separator"></h3>
-          <h6 class="light-text center-text" style="padding:2%; font-size:16px;"><b style="font-weight:600; color:#F61B1B;">JackTrip Virtual Studio beta coming soon!</b</h6>
+  <section id="hero" class="hero panel_shadow u-full-width" style="margin-bottom:35px;">
+    <div class="heroCont">
+      <div class="left-side-content hero-part">
+        <h3 class="separator light-text mainHead light-text-title hero-title-txt">Understanding latency and why it is important</h3>
+        <div class="centered video-container-hero">
+          <iframe width="750" height="422" src="https://www.youtube.com/embed/Sj6Ij1Oxe1s" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video: Is it possible to play music together over the Internet?"></iframe>
+        </div>
+        <div class="light-text main-margin-l" style="text-align: left;">
+          <p  style="margin-top:2%; margin-bottom: 2%;">All communications create latency as it takes time for a sound to travel
+            across distance. When making a sound, the further away you are from someone, the longer it takes to be heard.
+          </p>
+          <br>
+  
+          <p style="margin-bottom:0;">JackTrip has found a way to help minimize latency when communicating through the internet. Learn how latency
+            works,
+            how to minimize it, and the different types of models available to connect with each other.</p>
         </div>
       </div>
-    </div>
-  </section> -->
 
-
-  <section id="sec-block-0" class="sec-block-0 main">
-
-
-    <div class="left-side-content about-us">
-      <h3 class="separator dark-text-title mainHead" >Welcome to JackTrip!</h3>
-      <p class="dark-text font-400">The JackTrip Foundation is a newly formed non-profit organization dedicated to advancing technologies 
-        that enable music collaboration over the Internet, and to facilitate the creation of music that transcends distance constraints. 
-      </p>
-
-      <p class="dark-text font-400">The Covid-19 pandemic has tragically closed down many musical activities around the world, devastating 
-        musicians and music organizations alike.  Unlike many business functions, which have pivoted quickly to Internet collaboration tools, 
-        the time delay inherent in Internet transmissions have precluded musicians from being able to make a similar transition online. 
-      </p>
-
-      <p class="dark-text font-400">The mission of the JackTrip Foundation is to make the performance of music over the Internet feasible and 
-        accessible to everyone.  By utilizing existing and newly-developed technologies aimed at reducing latency, the Foundation plans to develop 
-        and operate a music collaboration cloud service which will allow musicians to rehearse, perform and collaborate synchronously over common 
-        Internet connections. 
-      </p>
-
-      <p class="dark-text font-400">JackTrip is a free, open source program authored by Chris Chafe and Juan Pablo Caceres at Stanford University. 
-        Many musicians use JackTrip because it was made for professional-quality sound and low latency, because it works with existing hardware 
-        and does not require any financial investment, and because its developers and others have created a supportive community around it. 
-      </p>
-
-    </div>
-
-    <div class="right-side-content form-bg">
-
-      <h4 class="separator dark-text main-margin-title-l"
-        style="color:#0D2233; text-align: center; margin-bottom:30px;">Sign up for our newsletter!</h4>
-
-      <script>
-        hbspt.forms.create({
-          portalId: "8327526",
-          formId: "14859337-23da-47bb-91ca-4a703e253e60"
-        });
-      </script>
-
-    </div>
-
-    </div>
-  </section>
-
-  <section id="home-image-01" class="home-image-01 main">
-    <div class="left-side-content pic-full-length">
-      <img src="images/home_studio_01.jpg" alt="Image of a computer, synthesizer keyboard, and microphone.">
-    </div>
-  </section>
-
-  <section id="sec-block-programs-0" class="sec-block-programs-0 main" style="margin:65px auto 25px auto">
-
-        
-    <div class="left-side-content offer">
-        <h3 class="separator dark-text-title mainHead">What Will the Foundation Offer?</h3>
-        <p class="dark-text font-400" >The JackTrip Foundation is organized to support the continuing development of two 
-            key pieces of core technology that help musicians collaborate remotely:
-        </p>
-
-        <h4 class="separator dark-text bold-text bottom-margin-rem">1. JackTrip Open Source Software platform</h4>
-        <p class="dark-text font-400" >JackTrip is a software application that enables live performance of music over the Internet by 
-            dramatically reducing the audio latency that is common in other online collaboration solutions. It was developed at 
-            Stanford University by Professor Chris Chafe’s team in 2000-2007. It was published under an MIT open source license in 2007 
-            (copyrighted by Juan-Pablo Caceres and Chris Chafe at Stanford University) and has since built a large community of many 
-            advocates and over a dozen contributors.
-        </p>
-        <p class="dark-text font-400" >JackTrip is unique in that it supports both peer-to-peer (P2P) and client-server deployment models. 
-            Synthetic testing has demonstrated that a single JackTrip server can scale to handle up to 500 concurrent performers, which 
-            is an order of magnitude larger than the next best solution available. This makes it the only viable solution for larger 
-            groups, such as choruses and symphonies.
-        </p>
-
-        <p><a style="color: #f41b1b;" href="https://github.com/jacktrip/jacktrip" target="_blank">JackTrip Open Source on GitHub</a></p>
-
-        <h4 class="separator dark-text bold-text bottom-margin-rem">2. JackTrip Virtual Studio - Coming Soon</h4>
-        <p class="dark-text font-400" >In an effort to make JackTrip easier to use for a broad audience, Mike Dickey developed a web 
-            application that automates the configuration, deployment and management of the JackTrip software over the Internet. He 
-            also built plug-and-play boxes using Raspberry Pi computers with custom images that enable them to be fully managed via 
-            the same web application. This hardware and software combination makes it easy for groups of any size to quickly get up 
-            and running with JackTrip without requiring deep technology skills. 
-        </p>
-        
-        <p><a style="color: #f41b1b;" href="studio.html" target="_self">JackTrip Virtual Studio</a> - Coming Soon!</p>
-
+      <div class="right-side-content hero-part">
+        <div class="form-bg">
+          <h4 class="separator dark-text main-margin-title-l"
+          style="color:#0D2233; text-align: center; margin-bottom:30px;">Sign up for our newsletter!</h4>
+  
+        <script>
+          hbspt.forms.create({
+            portalId: "8327526",
+            formId: "14859337-23da-47bb-91ca-4a703e253e60"
+          });
+        </script>
+        </div>
+        <a href="" style="color:#fff;"><div class="prod-ad">
+          <div class="prod-img"><img src="images/amazon_jtd.jpg" alt="JackTrip Virtual Studio Device Image from Amazon.com"></div>
+          <div class="prod-desc">
+            <p class="avail-now">AVAILABLE NOW!</p>
+            <p class="avail-now-txt">JackTrip Virtual Studio Devices</p>
+            <div class="amazon-btn"><img src="images/amazon-logo_black.png" alt="Amazon button"></div>
+          </div>
+        </div></a>
+       
+  
       </div>
+    </div>
+  </section>
 
-        <div class="right-side-content offer">
-          <h4 class="separator main-margin-title-l bottom-margin-rem" style="color:#FAFBFB;">Activities of the Foundation:</h4>
-          <p class="font-400" style="font-size:15px;" >
-            To fulfill its mission of driving continued innovation in, and widespread usage of, the JackTrip technology, the Foundation 
-            will offer a wide array of technology, education, community-building and performance services, such as: </p>
 
-            <ul class="aside-ul" style="font-weight: 500;">
-              <li>Grants and scholarships for innovation related to JackTrip;</li>
-              <li>Educational programs for technological and musical users of JackTrip;</li>
-              <li>Internships and work experiences for technology and music students;</li>
-              <li>Community-building events for a broad set of JackTrip user groups;</li>
-              <li>Free usage of the JackTrip virtual concert hall for educational and arts organizations;</li>
-              <li>Marketing and awareness-building of JackTrip capabilities world-wide.</li>
-            </ul>
-
-      </div>  
-</section>
-
+  <section id="sec-block-0" class="sec-block-0 main" style="margin-bottom:20px;" >
+    <div class="left-side-content">
+    <h3 class="separator dark-text-title mainHead">What is JackTrip?  It is…</h3>
+  </div>
+  </section>
  
-  <section id="latency" class="latency main sec-padding" style="max-width: none; margin:0;">
-
-    <div class="container left-side-content">
-      <h3 class="separator light-text mainHead light-text-title" style="margin-bottom: 30px;">Understanding latency and why it is important</h3>
-      <div class="centered video-container">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Sj6Ij1Oxe1s" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video: Is it possible to play music together over the Internet?"></iframe>
-      </div>
-      <div class="light-text main-margin-l" style="margin-top: 30px;">
-        <p>All communications create latency as it takes time for a sound to travel
-          across distance. When making a sound, the further away you are from someone, the longer it takes to be heard.
+  <section id="three-columns-cont" class="three-columns-cont main sec-padding" style="background-color: #0D2233; max-width: none; margin-bottom: 0;">
+    <div class="three_col">
+      <div class="col-cat"><img src="images/img_01.jpg" alt="">
+        <div class="col-title" style="font-weight: 600;">JackTrip Open Source Project</div>
+        <p class="col-p">JackTrip is a software application that enables the live performance of music over the Internet by dramatically reducing 
+          the audio latency common in other online collaborations solutions. It was developed at Stanford University by Professor Chris Chafe’s 
+          team in 2000-2007. It was published under an MIT open source license in 2007 (copyrighted by Juan-Pablo Caceres and Chris Chafe at 
+          Stanford University) and has since built a large community of many advocates and over a dozen contributors. 
+        
+          <h4 class="center-text btn-margin" style="margin-top:112px; transform: translate(0, -165px);">
+            <a href=""><button class="col-btn button inverted">Learn More</button></a>
+          </h4>
         </p>
-
-        <p>JackTrip has found a way to help minimize latency when communicating through the internet. Learn how latency
-          works,
-          how to minimize it, and the different types of models available to connect with each other.</p>
-
-        <h4 class="center-text btn-margin">
-          <a href="technology.html"><button class="button inverted">Learn More</button></a>
-        </h4>
       </div>
+      <div class="col-cat"><img src="images/img_02.jpg" alt="">
+        <div class="col-title" style="font-weight: 600;">JackTrip Foundation</div>
+        <p class="col-p">The Foundation will conduct charitable and educational activities based on the JackTrip Open Source Platform. 
+          Specifically, the Foundation plans to further musical arts and education by providing JackTrip Open Source Platform products 
+          and services to nonprofit musical arts organizations.  
+          <br>
+          <br>
+ 
+          In addition, the Foundation also plans to conduct educational programs for technological and musical users of the JackTrip 
+          Open Source Platform. We plan to produce seminars, educational videos, articles, and workshops addressing a wide range of 
+          topics regarding the intersection of music and computer technology. 
+        
+          <h4 class="center-text btn-margin" style="margin-top:20px; transform: translate(0, -165px);">
+            <a href=""><button class="col-btn button inverted">Learn More</button></a>
+          </h4>
+        </p>
+      </div>
+      <div class="col-cat"><img src="images/img_03.jpg" alt="">
+        <div class="col-title" style="font-weight: 600;">Virtual Studio</div>
+        <p class="col-p"><b>A Web Service for music collaboration in real time over the Internet. </b>
+          <br>
+          <br>
+          In an effort to make JackTrip easier to use for a broad audience, Mike Dickey developed a web application that automates the configuration, 
+          deployment and management of the JackTrip software over the Internet. He also built plug-and-play boxes using Raspberry Pi computers with 
+          custom images that enable them to be fully managed via the same web application. This hardware and software combination makes it easy for 
+          groups of any size to quickly get up and running with JackTrip without requiring deep technology skills.  
+        
+          <h4 class="center-text btn-margin" style="margin-top:20px; transform: translate(0, -165px);">
+            <a href=""><button class="col-btn button inverted">Learn More</button></a>
+          </h4>
+        </p>
+      </div>
+
     </div>
+
+    
     
   </section>
 

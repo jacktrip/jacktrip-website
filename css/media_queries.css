@@ -7,6 +7,11 @@
 /* Larger than mobile */
 @media (min-width: 0px) {
 
+    .heroCont{
+        height:1700px;
+        flex-wrap: wrap;
+    }
+
     .fineprint.txtAlignR{
         text-align: center;
     }
@@ -189,7 +194,21 @@
     .left-side-content{
         padding: 0 30px 0 30px;
     }
-
+    .left-side-content.hero-part{
+        padding: 0 30px 0 30px;
+        flex-direction: column;
+        display: flex;
+        width:100%;
+        /* margin-top: 50px; */
+    }
+    
+    .right-side-content.hero-part{
+        padding: 0 30px 0 30px;
+        flex-direction: column;
+        display: flex;
+        width:100%;
+        margin-top: 30px;
+    }
     .right-side-content.right-image-studio{
         padding: 0 30px 0 30px;
     }
@@ -229,11 +248,12 @@
     }
 
     .form-bg{
-        padding: 50px;
-        background-color:#e6eae0;
+        padding: 30px 30px 120px 30px;
+        background-color: #e6eae0;
         max-height: 330px;
         margin-right: 0px;
         border: 1px solid #dbddd8;
+        margin-bottom: 30px;
     }
 
     .form-bg2{
@@ -279,9 +299,66 @@
         padding:10% 0;
     }
 
+    .prod-ad{
+        width: 100%;
+        height:400px;
+        background-color: black;
+        margin-top:10px;
+    }
+
+    .prod-img{
+        height: auto;
+        float: left;
+        margin:20px;
+    }
+
+    .amazon-btn{
+        width: 120px;
+        margin: 5px auto;
+    }
+    
+    .hero-title-txt{
+        margin: 0px 0 30px 0; 
+        text-align: left;
+    }
+
+    .video-container-hero {
+        margin: 0 0 30px 0;
+    }
+    .prod-desc{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .avail-now-txt {
+        font-weight: 600;
+        margin: 0 20px;
+        /* width: 100%;
+        margin: 10px 0 0 0; 
+        padding: 0 0;
+        float: left; */
+    }
+
+    .avail-now{
+        color: #F61B1B; 
+        margin: 0 auto;
+        font-weight: 600; 
+        font-size: 24px; 
+        /* width:100%; 
+        float: left; */
+    }
+    
 
 }
-
+@media (min-width: 375px) {
+    .prod-ad{
+        height:425px;
+    }
+}
 
 /* Larger than phablet */
 
@@ -291,13 +368,109 @@
         display: none;
     }
 
+    .prod-ad{
+        height:475px;
+    }
+
+    .heroCont{
+        height: 1700px;
+    }
+
+}
+
+@media (min-width: 425px) {
+
+    .heroCont{
+        height: 1400px;
+    }
+
+    .prod-ad{
+        max-width: 375px;
+        height:180px;
+        background-color: black;
+        margin-top:10px;
+        margin: 0 auto;
+    }
+
+    .form-bg{
+        padding: 30px 30px 120px 30px;
+        background-color: #e6eae0;
+        max-height: 330px;
+        margin-right: 0px;
+        border: 1px solid #dbddd8;
+        max-width:350px;
+        margin: 0 auto 30px auto;
+    }
+
+   
+    .prod-img{
+        width:175px;
+        height: auto;
+        float: left;
+        margin:20px 0 20px 20px;
+    }
+
+    .amazon-btn{
+        width: 100px;
+        /* margin-left: 25px; */
+    }
+
+    .prod-img{
+        height: auto;
+        float: left;
+        margin:20px;
+    }
     
+    .hero-title-txt{
+        margin: 0px 0 30px 0; 
+        text-align: left;
+    }
+
+    .video-container-hero {
+        margin: 0 0 30px 0;
+    }
+    .prod-desc{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 35%;
+        height: auto;
+        float: left;
+        margin-top:20px;
+    }
+
+    .avail-now-txt {
+        font-weight: 600;
+        margin: 0 10px;
+        /* width: 100%;
+        margin: 10px 0 0 0; 
+        padding: 0 0;
+        float: left; */
+    }
+
+    .avail-now{
+        color: #F61B1B; 
+        margin: 0 auto;
+        font-weight: 600; 
+        font-size: 14px; 
+        /* width:100%; 
+        float: left; */
+    }
+
+
 
 }
 
 
 @media (min-width: 550px) {
-    
+    .prod-desc{
+        width: 40%;
+
+    }
+
+    .heroCont{
+        height: 1500px;
+    }
 
     .left-side-content.txt-blk-bg{
         padding:40px 20px 40px 20px;
@@ -367,6 +540,53 @@
 }
 
 @media (min-width: 750px) {
+
+    .prod-desc{
+        width: 100%;
+
+    }
+
+    .form-bg {
+        max-height: 300px;
+        margin: 0 auto 20px auto;
+    }
+
+    .prod-ad{
+        float: right;
+        background-color: black;
+        /* margin-top:10px; */
+        /* width: 100%;
+        max-width: 340px; */
+    }
+
+    .prod-img{
+        display: none;
+    }
+
+    .amazon-btn{
+        width: 120px;
+        margin-top: 20px;
+        /* margin-left: 25px; */
+    }
+
+    .right-side-content.hero-part{
+        padding: 0 30px 0 30px;
+        flex-direction: column;
+        display: flex;
+        width:40%;
+    }
+
+    .left-side-content.hero-part{
+        margin-top: 20px;
+        padding: 0 0px 0 30px;
+        flex-direction: column;
+        display: flex;
+        width:75%;
+    }
+    .heroCont{
+        height:700px;
+        flex-wrap: nowrap;
+    }
     .fineprint.txtAlignR{
         text-align: right;
     }
@@ -525,7 +745,7 @@
     
     .hero {
         height: 0;
-        min-height: 700px;
+        min-height: 750px;
         overflow: hidden;
     }
 
@@ -560,7 +780,9 @@
 
 
     .form-bg{
-        margin-right: 20px;
+
+        max-width:340px;
+        float: right;
     }
     
     .form-bg2{
@@ -661,6 +883,30 @@
 
 
 @media (min-width: 1000px){
+
+    .prod-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .amazon-btn{
+        width: 120px;
+        margin-left: auto;
+        margin-top:10px;
+    }
+    
+    .prod-img{
+        display: block;
+        width:175px;
+        height: auto;
+        float: left;
+        margin:20px 0 20px 20px;
+    }
     
     #aff1.aff{
         display: block;
@@ -691,7 +937,7 @@
     }
 
     .form-bg{
-        margin-right: 20px;
+        margin-right: 0;
     }
     
     .form-bg2{
@@ -718,6 +964,10 @@
     .right-side-content.offer{
         height: 600px;
 
+    }
+
+    .prod-desc {
+        width: 46%;
     }
     .form-bg{
         margin-right: 0px;
