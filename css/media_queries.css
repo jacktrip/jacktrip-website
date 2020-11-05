@@ -575,7 +575,7 @@
 
     .prod-ad{
         float: right;
-        background-color: black;
+        background-color: #0f0d0d;
         /* margin-top:10px; */
         /* width: 100%;
         max-width: 340px; */
@@ -608,6 +608,7 @@
     .heroCont{
         height:700px;
         flex-wrap: nowrap;
+        margin: 50px auto;
     }
     .fineprint.txtAlignR{
         text-align: right;
@@ -767,7 +768,7 @@
     
     .hero {
         height: 0;
-        min-height: 750px;
+        min-height: 850px;
         overflow: hidden;
     }
 
@@ -775,15 +776,6 @@
         transform: none !important;
         
     }
-
-    
-    /* .mainmenu {
-        display: block;
-    } */
-
-    /* .main.reverse{
-        flex-direction: row;
-    } */
 
     .left-image img {
         border: 20px solid #0D2233;

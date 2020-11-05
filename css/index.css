@@ -43,7 +43,7 @@
     min-height: 700px;
     text-align: center;
     position: relative;
-    background-color: #0d2233;
+    background-color: #fafbfb;
     /* layer fill content */
     color: white;
 }
@@ -137,7 +137,7 @@
     padding-top: 0px;
     height: 0;
     overflow: hidden;
-    border: 1px solid #cee4f5;
+    border: 5px solid #46667A;
     margin: 5px 0;
 }
 
