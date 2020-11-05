@@ -225,7 +225,7 @@ input[type="submit"]{
     /* padding: 0 30px 0 30px; */
 }
 
-.col-cat{
+/* .col-cat{
     width: 300px;
     flex-grow: 3;
     margin: 25px 30px;
@@ -233,7 +233,7 @@ input[type="submit"]{
     background-color: black;
     text-align: center;
     text-shadow: 1px 1px black;
-}
+} */
 
 .col-cat img{
     width:100%;

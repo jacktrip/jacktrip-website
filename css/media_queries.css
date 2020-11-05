@@ -6,6 +6,17 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
+    
+
+    .col-cat{
+        flex-grow: 3;
+        max-width: 340px;
+        flex-grow: 3;
+        max-height: 1200px;
+        background-color: black;
+        margin: 25px auto;
+        text-shadow: 1px 1px black;
+    }
 
     .heroCont{
         height:1700px;
@@ -358,6 +369,13 @@
     .prod-ad{
         height:425px;
     }
+
+    .col-cat{
+
+        height: 1100px;
+
+    }
+
 }
 
 /* Larger than phablet */
@@ -541,6 +559,10 @@
 
 @media (min-width: 750px) {
 
+    .form-bg{
+        padding: 30px 30px 150px 30px;
+    }
+
     .prod-desc{
         width: 100%;
 
@@ -565,7 +587,7 @@
 
     .amazon-btn{
         width: 120px;
-        margin-top: 20px;
+        margin-top: 10px;
         /* margin-left: 25px; */
     }
 
@@ -883,29 +905,8 @@
 
 
 @media (min-width: 1000px){
-
-    .prod-desc {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 40%;
-        height: auto;
-        float: left;
-        margin-top: 20px;
-    }
-
-    .amazon-btn{
-        width: 120px;
-        margin-left: auto;
-        margin-top:10px;
-    }
-    
-    .prod-img{
-        display: block;
-        width:175px;
-        height: auto;
-        float: left;
-        margin:20px 0 20px 20px;
+    .col-cat{
+        max-height: 1075px;
     }
     
     #aff1.aff{
@@ -967,8 +968,31 @@
     }
 
     .prod-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 46%;
+        height: auto;
+        float: left;
+        margin-top: 20px;
     }
+    .prod-img{
+        display: block;
+        width:175px;
+        height: auto;
+        float: left;
+        margin:20px 0 20px 20px;
+    }
+    .amazon-btn{
+        width: 120px;
+        margin-left: auto;
+        margin-top:10px;
+    }
+    
+
+    /* .prod-desc {
+        width: 46%;
+    } */
     .form-bg{
         margin-right: 0px;
     }
