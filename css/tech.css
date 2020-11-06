@@ -218,3 +218,15 @@
 .model-graphic img{
     width: 100%;
 }
+
+.banner-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px 20px 20px 20px;
+    color: #FAFBFB;
+    font-size: 1.1em;
+    font-weight: 300;
+}

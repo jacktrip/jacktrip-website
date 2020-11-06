@@ -280,10 +280,10 @@
 
     .form-bg{
         padding: 30px 30px 120px 30px;
-        background-color: #e6eae0;
+        /* background-color: #e6eae0; */
         max-height: 330px;
         margin-right: 0px;
-        border: 1px solid #dbddd8;
+        /* border: 1px solid #dbddd8; */
         margin-bottom: 30px;
     }
 
@@ -310,7 +310,7 @@
         padding:0 30px;
     }
 
-    .right-side-content.offer{
+    /* .right-side-content.offer{
         width: auto;
         margin-top: 58px;
         background-color: #46667A;
@@ -318,6 +318,16 @@
         padding: 40px;
         height: auto;
         margin: 40px 40px 75px 40px;
+    } */
+
+    .left-side-content.offer{
+        width: auto;
+        margin-top: 58px;
+        background-color: #46667A;
+        color:#FAFBFB;;
+        padding: 40px;
+        height: auto;
+        margin: 30px;
     }
 
 
@@ -433,10 +443,10 @@
 
     .form-bg{
         padding: 30px 30px 120px 30px;
-        background-color: #e6eae0;
+        /* background-color: #e6eae0; */
         max-height: 330px;
         margin-right: 0px;
-        border: 1px solid #dbddd8;
+        /* border: 1px solid #dbddd8; */
         max-width:350px;
         margin: 0 auto 30px auto;
     }
@@ -598,6 +608,10 @@
 
 @media (min-width: 750px) {
 
+    .sec-block-programs-0 .aside-ul{
+        margin: 3% 5% 3% 5%;
+    }
+
     .form-bg{
         padding: 30px 30px 150px 30px;
     }
@@ -608,7 +622,7 @@
     }
 
     .form-bg {
-        max-height: 300px;
+        max-height: 270px;
         margin: 0 auto 20px auto;
     }
 

@@ -479,3 +479,18 @@ a:hover {
 	height:100%;
 }
 
+.introduction{
+    position: relative;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: #0f0d0d;
+}
+
+.red-links{
+    color: #f41b1b;
+}
+
+.red-links:hover{
+    color: #C21515;
+}
