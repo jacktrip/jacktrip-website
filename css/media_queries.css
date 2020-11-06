@@ -6,7 +6,17 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
-    
+    .banner-bar{
+        flex-direction: column;
+    }
+
+    .banner-h-size{
+        height:190px;
+    }
+
+    .amazon_btn_vs{
+        padding-top:10px;
+    }
 
     .col-cat{
         flex-grow: 3;
@@ -168,6 +178,16 @@
 
     .sec-block-2 .right-side-content{
         padding: 0 30px 10px 30px;
+    }
+
+    .hero-tech {
+        min-height: 500px;
+        overflow: hidden;
+    }
+
+    .hero-vs {
+        min-height: 500px;
+        overflow: hidden;
     }
 
     .latency .left-side-content{
@@ -398,6 +418,7 @@
 
 @media (min-width: 425px) {
 
+    
     .heroCont{
         height: 1400px;
     }
@@ -481,6 +502,18 @@
 
 
 @media (min-width: 550px) {
+
+    .banner-bar{
+        flex-direction: row;
+    }
+
+    .banner-h-size{
+        height:125px;
+    }
+    .amazon_btn_vs{
+        padding-top:0;
+    }
+
     .prod-desc{
         width: 40%;
 
@@ -523,6 +556,12 @@
     .hero_pos_tech{
         margin-top:400px;
     }
+
+    /* .hero-tech {
+        height: 0;
+        min-height: 700px;
+        overflow: hidden;
+    } */
 
     .font-title {
         font-size: 4rem;
@@ -737,6 +776,8 @@
 
     }
 
+   
+
     .hero{
         min-height: 700px;
     }
@@ -771,6 +812,19 @@
         min-height: 850px;
         overflow: hidden;
     }
+
+    .hero-tech {
+        height: 0;
+        min-height: 700px;
+        overflow: hidden;
+    }
+
+    .hero-vs {
+        height: 0;
+        min-height: 700px;
+        overflow: hidden;
+    }
+    
 
     #myVideo {
         transform: none !important;
