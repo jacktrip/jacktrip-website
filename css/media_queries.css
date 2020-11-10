@@ -6,6 +6,26 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
+    .orders-20{
+        width: 100%;
+        margin-top:5px;
+    }
+
+    .introduction-vs{
+        height:225px;
+    }
+
+    .orders-20-l{
+        width: 100%;
+        margin-top:0;
+        transform: translate(0, 10);
+        text-align: center;
+        color:#fafbfb;
+    }
+    .banner-bar-s{
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .banner-bar{
         flex-direction: column;
     }
@@ -28,7 +48,7 @@
         text-shadow: 1px 1px black;
     }
 
-    .heroCont{
+    .bottomIndexCont{
         height:1700px;
         flex-wrap: wrap;
     }
@@ -203,7 +223,7 @@
         display: none;
         /* border-bottom: 5px solid #f21b1b; */
     }
-    .hero{
+    .bottom-index {
         min-height: 500px;
         overflow: hidden;
     }
@@ -325,7 +345,7 @@
         margin-top: 58px;
         background-color: #46667A;
         color:#FAFBFB;;
-        padding: 40px;
+        padding: 40px 40px 30px 40px;
         height: auto;
         margin: 30px;
     }
@@ -392,6 +412,12 @@
         /* width:100%; 
         float: left; */
     }
+
+    .hero{
+        min-height: 485px;
+        overflow: hidden;
+    }
+
     
 
 }
@@ -420,7 +446,7 @@
         height:475px;
     }
 
-    .heroCont{
+    .bottomIndexCont{
         height: 1700px;
     }
 
@@ -429,7 +455,7 @@
 @media (min-width: 425px) {
 
     
-    .heroCont{
+    .bottomIndexCont{
         height: 1400px;
     }
 
@@ -513,6 +539,10 @@
 
 @media (min-width: 550px) {
 
+    .introduction-vs{
+        height:220px;
+    }
+
     .banner-bar{
         flex-direction: row;
     }
@@ -520,16 +550,16 @@
     .banner-h-size{
         height:125px;
     }
-    .amazon_btn_vs{
+    /* .amazon_btn_vs{
         padding-top:0;
-    }
+    } */
 
     .prod-desc{
         width: 40%;
 
     }
 
-    .heroCont{
+    .bottomIndexCont{
         height: 1500px;
     }
 
@@ -606,7 +636,40 @@
     }
 }
 
+@media (min-width: 580px) {
+
+    .introduction-vs{
+        height:175px;
+    }
+}
+
+@media (min-width: 715px) {
+    .banner-bar-s{
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .introduction-vs{
+        height:auto;
+    }
+
+    .orders-20-l{
+        margin-top:0;
+        transform: translate(35px, -35px);
+    }
+
+    .amazon_btn_vs{
+        padding-top:0;
+    }
+
+    
+}
+
 @media (min-width: 750px) {
+
+    .introduction-vs{
+        height:auto;
+    }
 
     .sec-block-programs-0 .aside-ul{
         margin: 3% 5% 3% 5%;
@@ -658,7 +721,7 @@
         display: flex;
         width:75%;
     }
-    .heroCont{
+    .bottomIndexCont{
         height:700px;
         flex-wrap: nowrap;
         margin: 50px auto;
@@ -790,11 +853,6 @@
 
     }
 
-   
-
-    .hero{
-        min-height: 700px;
-    }
     .font-title {
         font-size: 5rem;
     }
@@ -819,9 +877,13 @@
         margin-top: 550px;
     }
 
-
-    
     .hero {
+        height: 0;
+        min-height: 700px;
+        overflow: hidden;
+    }
+    
+    .bottom-index {
         height: 0;
         min-height: 850px;
         overflow: hidden;
@@ -958,6 +1020,10 @@
         color: #FAFBFB;
         cursor: pointer;
         border-bottom: 1px solid #FAFBFB;
+    }
+
+    .form-bg{
+        padding: 30px 30px 130px 30px;
     }
 
 

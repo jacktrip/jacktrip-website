@@ -74,66 +74,34 @@ maximum-scale=1.0, user-scalable=no" />
   </nav>
 
 
-
-
-  <section id="hero" class="hero panel_shadow u-full-width" >
-    <div class="heroCont">
-      <div class="left-side-content hero-part">
-        <h3 class="separator mainHead dark-text-title hero-title-txt">Understanding latency and why it is important</h3>
-        <div class="centered video-container-hero">
-          <iframe width="750" height="422" src="https://www.youtube.com/embed/Sj6Ij1Oxe1s" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video: Is it possible to play music together over the Internet?"></iframe>
-        </div>
-        <div class="dark-text main-margin-l" style="text-align: left;">
-          <p  style="margin-top:2%; margin-bottom: 2%;">All communications create latency as it takes time for a sound to travel
-            across distance. When making a sound, the further away you are from someone, the longer it takes to be heard.
-          </p>
-          <br>
-  
-          <p style="margin-bottom:0;">JackTrip has found a way to help minimize latency when communicating through the internet. Learn how latency
-            works,
-            how to minimize it, and the different types of models available to connect with each other.</p>
-        </div>
-      </div>
-
-      <div class="right-side-content hero-part">
-        <div class="form-bg">
-          <h4 class="separator dark-text main-margin-title-l"
-          style="color:#0D2233; text-align: center; margin-bottom:30px; padding: 20px 5px 5px 5px;font-size: 18px;">Sign up for our newsletter!</h4>
-  
-        <script>
-          hbspt.forms.create({
-            portalId: "8327526",
-            formId: "14859337-23da-47bb-91ca-4a703e253e60"
-          });
-        </script>
-        </div>
-        <a href="https://www.amazon.com/dp/B08L9LDW35?ref=myi_title_dp" style="color:#fff;"><div class="prod-ad">
-          <div class="prod-img"><img src="images/amazon_jtd.jpg" alt="JackTrip Virtual Studio Device Image from Amazon.com"></div>
-          <div class="prod-desc">
-            <p class="avail-now">AVAILABLE NOW!</p>
-            <p class="avail-now-txt">JackTrip Virtual Studio Devices</p>
-            <div class="amazon-btn"><img src="images/amazon-logo_black.png" alt="Amazon button"></div>
-          </div>
-        </div></a>
-       
-  
+  <section id="hero" class="hero panel_shadow u-full-width">
+    <video autoplay muted loop id="myVideo" poster="images/jacktrip_choir.jpg">
+      <source src="video/jacktrip_choir.mp4" type="video/mp4">
+    </video>
+    <div class="poster-img"><img src="images/mobile_poster.jpg" alt="Static image of mens choir."></div>
+    <a onclick="toggleMute()">
+      <div class="unmuteBtn"><img src="images/unmute_btn.png" alt="Muted button image"></div>
+    </a>
+    <div class="container centered">
+      <div class="twelve columns hero_pos">
+        <h1 class="separator textShadow font-title">Virtual singing has never sounded so sweet!</h1>
+        <h2 class="textShadow">A low latency solution for your ensemble.</h2>
+        
       </div>
     </div>
   </section>
 
-  <div class="left-side-content">
-  <div style="max-width: 1140px; margin:0px auto 35px auto; border-bottom: 1px solid #0f0d0d;"></div>
-  </div>
+
+  
 
 
-  <section id="sec-block-0" class="sec-block-0 main" style="margin-bottom:20px;" >
-    <div class="left-side-content">
-    <h3 class="separator dark-text-title mainHead">What is JackTrip?  <br><span style="font-weight: 400; font-size: 24px;">It is…</span></h3>
-  </div>
+  <section id="sec-block-0" class="sec-block-0 main" style="margin-bottom:0px; padding-top: 75px; background-color: #0d2233; max-width: none;" >
+    <div class="left-side-content" style="max-width: 1140px; margin: 0 auto; width: 1140px;">
+      <h3 class="separator dark-text-title mainHead"  style="color:#FAFBFB; ">What is JackTrip?  <br><span style="font-weight: 400; font-size: 24px;">It is…</span></h3>
+    </div>
   </section>
  
-  <section id="three-columns-cont" class="three-columns-cont main sec-padding" style="background-color: #0D2233; max-width: none; margin-bottom: 0;">
+  <section id="three-columns-cont" class="three-columns-cont main" style="background-color: #0D2233; max-width: none; margin-bottom: 0; padding-bottom: 75px;">
     <div class="three_col">
       <div class="col-cat"><img src="images/img_01.jpg" alt="Photo of a microphone and computer.">
         <div class="col-title" style="font-weight: 600;">JackTrip Open Source Project</div>
@@ -143,7 +111,7 @@ maximum-scale=1.0, user-scalable=no" />
           Stanford University) and has since built a large community of many advocates and over a dozen contributors. 
         
           <h4 class="center-text btn-margin" style="margin-top:112px; transform: translate(0, -165px);">
-            <a href="technology.html"><button class="col-btn button inverted">Learn More</button></a>
+            <a href="https://github.com/jacktrip/jacktrip"><button class="col-btn button inverted">Learn More</button></a>
           </h4>
         </p>
       </div>
@@ -184,9 +152,59 @@ maximum-scale=1.0, user-scalable=no" />
     
   </section>
 
+  <section id="bottom-index " class="bottom-index panel_shadow u-full-width" >
+    <div class="bottomIndexCont">
+      <div class="left-side-content hero-part">
+        <h3 class="separator mainHead dark-text-title hero-title-txt">Understanding latency and why it is important</h3>
+        <div class="centered video-container-hero">
+          <iframe width="750" height="422" src="https://www.youtube.com/embed/Sj6Ij1Oxe1s" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video: Is it possible to play music together over the Internet?"></iframe>
+        </div>
+        <div class="dark-text main-margin-l" style="text-align: left;">
+          <p  style="margin-top:2%; margin-bottom: 2%;">All communications create latency as it takes time for a sound to travel
+            across distance. When making a sound, the further away you are from someone, the longer it takes to be heard.
+          </p>
+          <br>
+  
+          <p style="margin-bottom:0;">JackTrip has found a way to help minimize latency when communicating through the internet. Learn how latency
+            works,
+            how to minimize it, and the different types of models available to connect with each other. <a href="technology.html">Click here </a> to learn more.</p>
+        </div>
+      </div>
 
+      <div class="right-side-content hero-part">
+        <div class="form-bg">
+          <h4 class="separator dark-text main-margin-title-l"
+          style="color:#0D2233; text-align: center; margin-bottom:30px; padding: 20px 5px 5px 5px;font-size: 18px;">Sign up for our newsletter!</h4>
+  
+        <script>
+          hbspt.forms.create({
+            portalId: "8327526",
+            formId: "14859337-23da-47bb-91ca-4a703e253e60"
+          });
+        </script>
+        </div>
+        <a href="https://www.amazon.com/dp/B08L9LDW35?ref=myi_title_dp" style="color:#fff;"><div class="prod-ad">
+          <div class="prod-img"><img src="images/amazon_jtd.jpg" alt="JackTrip Virtual Studio Device Image from Amazon.com"></div>
+          <div class="prod-desc">
+            <p class="avail-now">AVAILABLE NOW!</p>
+            <p class="avail-now-txt">JackTrip Virtual Studio Devices</p>
+            <div class="amazon-btn"><img src="images/amazon-logo_black.png" alt="Amazon button"></div>
+          </div>
+        </div></a>
+        <div class="orders-20 dark-text">Please  <a href="mailto:sales@jacktrip.org">contact us</a> for orders of 20 or more.</div>
+  
+      </div>
+    </div>
+  </section>
 
-  <section id="fp" class="fp main" style="margin-bottom: 0; background-color: #0D2233; max-width: none;">
+  <div class="left-side-content">
+  <div style="max-width: 1140px; margin:0px auto 35px auto;"></div>
+  <!-- border-bottom: 1px solid #0f0d0d; -->
+  </div>
+
+  <section id="fp" class="fp main" style="margin-bottom: 0; max-width: none;">
+    <!-- background-color: #0D2233; -->
     <div class="fineprint_cont">
         <div class="fineprint left-side-content txtAlignR">
             <p><a style="color:#468CB8;" href="privacy.html">Privacy Policy</a></p>

@@ -33,7 +33,7 @@
 /* =Hero
 -------- */
 
-.hero {
+.bottom-index {
     position: relative;
     width: 100%;
     /* max-width: 1200px; */
@@ -47,6 +47,22 @@
     color: white;
     /* border-bottom: 1px solid #0f0d0d; */
 }
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0;
+    min-height: 700px;
+    text-align: center;
+    position: relative;
+    background-color: #fafbfb;
+    /* layer fill content */
+    color: white;
+    border-bottom: 20px solid #46667A;
+} 
 
 .hero-image {
     background: url("../images/guitar_player_hero.jpg") no-repeat;
@@ -185,7 +201,7 @@ input[type="submit"]{
     width: 100%;
 }
 
-.heroCont{
+.bottomIndexCont{
     display: flex;
     /* flex-wrap: wrap; */
     align-content: center;
