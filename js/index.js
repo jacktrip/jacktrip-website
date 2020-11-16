@@ -5,6 +5,16 @@ var columnBtn03 = document.querySelector("#col03");
 var prodAdBtn01 = document.querySelector(".prod-ad-1");
 var prodAdBtn02 = document.querySelector(".prod-ad-2");
 
+function forMobileView() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+
 function init() {
     columnBtn01.style.cursor = "pointer";
     columnBtn02.style.cursor = "pointer";
@@ -40,15 +50,7 @@ function init() {
 
 
 
-    function forMobileView() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-
+    
 
     var video = document.getElementById("myVideo");
     var unmuteBtn = document.querySelector(".unmuteBtn img");
