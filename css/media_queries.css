@@ -104,9 +104,10 @@
     }
 
     .bottomIndexCont{
-        height:1700px;
+        /* height:1700px; */
         flex-wrap: wrap;
         padding-top: 75px;
+        height: 1225px;
     }
 
     .fineprint.txtAlignR{
@@ -514,6 +515,7 @@
         /* border: 1px solid #dbddd8; */
         max-width:350px;
         margin: 0 auto 30px auto;
+        transform: translate(auto, auto);
     }
 
    
@@ -966,7 +968,7 @@
 
 
     .form-bg{
-
+        transform: translate(0, -40%);
         max-width:340px;
         float: right;
     }
@@ -1071,11 +1073,12 @@
 
     .form-bg{
         padding: 30px 30px 130px 30px;
+        transform: translate(0, -40%);
     }
 
     .orders-20 {
         margin: 0 auto 0 15px;
-        transform: translate(0px, 10px);
+        transform: translate(0, -35%);
     }
     
     
@@ -1168,6 +1171,7 @@
 
     .form-bg{
         margin-right: 0;
+        transform: translate(0, -15%);
     }
     
     .form-bg2{
@@ -1226,6 +1230,7 @@
     } */
     .form-bg{
         margin-right: 0px;
+        transform: translate(0, -20%);
     }
 
     .form-bg2{
