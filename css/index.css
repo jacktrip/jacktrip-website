@@ -261,7 +261,7 @@ input[type="submit"]{
     padding:0 30px;
     text-align: left;
     font-size: 21px;
-    transform: translate(0, -150px);
+    transform: translate(0, -200px);
 }
 
 .col-p{
@@ -270,7 +270,7 @@ input[type="submit"]{
     /* color:#FAFBFB; */
     padding:30px;
     text-align: left;
-    transform: translate(0, -150px);
+    transform: translate(0, -200px);
 }
 
 .col-btn.button {
@@ -281,4 +281,30 @@ input[type="submit"]{
     text-transform: none;
     font-size: 12.5px;
     letter-spacing: 0;
+}
+
+.imgCenter{
+    /* position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);*/
+    background-size: cover;
+    height: 100%; 
+    background-position: center center;
+    background-image: url(../images/small_orchastra_strip.jpg);
+}
+
+.font-title-home{
+    text-shadow: 1px 1px black;
+}
+
+.prod-ad-1 {
+    border-radius: 15px;
+    pointer-events: auto;
+    z-index: 100;
+}
+.prod-ad-2 {
+    border-radius: 15px;
+    pointer-events: auto;
 }

@@ -6,13 +6,64 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
-    .orders-20{
-        width: 100%;
-        margin-top:5px;
+
+    .banner-bar-s{
+        /* align-items: flex-start; */
+        flex-wrap: nowrap;
+        width: auto;
+        float: left;
+        text-align: center;
+        padding:0 0 30px 0;
     }
 
+    .banner-h-size {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .prod-ad-cont{
+        width: 175px;
+        margin: 0 auto;
+    }
+    .prod-ad-1 {
+        width: 100%;
+        height: 175px;
+        background-color: #0f0d0d;
+        margin-top: 10px;
+    }
+    .prod-ad-2 {
+        width: 100%;
+        height: 175px;
+        background-color: #0f0d0d;
+        margin-top: 30px;
+    }
+
+    .avail-now{
+        color: #F61B1B; 
+        margin: 0 auto;
+        font-weight: 600; 
+        font-size: 14px; 
+        /* width:100%; 
+        float: left; */
+    }
+    
+    .hero {
+        height: 0;
+        overflow: hidden;
+        min-height: 210px;
+    }
+
+
+    .orders-20 {
+        width: 100%;
+        margin: 30px auto 0 auto;
+        transform: translate(0px, 0px);
+    }
+    
     .introduction-vs{
-        height:225px;
+        height:auto;
     }
 
     .orders-20-l{
@@ -30,13 +81,17 @@
         flex-direction: column;
     }
 
-    .banner-h-size{
-        height:190px;
-    }
+
+    
 
     .amazon_btn_vs{
         padding-top:10px;
     }
+
+    .amazon_btn_vs-top{
+        padding-top:10px;
+    }
+
 
     .col-cat{
         flex-grow: 3;
@@ -51,6 +106,7 @@
     .bottomIndexCont{
         height:1700px;
         flex-wrap: wrap;
+        padding-top: 75px;
     }
 
     .fineprint.txtAlignR{
@@ -141,10 +197,7 @@
         margin: 0 auto 75px auto;
     }
 
-    .hero_pos {
-        margin-top: 170px;
-    }
-
+    
     .hero_pos_studio{
         margin-top: 300px;
     }
@@ -360,12 +413,20 @@
         padding:10% 0;
     }
 
-    .prod-ad{
+    /* .prod-ad-1{
         width: 100%;
         height:400px;
-        background-color: black;
+        background-color: #0f0d0d;
         margin-top:10px;
     }
+
+    .prod-ad-2{
+        width: 100%;
+        height:400px;
+        background-color: #0f0d0d;
+        margin-top:10px;
+    } */
+
 
     .prod-img{
         height: auto;
@@ -387,12 +448,13 @@
         margin: 0 0 30px 0;
     }
     .prod-desc{
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
         height: auto;
         float: left;
+        padding-top: 20px;
     }
 
     .avail-now-txt {
@@ -404,33 +466,20 @@
         float: left; */
     }
 
-    .avail-now{
-        color: #F61B1B; 
-        margin: 0 auto;
-        font-weight: 600; 
-        font-size: 24px; 
-        /* width:100%; 
-        float: left; */
+    .hero_pos {
+        margin-top: -140px;
     }
-
-    .hero{
-        min-height: 485px;
-        overflow: hidden;
-    }
-
-    
-
+   
 }
 @media (min-width: 375px) {
-    .prod-ad{
-        height:425px;
-    }
 
     .col-cat{
 
         height: 1100px;
 
     }
+    
+
 
 }
 
@@ -442,33 +491,23 @@
         display: none;
     }
 
-    .prod-ad{
-        height:475px;
-    }
 
-    .bottomIndexCont{
-        height: 1700px;
-    }
 
+   
+    
 }
 
 @media (min-width: 425px) {
 
-    
-    .bottomIndexCont{
+   
+    /* .bottomIndexCont{
         height: 1400px;
-    }
+    } */
 
-    .prod-ad{
-        max-width: 375px;
-        height:180px;
-        background-color: black;
-        margin-top:10px;
-        margin: 0 auto;
-    }
+    
 
     .form-bg{
-        padding: 30px 30px 120px 30px;
+        padding: 30px 0px 120px 30px;
         /* background-color: #e6eae0; */
         max-height: 330px;
         margin-right: 0px;
@@ -485,10 +524,7 @@
         margin:20px 0 20px 20px;
     }
 
-    .amazon-btn{
-        width: 100px;
-        /* margin-left: 25px; */
-    }
+
 
     .prod-img{
         height: auto;
@@ -504,7 +540,7 @@
     .video-container-hero {
         margin: 0 0 30px 0;
     }
-    .prod-desc{
+    /* .prod-desc{
         display:flex;
         flex-direction:column;
         justify-content: center;
@@ -512,25 +548,18 @@
         height: auto;
         float: left;
         margin-top:20px;
-    }
+    } */
 
     .avail-now-txt {
         font-weight: 600;
-        margin: 0 10px;
+        margin: 0 15px;
         /* width: 100%;
         margin: 10px 0 0 0; 
         padding: 0 0;
         float: left; */
     }
 
-    .avail-now{
-        color: #F61B1B; 
-        margin: 0 auto;
-        font-weight: 600; 
-        font-size: 14px; 
-        /* width:100%; 
-        float: left; */
-    }
+    
 
 
 
@@ -539,29 +568,45 @@
 
 @media (min-width: 550px) {
 
-    .introduction-vs{
-        height:220px;
+    
+    .prod-ad-1{
+        max-width: 250px;
+        height: 175px;
+        /* margin-top:10px;  */
+        margin: 0 auto;
     }
+
+    .prod-ad-2{
+        max-width: 260px;
+        height: 175px;
+        margin: 30px auto 0 auto;
+    }
+
+    .prod-ad-cont{
+        width: 260px;
+        padding: 0 0 0 30px;
+    }
+
+    
 
     .banner-bar{
         flex-direction: row;
     }
 
     .banner-h-size{
-        height:125px;
+        height:auto;
+        display: flex;
+        justify-content: center;
     }
     /* .amazon_btn_vs{
         padding-top:0;
     } */
 
-    .prod-desc{
-        width: 40%;
+    
 
-    }
-
-    .bottomIndexCont{
+    /* .bottomIndexCont{
         height: 1500px;
-    }
+    } */
 
     .left-side-content.txt-blk-bg{
         padding:40px 20px 40px 20px;
@@ -585,9 +630,7 @@
     }
 
 
-    .hero_pos {
-        margin-top: 205px;
-    }
+    
 
     .hero_pos_studio{
         margin-top: 350px;
@@ -634,28 +677,24 @@
     .pic_env.five.columns {
          width: 100%;
     }
-}
 
-@media (min-width: 580px) {
-
-    .introduction-vs{
-        height:175px;
+    .orders-20 {
+        width: 100%;
+        margin: 30px auto 0 15px;
+        transform: translate(0px, 0px);
     }
 }
+
 
 @media (min-width: 715px) {
-    .banner-bar-s{
-        align-items: flex-start;
-        flex-wrap: nowrap;
-    }
-
+    
     .introduction-vs{
         height:auto;
     }
 
     .orders-20-l{
-        margin-top:0;
-        transform: translate(35px, -35px);
+        margin-top: 20px;
+
     }
 
     .amazon_btn_vs{
@@ -667,6 +706,10 @@
 
 @media (min-width: 750px) {
 
+    .imgSize{
+        width:150px;
+    }
+
     .introduction-vs{
         height:auto;
     }
@@ -676,7 +719,7 @@
     }
 
     .form-bg{
-        padding: 30px 30px 150px 30px;
+        padding: 30px 0px 150px 30px;
     }
 
     .prod-desc{
@@ -689,13 +732,6 @@
         margin: 0 auto 20px auto;
     }
 
-    .prod-ad{
-        float: right;
-        background-color: #0f0d0d;
-        /* margin-top:10px; */
-        /* width: 100%;
-        max-width: 340px; */
-    }
 
     .prod-img{
         display: none;
@@ -703,11 +739,12 @@
 
     .amazon-btn{
         width: 120px;
-        margin-top: 10px;
+        margin-top: 5px;
         /* margin-left: 25px; */
     }
 
     .right-side-content.hero-part{
+        transform: translate(0px, 30px);
         padding: 0 30px 0 30px;
         flex-direction: column;
         display: flex;
@@ -715,6 +752,7 @@
     }
 
     .left-side-content.hero-part{
+        transform: translate(0px, -75px);
         margin-top: 20px;
         padding: 0 0px 0 30px;
         flex-direction: column;
@@ -857,6 +895,10 @@
         font-size: 5rem;
     }
 
+    .font-title-home {
+        font-size: 6.75rem;
+    }
+
     .main {
         flex-direction: row;
     }
@@ -866,7 +908,7 @@
     }
 
     .hero_pos {
-        margin-top: 300px;
+        margin-top: -135px;
     }
 
     .hero_pos_studio{
@@ -877,15 +919,15 @@
         margin-top: 550px;
     }
 
-    .hero {
+    /* .hero {
         height: 0;
-        min-height: 700px;
         overflow: hidden;
-    }
+        min-height: 210px;
+    } */
     
     .bottom-index {
         height: 0;
-        min-height: 850px;
+        min-height: 1000px;
         overflow: hidden;
     }
 
@@ -987,6 +1029,11 @@
         box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.44);
     }
 
+    .bottom-index {
+        min-height: 1000px;
+
+    }
+
 
 }
 
@@ -1026,20 +1073,72 @@
         padding: 30px 30px 130px 30px;
     }
 
+    .orders-20 {
+        margin: 0 auto 0 15px;
+        transform: translate(0px, 10px);
+    }
+    
+    
 
 }
 
 
 @media (min-width: 1000px){
+
+    .banner-bar-s{
+        /* align-items: flex-start; */
+        flex-wrap: nowrap;
+        width: 36%;
+        float: left;
+        text-align: right;
+        padding: 0 30px;
+    }
+
+
+    .avail-now-txt {
+        margin: 0 5px;
+    }
+
+    .prod-ad-1{
+        float: left;
+        max-width: 165px;
+        height: 165px;
+        /* margin-top:10px;  */
+        margin: 0 auto;
+    }
+
+    .prod-ad-2{
+        float: right;
+        max-width: 165px;
+        height: 165px;
+        margin: 0 auto;
+    }
+    .bottom-index {
+        min-height: 800px;
+
+    }
+
+    .right-side-content.hero-part {
+        margin-top:0;
+        transform: translate(0px, -60px);
+    }
+
+    .prod-desc {
+        padding-top: 10px;
+    }
+
+    .prod-ad-cont {
+        width: 360px;
+        padding: 0 0 0 30px;
+    }
+
+    
+
     .col-cat{
         max-height: 1075px;
     }
     
     #aff1.aff{
-        display: block;
-    }
-
-    #aff2.aff{
         display: block;
     }
 
@@ -1052,7 +1151,7 @@
     }
 
     .hero_pos {
-        margin-top: 290px;
+        margin-top: -135px;
     }
 
     /* .hero_pos_studio {
@@ -1061,6 +1160,10 @@
 
     .font-title {
         font-size: 5.25rem;
+    }
+
+    .font-title-home {
+        font-size: 6.75rem;
     }
 
     .form-bg{
@@ -1093,7 +1196,9 @@
 
     }
 
-    .prod-desc {
+    
+
+    /* .prod-desc {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1101,7 +1206,7 @@
         height: auto;
         float: left;
         margin-top: 20px;
-    }
+    } */
     .prod-img{
         display: block;
         width:175px;
