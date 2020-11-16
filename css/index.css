@@ -58,7 +58,7 @@
     min-height: 700px;
     text-align: center;
     position: relative;
-    background-color: #46667a;
+    background-color: #0D2233;
     /* layer fill content */
     color: white;
     border-bottom: 20px solid #46667A;
@@ -292,7 +292,7 @@ input[type="submit"]{
     background-size: cover;
     height: 100%; 
     background-position: center center;
-    background-image: url(../images/small_orchastra_strip.jpg);
+    /* background-image: url(../images/small_orchastra_strip.jpg); */
 }
 
 .font-title-home{
