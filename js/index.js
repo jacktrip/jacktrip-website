@@ -3,7 +3,7 @@ var columnBtn02 = document.querySelector("#col02");
 var columnBtn03 = document.querySelector("#col03");
 
 var prodAdBtn01 = document.querySelector(".prod-ad-1");
-var prodAdBtn02 = document.querySelector(".prod-ad-2");
+// var prodAdBtn02 = document.querySelector(".prod-ad-2");
 
 function forMobileView() {
     var x = document.getElementById("myLinks");
@@ -20,8 +20,8 @@ function init() {
     columnBtn02.style.cursor = "pointer";
     columnBtn03.style.cursor = "pointer";
 
-    prodAdBtn01.style.cursor = "pointer";
-    prodAdBtn02.style.cursor = "pointer";
+    // prodAdBtn01.style.cursor = "pointer";
+    // prodAdBtn02.style.cursor = "pointer";
 
     columnBtn01.onclick = function () {
         window.open('https://github.com/jacktrip/jacktrip', '_blank');
@@ -38,15 +38,15 @@ function init() {
         console.log('hit');
     };
 
-    prodAdBtn01.onclick = function () {
-        window.open('https://www.amazon.com/dp/B08L9LDW35?ref=myi_title_dp', '_blank');
-        console.log('hit');
-    };
+    // prodAdBtn01.onclick = function () {
+    //     window.open('https://www.amazon.com/dp/B08L9LDW35?ref=myi_title_dp', '_blank');
+    //     console.log('hit');
+    // };
 
-    prodAdBtn02.onclick = function () {
-        window.open('https://www.sweetwater.com/store/detail/LiveOnlineBun--behringer-live-online-essentials-bundle', '_blank');
-        console.log('hit');
-    };
+    // prodAdBtn02.onclick = function () {
+    //     window.open('https://www.sweetwater.com/store/detail/LiveOnlineBun--behringer-live-online-essentials-bundle', '_blank');
+    //     console.log('hit');
+    // };
 
 
 
