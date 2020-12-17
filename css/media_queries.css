@@ -7,6 +7,11 @@
 /* Larger than mobile */
 @media (min-width: 0px) {
 
+    /* .labelcont{
+        position: relative;
+        width: 1140px;
+    } */
+
     .tableLabel01{
         font-weight: 600;
         float:left; 
@@ -18,6 +23,13 @@
         font-weight: 600;
         width: 1140px;
         text-align: center; 
+    }
+
+    .tableLabel03{
+        font-weight: 600;
+        text-align:right; 
+        width: 925px;
+        padding:0 0 10px 0;
     }
 
 
