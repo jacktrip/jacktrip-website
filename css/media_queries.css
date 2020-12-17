@@ -6,6 +6,133 @@
 
 /* Larger than mobile */
 @media (min-width: 0px) {
+
+    .tableLabel01{
+        font-weight: 600;
+        float:left; 
+        width: 164px;
+        padding:0 0 10px 10px;
+    }
+
+    .tableLabel02{
+        font-weight: 600;
+        width: 1140px;
+        text-align: center; 
+    }
+
+
+    .textcont50L{
+        width: 100%;
+      
+      }
+      
+      .textcont50R{
+        width: 100%;
+        padding-top:30px;
+      }
+      
+      .Non-ProfitAll{
+        float:right;
+        margin-right: 10px;
+      }
+      
+      .checkbox-all{
+        float:right;
+      }
+      
+
+    .sub {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:320px;
+        margin: 25px 30px;
+        height: auto;
+        /* opacity: .5; */
+        background-color: #46667A;
+        border-radius: 10px;
+        text-align: center;
+        color:#FAFBFB;
+      }
+      
+      .sub_title{
+        flex-wrap: wrap;
+        padding: 27px 0 10px 30px;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+        margin-right: x;
+      }
+      
+      .Non-Profit{
+        flex-wrap: wrap;
+        padding:10px 0 10px 30px;
+        width: 30%;
+        height: auto;
+        text-align: left;
+        font-size: 14px;
+      }
+      
+      .checkbox{
+        flex-wrap: wrap;
+        padding:3px 20px 10px 0px;
+        width: 26px;
+        height: 25px;
+      }
+      
+      .subPrice{
+        padding: 0 10px 0 30px;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: left;
+      }
+      
+      
+      .mus-hours{
+        padding: 0 10px 20px 30px;
+        width: 60%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+      .addPrice{
+        padding: 0 10px 0 30px;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: left;
+      }
+      
+      .mus-hours-full1{
+        padding: 0 30px 10px 30px;
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+      .mus-hours-full2{
+        padding: 0 10px 30px 30px;
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+
+
+    .tableCatHideShow{
+        display: none;
+    }
+
+    .left-side-content.priceTb {
+        width: auto;
+    }
+    
+
     .podcast{
         padding-right:0;
         margin:0;
@@ -512,6 +639,88 @@
 
     }
 
+    .sub {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:320px;
+        margin: 25px 30px;
+        height: auto;
+        /* opacity: .5; */
+        background-color: #46667A;
+        border-radius: 10px;
+        text-align: center;
+        color:#FAFBFB;
+      }
+      
+      .sub_title{
+        flex-wrap: wrap;
+        padding: 27px 0 20px 30px;
+        width: 45%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+        margin-right: x;
+      }
+      
+      .Non-Profit{
+        flex-wrap: wrap;
+        padding:33px 0 10px 10px;
+        width: 25%;
+        height: auto;
+        text-align: left;
+        font-size: 14px;
+      }
+      
+      .checkbox{
+        flex-wrap: wrap;
+        padding:27px 20px 10px 0px;
+        width: 26px;
+        height: 25px;
+      }
+      
+      .subPrice{
+        padding: 0 10px 0 30px;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: left;
+      }
+      
+      
+      .mus-hours{
+        padding: 0 10px 20px 30px;
+        width: 60%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+      .addPrice{
+        padding: 0 10px 0 30px;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: left;
+      }
+      
+      .mus-hours-full1{
+        padding: 0 10px 0 30px;
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+      .mus-hours-full2{
+        padding: 0 10px 30px 30px;
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      
+
 
 
 }
@@ -602,6 +811,27 @@
 
 
 @media (min-width: 550px) {
+
+      .textcont50L{
+        width: 50%;
+        float:left;
+      }
+      
+      .textcont50R{
+        width: 50%;
+        padding-top:205px;
+        float:right;
+      }
+      
+      .Non-ProfitAll{
+        float:right;
+        margin-right: 10px;
+      }
+      
+      .checkbox-all{
+        float:right;
+      }
+      
 
 
     .prod-ad-1 {
@@ -738,10 +968,20 @@
         padding-top: 0;
     }
 
+    .textcont50R{
+        padding-top: 132px;
+
+      }
+      
 
 }
 
 @media (min-width: 750px) {
+    .textcont50R{
+        padding-top: 101px;
+
+      }
+    
 
     .podcast{
         padding-right:30px;
@@ -1046,6 +1286,18 @@
 
 }
 
+@media (min-width: 768px) {
+    .tableCatHideShow{
+        display: block;
+      }
+
+    .left-side-content.priceTb {
+        width: 100%;
+    }
+    
+}
+
+
 @media (min-width: 895px) {
     .form-bg {
         transform: translate(0, -10%);
@@ -1276,6 +1528,8 @@
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+
+    
     .right-side-content.offer {
         height: 600px;
 

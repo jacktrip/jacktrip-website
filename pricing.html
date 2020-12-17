@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>JackTrip Foundation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;600&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/studio.css">
+    <link rel="stylesheet" href="css/media_queries.css">
+
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+    <link rel="stylesheet" href="css/signup-form.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="iamges/favicon-16x16.png">
+
+</head>
+
+<body>
+    <nav class="topnav panel_shadow">
+        <a href="index.html" class="logo">
+            <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="foundation.html">Foundation</a>
+            <a href="technology.html">Technology</a>
+            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Virtual Studio</a>
+            <a href="news.html">News</a>
+            <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="forMobileView()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <nav class="mainmenu panel_shadow">
+        <a href="index.html" class="logo_mm">
+            <img src="images/logo_white.svg" alt="JackTrip Foundation Logo">
+        </a>
+        <div id="myLinks">
+            <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
+            <a href="news.html">News</a>
+            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Virtual Studio</a>
+            <a href="technology.html">Technology</a>
+            <a href="foundation.html">Foundation</a>
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+
+
+
+    <section id="board-block-0" class="sec-block-0 main" style="margin-top:75px; margin-bottom:25px;">
+        <div class="left-side-content title-line">
+            <h3 class="separator dark-text-title mainHead" style="float:left; width:100%; margin-bottom: .2em;">
+                JackTrip Virtual Studio Pricing</h3>
+            <!-- <h5 style="font-weight: 300; color: #F61B1B; font-size: 18px; margin-bottom: 2em;">Beta Coming Soon!</h5> -->
+            <div class="line-sep" style="margin-bottom: 30px;"></div>
+
+            <div class="textcont50L">
+                <p class="dark-text font-400 " style="margin-top:30px;"><span
+                        style="color:#252525; font-weight: 600;">Metered Billing Plan (with Discounts)</span></p>
+                <p class="dark-text font-400 " style="margin-top:30px;"><span
+                        style="color:#252525; font-weight: 600;">Monthly Fee: Non-profit Discount 30%*</span><br>
+                    *account owner must provide documentation on 501(c)3 or similar status</p>
+            </div>
+
+            <div class="textcont50R">
+                <div class="checkbox-all" id="c2"><img src="images/checkbox-empty-dark.svg"
+                    alt="Check box to change subscription to non-profit pricing."></div>
+                <div class="Non-ProfitAll">Show non-profit pricing: </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section id="subscription" class="subscription main" style="margin-top:0; margin-bottom: 50px;">
+
+        <div class="subscription_cont">
+            <div class="sub">
+                <div class="sub_title">Starter</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c1"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c1Txt" style="font-weight: 600;">$1.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>1</b> musicians/hours</div>
+                <div class="addPrice">+$1.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>1</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Basic</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c2"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c2Txt" style="font-weight: 600;">$10.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>18</b> musicians/hours</div>
+                <div class="addPrice">+$0.65</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>18</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Standard</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c3"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c3Txt" style="font-weight: 600;">$25.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>50</b> musicians/hours</div>
+                <div class="addPrice">+$17.50</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>50</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Premium</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c4"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c4Txt" style="font-weight: 600;">$50.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>109</b> musicians/hours</div>
+                <div class="addPrice">+$35.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>109</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Auditorium</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c5"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c5Txt" style="font-weight: 600;">$100.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>240</b> musicians/hours</div>
+                <div class="addPrice">+$70.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>240</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Concert Hall</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c6"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c6Txt" style="font-weight: 600;">$250.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>667</b> musicians/hours</div>
+                <div class="addPrice">+$175.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>667</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Amphitheater</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c7"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c7Txt" style="font-weight: 600;">$500.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>1,500</b> musicians/hours</div>
+                <div class="addPrice">+$350.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>1,500</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+            <div class="sub">
+                <div class="sub_title">Stadium</div>
+                <!-- <div class="Non-Profit">Non-Profit: </div>
+                <div class="checkbox" id="c8"><img src="images/checkbox-empty.svg"
+                        alt="Check box to change subscription to non-profit pricing."></div> -->
+                <div class="subPrice" id="c8Txt" style="font-weight: 600;">$1000.00</div>
+                <div class="mus-hours">Per month flat fee for up to <b>3,429</b> musicians/hours</div>
+                <div class="addPrice">+$700.00</div>
+                <div class="mus-hours-full1">Per additional musican/hour above <b>3,429</b></div>
+                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="priceplansubtxt" class="priceplansubtxt main" style="margin-bottom:100px;">
+        <div class="left-side-content title-line">
+           <p class="italicTxt">* Note: a minimum $1/month subscription is required to host managed audio servers</p>
+           <p class="italicTxt">* Note: 1 musician/minute is consumed for every unique device or client connected to a managed audio server during a 1-minute interval</p>
+           <p class="italicTxt">* Note: each room size has a minimum number of musicians/minute (see below); this is the minimum amount consumed while running a server</p>
+           <p class="italicTxt">* Note: no subscription is required to host unmanaged audio servers, or connect to audio servers hosted by someone else</p>
+        </div>
+    </section>
+
+    <section id="priceTable" class="priceTable main" style="overflow-x: scroll; width:85%; ">
+        <!-- border: 1px solid #ccc -->
+        <div class="left-side-content priceTb">
+            <div class="labelcont">
+                <div class="tableLabel01">Number of musicians</div>
+                <div class="tableLabel02">Number of hours included</div>
+            </div>
+            <table class="rwd-table">
+
+                
+                <tr>
+                    <th style="padding: 10px 50px;">2</th>
+                    <td data-th="col1">0.50</td>
+                    <td data-th="col2">7.50</td>
+                    <td data-th="col3">21.43</td>
+                    <td data-th="col4">50.00</td>
+                    <td data-th="col5">120.00</td>
+                    <td data-th="col6">333.33</td>
+                    <td data-th="col7">750.00</td>
+                    <td data-th="col8">1714.29</td>
+                </tr>
+                <tr>
+                    <th style="padding: 10px 50px;">5</th>
+                    <td data-th="col1">0.20</td>
+                    <td data-th="col2">3.00</td>
+                    <td data-th="col3">8.57</td>
+                    <td data-th="col4">20.00</td>
+                    <td data-th="col5">48.00</td>
+                    <td data-th="col6">133.33</td>
+                    <td data-th="col7">300.00</td>
+                    <td data-th="col8">685.71</td>
+                </tr>
+                <tr>
+                    <th style="padding: 10px 50px;">10</th>
+                    <td data-th="col1">0.10</td>
+                    <td data-th="col2">1.50</td>
+                    <td data-th="col3">4.29</td>
+                    <td data-th="col4">10.00</td>
+                    <td data-th="col5">24.000</td>
+                    <td data-th="col6">66.67</td>
+                    <td data-th="col7">150.00</td>
+                    <td data-th="col8">342.86</td>
+                </tr>
+                <tr>
+                    <th style="padding: 10px 50px;">20</th>
+                    <td data-th="col1">0.05</td>
+                    <td data-th="col2">0.75</td>
+                    <td data-th="col3"> 2.14</td>
+                    <td data-th="col4">5.00</td>
+                    <td data-th="col5">12.00</td>
+                    <td data-th="col6">33.33</td>
+                    <td data-th="col7">75.00</td>
+                    <td data-th="col8">171.43</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">30</th>
+                    <td data-th="col1">0.03</td>
+                    <td data-th="col2">0.50</td>
+                    <td data-th="col3">1.43</td>
+                    <td data-th="col4">3.33</td>
+                    <td data-th="col5">8.00</td>
+                    <td data-th="col6">22.22</td>
+                    <td data-th="col7">50.00</td>
+                    <td data-th="col8">114.29</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">40</th>
+                    <td data-th="col1">0.03</td>
+                    <td data-th="col2">0.38</td>
+                    <td data-th="col3">1.07</td>
+                    <td data-th="col4">2.50</td>
+                    <td data-th="col5">6.00</td>
+                    <td data-th="col6">16.67</td>
+                    <td data-th="col7">37.50</td>
+                    <td data-th="col8">85.71</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">50</th>
+                    <td data-th="col1">0.02</td>
+                    <td data-th="col2">0.30</td>
+                    <td data-th="col3">0.86</td>
+                    <td data-th="col4">2.00</td>
+                    <td data-th="col5">4.80</td>
+                    <td data-th="col6">13.33</td>
+                    <td data-th="col7">30.00</td>
+                    <td data-th="col8">68.57</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">60</th>
+                    <td data-th="col1">0.02</td>
+                    <td data-th="col2">0.25</td>
+                    <td data-th="col3">0.71</td>
+                    <td data-th="col4">1.67</td>
+                    <td data-th="col5">4.00</td>
+                    <td data-th="col6"> 11.11</td>
+                    <td data-th="col7">25.00</td>
+                    <td data-th="col8">57.14</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">70</th>
+                    <td data-th="col1">0.01</td>
+                    <td data-th="col2">0.21</td>
+                    <td data-th="col3">0.61</td>
+                    <td data-th="col4">1.43</td>
+                    <td data-th="col5">3.43</td>
+                    <td data-th="col6">9.52</td>
+                    <td data-th="col7">21.43</td>
+                    <td data-th="col8">48.98</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">80</th>
+                    <td data-th="col1">0.01</td>
+                    <td data-th="col2">0.19</td>
+                    <td data-th="col3">0.54</td>
+                    <td data-th="col4">1.25</td>
+                    <td data-th="col5">3.00</td>
+                    <td data-th="col6">8.33</td>
+                    <td data-th="col7">18.75</td>
+                    <td data-th="col8">42.86</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">90</th>
+                    <td data-th="col1">0.01</td>
+                    <td data-th="col2">0.17</td>
+                    <td data-th="col3">0.48</td>
+                    <td data-th="col4">1.11</td>
+                    <td data-th="col5">2.67</td>
+                    <td data-th="col6">7.41</td>
+                    <td data-th="col7">16.67</td>
+                    <td data-th="col8">38.10</td>
+                </tr>
+
+                <tr>
+                    <th style="padding: 10px 50px;">100</th>
+                    <td data-th="col1">0.01</td>
+                    <td data-th="col2">0.15</td>
+                    <td data-th="col3">0.43</td>
+                    <td data-th="col4">1.00</td>
+                    <td data-th="col5">2.4</td>
+                    <td data-th="col6">6.67</td>
+                    <td data-th="col7">15.00</td>
+                    <td data-th="col8">34.29</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="fp" class="fp main" style="margin-bottom: 0; max-width: none;">
+        <div class="fineprint_cont">
+            <div class="fineprint left-side-content txtAlignR">
+                <p><a href="privacy.html">Privacy Policy</a></p>
+            </div>
+            <div class="fineprint left-side-content txtAlignL">
+                <p><a href="terms.html">Terms of Use</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer panel_shadow u-full-width">
+        <div class="container">
+            <div class="twelve columns center-text center-div">
+                <h6 class="light-text footer-txt" style="color:#FAFBFB;">&copy 2020 JackTrip Foundation.</h6>
+            </div>
+            <div class="twelve columns center-text center-div">
+                <h6 class="light-text" style="color:#aaa;">JackTrip Foundation is a Delaware nonprofit corporation in
+                    the process of applying for 501(c)(3) status.</h6>
+            </div>
+        </div>
+    </section>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177279499-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177279499-1');
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script> -->
+    <script src="js/index.js"></script>
+    <script type="text/javascript">
+        function autorun() {
+            if (window.addEventListener) window.addEventListener("load", autorun, false);
+            else if (window.attachEvent) window.attachEvent("onload", autorun);
+            else window.onload = autorun;
+        }
+    </script>
+
+</body>
+
+</html>

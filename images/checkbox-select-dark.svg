@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>checkbox-select</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Group-9" stroke="#0F0D0D" transform="translate(0.500000, 0.500000)">
+            <line x1="1" y1="1" x2="23.5" y2="23.5" id="Line-2"></line>
+            <line x1="1" y1="1" x2="23.5" y2="23.5" id="Line-2" transform="translate(12.250000, 12.250000) scale(-1, 1) translate(-12.250000, -12.250000) "></line>
+            <rect id="Rectangle" x="0.5" y="0.5" width="23" height="23"></rect>
+        </g>
+    </g>
+</svg>

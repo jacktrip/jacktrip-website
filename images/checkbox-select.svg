@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V1-Copy" transform="translate(-896.000000, -959.000000)">
+            <g id="Group-7" transform="translate(555.000000, 899.000000)">
+                <g id="Group-5" transform="translate(227.000000, 61.000000)">
+                    <g id="Group-10" transform="translate(115.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#FAFBFB" x="0" y="0" width="23" height="23"></rect>
+                        <g id="Group-9" transform="translate(0.500000, 0.500000)" stroke="#FFFFFF" stroke-linecap="square">
+                            <line x1="0" y1="1.56125113e-16" x2="22.5" y2="22.5" id="Line-2"></line>
+                            <line x1="0" y1="1.56125113e-16" x2="22.5" y2="22.5" id="Line-2" transform="translate(11.250000, 11.250000) scale(-1, 1) translate(-11.250000, -11.250000) "></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
