@@ -28,7 +28,7 @@
     .tableLabel03{
         font-weight: 600;
         text-align:right; 
-        width: 925px;
+        width: 845px;
         padding:0 0 10px 0;
     }
 
@@ -44,12 +44,13 @@
       }
       
       .Non-ProfitAll{
-        float:right;
-        margin-right: 10px;
+        font-weight: 500;
+        float:left;
+        margin-left: 10px;
       }
       
       .checkbox-all{
-        float:right;
+        float:left;
       }
       
 
@@ -836,12 +837,12 @@
       }
       
       .Non-ProfitAll{
-        float:right;
-        margin-right: 10px;
+        float:left;
+        margin-left: 10px;
       }
       
       .checkbox-all{
-        float:right;
+        float:left;
       }
       
 

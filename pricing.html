@@ -17,9 +17,9 @@ maximum-scale=1.0, user-scalable=no" />
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -27,7 +27,7 @@ maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/studio.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/media_queries.css">
 
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -50,9 +50,9 @@ maximum-scale=1.0, user-scalable=no" />
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
             <a href="index.html">Home</a>
-            <a href="foundation.html">Foundation</a>
+            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Foundation</a>
             <a href="technology.html">Technology</a>
-            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Virtual Studio</a>
+            <a href="studio.html">Virtual Studio</a>
             <a href="news.html">News</a>
             <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
         </div>
@@ -69,41 +69,47 @@ maximum-scale=1.0, user-scalable=no" />
         <div id="myLinks">
             <a href="https://help.jacktrip.org/hc/en-us" target="_blank">Get Help</a>
             <a href="news.html">News</a>
-            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Virtual Studio</a>
+            <a href="studio.html">Virtual Studio</a>
             <a href="technology.html">Technology</a>
-            <a href="foundation.html">Foundation</a>
+            <a style="cursor:default; color:#F61B1B; pointer-events: none;">Foundation</a>
             <a href="index.html">Home</a>
         </div>
     </nav>
-
-
 
     <section id="board-block-0" class="sec-block-0 main" style="margin-top:75px; margin-bottom:25px;">
         <div class="left-side-content title-line">
             <h3 class="separator dark-text-title mainHead" style="float:left; width:100%; margin-bottom: .2em;">
                 JackTrip Virtual Studio Pricing</h3>
             <!-- <h5 style="font-weight: 300; color: #F61B1B; font-size: 18px; margin-bottom: 2em;">Beta Coming Soon!</h5> -->
-            <div class="line-sep" style="margin-bottom: 30px;"></div>
+            <div class="line-sep" style="margin-bottom: 30px; margin-bottom: 75px;"></div>
 
-            <div class="textcont50L">
-                <p class="dark-text font-400 " style="margin-top:30px;"><span
-                        style="color:#252525; font-weight: 600;">Metered Billing Plan (with Discounts)</span></p>
-                <p class="dark-text font-400 " style="margin-top:30px;"><span
-                        style="color:#252525; font-weight: 600;">Monthly Fee: Non-profit Discount 30%*</span><br>
-                    *account owner must provide documentation on 501(c)3 or similar status</p>
-            </div>
 
-            <div class="textcont50R">
-                <div class="checkbox-all" id="c2"><img src="images/checkbox-empty-dark.svg"
+            <p class="dark-text ">JackTrip Virtual Studio offers a paid service to simplify hosting your own managed
+                cloud audio servers. There are currently no costs involved when using Virtual Studio to connect to an
+                audio server that is hosted by someone else, or for hosting your own unmanaged audio server.</p>
+            <p class="dark-text">Our pricing model is designed around monthly subscription plans that enable you to pay
+                only for the on-demand resources that you actually need to use. We measure this using a unit called the
+                "musician/minute," where 1 musician/minute is consumed for every unique device or client connected to
+                your audio server during a 1-minute interval (it's OK for any number of musicians to share a device).
+                Costs are directly related to (a) the size of your group, and (b) how much time you spend using the
+                service.</p>
+            <p class="dark-text" style="margin-bottom:75px;">Whenever you start an audio server, you will be asked to
+                verify the desired room size (see available room sizes below). Each size room is able to accommodate a
+                range of total musicians. You'll pay per minute for the number of musicians connected, or for the room's
+                minimum number of musicians, whichever is greater.</p>
+
+            <div class="checkbox-all" id="c2"><img src="images/checkbox-empty-dark.svg"
                     alt="Check box to change subscription to non-profit pricing."></div>
-                <div class="Non-ProfitAll">Show non-profit pricing: </div>
-                
-            </div>
-
+            <div class="Non-ProfitAll">Show non-profit pricing</div>
+            <br>
+            <p class="italicTxt" style="margin-top:15px;">Nonprofit pricing is available only to nonprofit charitable
+                organizations in good standing, who meet the full eligibility requirements in your country.</p>
+            <p class="italicTxt" style="margin-bottom: 30px;">Please contact <a
+                    href="mailto:sales@jacktrip.org">sales@jacktrip.org</a> to sign-up for nonprofit pricing.</p>
         </div>
     </section>
 
-    <section id="subscription" class="subscription main" style="margin-top:0; margin-bottom: 50px;">
+    <section id="subscription" class="subscription main" style="margin-top:0; margin-bottom: 75px;">
 
         <div class="subscription_cont">
             <div class="sub" style="background-color: #3079B5;">
@@ -115,7 +121,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>1</b> musicians/hours</div>
                 <div class="addPrice">+$1.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>1</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #3079B5;">
                 <div class="sub_title">Basic</div>
@@ -126,7 +132,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>14</b> musicians/hours</div>
                 <div class="addPrice">+$0.65</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>14</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #3079B5;">
                 <div class="sub_title">Standard</div>
@@ -137,7 +143,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>43</b> musicians/hours</div>
                 <div class="addPrice">+$17.50</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>43</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #255F8F;">
                 <div class="sub_title">Premium</div>
@@ -148,7 +154,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>100</b> musicians/hours</div>
                 <div class="addPrice">+$35.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>100</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #255F8F;">
                 <div class="sub_title">Auditorium</div>
@@ -159,7 +165,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>240</b> musicians/hours</div>
                 <div class="addPrice">+$70.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>240</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #255F8F;">
                 <div class="sub_title">Concert Hall</div>
@@ -170,7 +176,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>667</b> musicians/hours</div>
                 <div class="addPrice">+$175.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>667</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #1D4A6F;">
                 <div class="sub_title">Amphitheater</div>
@@ -181,7 +187,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>1,500</b> musicians/hours</div>
                 <div class="addPrice">+$350.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>1,500</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
             <div class="sub" style="background-color: #1D4A6F;">
                 <div class="sub_title">Stadium</div>
@@ -192,19 +198,19 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="mus-hours">Per month flat fee for up to <b>3,429</b> musicians/hours</div>
                 <div class="addPrice">+$700.00</div>
                 <div class="mus-hours-full1">Per additional musican/hour above <b>3,429</b></div>
-                <div class="mus-hours-full2">Billed monthly, in 60 minute increments</div>
+                <div class="mus-hours-full2">Billed monthly, in 1-minute increments</div>
             </div>
         </div>
     </section>
 
-    <section id="priceplansubtxt" class="priceplansubtxt main" style="margin-bottom:100px;">
+    <!-- <section id="priceplansubtxt" class="priceplansubtxt main" style="margin-bottom:100px;">
         <div class="left-side-content title-line">
            <p class="italicTxt">* Note: a minimum $1/month subscription is required to host managed audio servers</p>
            <p class="italicTxt">* Note: 1 musician/minute is consumed for every unique device or client connected to a managed audio server during a 1-minute interval</p>
            <p class="italicTxt">* Note: each room size has a minimum number of musicians/minute (see below); this is the minimum amount consumed while running a server</p>
            <p class="italicTxt">* Note: no subscription is required to host unmanaged audio servers, or connect to audio servers hosted by someone else</p>
         </div>
-    </section>
+    </section> -->
 
     <section id="priceTable" class="priceTable main" style="overflow-x: scroll; width:85%; ">
         <!-- border: 1px solid #ccc -->
@@ -369,73 +375,67 @@ maximum-scale=1.0, user-scalable=no" />
             <table class="rwd-table">
                 <tr>
                     <th style="padding: 10px 50px;">Room Sizes</th>
-                    <th style="padding: 10px 50px;">vCPU</th>
+                    <!-- <th style="padding: 10px 50px;">vCPU</th> -->
                     <th style="padding: 10px 50px;">Minimum</th>
                     <th style="padding: 10px 50px;">Maximum</th>
                 </tr>
                 <tr>
                     <td data-th="col1">Extra Small</td>
-                    <td data-th="col2">2</td>
+                    <!-- <td data-th="col2">2</td> -->
                     <td data-th="col3">2</td>
                     <td data-th="col4">10</td>
                 </tr>
                 <tr>
                     <td data-th="col1">Small</td>
-                    <td data-th="col2">4</td>
+                    <!-- <td data-th="col2">4</td> -->
                     <td data-th="col3">10</td>
                     <td data-th="col4">20</td>
                 </tr>
                 <tr>
                     <td data-th="col1">Medium</td>
-                    <td data-th="col2">8</td>
+                    <!-- <td data-th="col2">8</td> -->
                     <td data-th="col3">20</td>
                     <td data-th="col4">40</td>
                 </tr>
 
                 <tr>
                     <td data-th="col1">Large</td>
-                    <td data-th="col2">16</td>
+                    <!-- <td data-th="col2">16</td> -->
                     <td data-th="col3">40</td>
                     <td data-th="col4">80</td>
                 </tr>
 
                 <tr>
                     <td data-th="col1">Extra Large</td>
-                    <td data-th="col2">36</td>
+                    <!-- <td data-th="col2">36</td> -->
                     <td data-th="col3">80</td>
                     <td data-th="col4">180</td>
                 </tr>
 
                 <tr>
                     <td data-th="col1">Double Extra Large</td>
-                    <td data-th="col2">48</td>
+                    <!-- <td data-th="col2">48</td> -->
                     <td data-th="col3">180</td>
                     <td data-th="col4">240</td>
                 </tr>
 
                 <tr>
                     <td data-th="col1">Triple Extra Large</td>
-                    <td data-th="col2">72</td>
+                    <!-- <td data-th="col2">72</td> -->
                     <td data-th="col3">240</td>
                     <td data-th="col4">360</td>
                 </tr>
 
                 <tr>
                     <td data-th="col1">Quadruple Extra Large</td>
-                    <td data-th="col2">96</td>
+                    <!-- <td data-th="col2">96</td> -->
                     <td data-th="col3">360</td>
                     <td data-th="col4">480</td>
- 
+
                 </tr>
             </table>
         </div>
     </section>
-
-
-
-
-
-
 
 
     <section id="fp" class="fp main" style="margin-bottom: 0; max-width: none;">
@@ -448,6 +448,7 @@ maximum-scale=1.0, user-scalable=no" />
             </div>
         </div>
     </section>
+
 
     <section class="footer panel_shadow u-full-width">
         <div class="container">
@@ -472,14 +473,15 @@ maximum-scale=1.0, user-scalable=no" />
 
         gtag('config', 'UA-177279499-1');
     </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script> -->
+    <script src="js/pricing.js"></script>
     <script src="js/index.js"></script>
     <script type="text/javascript">
         function autorun() {
-            if (window.addEventListener) window.addEventListener("load", autorun, false);
-            else if (window.attachEvent) window.attachEvent("onload", autorun);
-            else window.onload = autorun;
+            // var emailEnter = document.querySelector('document.emailData.lname');
         }
+        if (window.addEventListener) window.addEventListener("load", autorun, false);
+        else if (window.attachEvent) window.attachEvent("onload", autorun);
+        else window.onload = autorun;
     </script>
 
 </body>
