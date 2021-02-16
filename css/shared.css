@@ -1,5 +1,5 @@
 body, html {
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
 }
 
 body {
@@ -493,4 +493,12 @@ a:hover {
 
 .red-links:hover{
     color: #C21515;
+}
+
+.ad-cont-800 img{
+    width: 100%;
+}
+
+.ad-cont-1140 img{
+    width: 100%;
 }
