@@ -502,3 +502,19 @@ a:hover {
 .ad-cont-1140 img{
     width: 100%;
 }
+
+.ad-banner .button {
+    color: #FFF;
+    border: 1px solid #F61B1B;
+    background-color: #F61B1B;
+    cursor: pointer;
+    text-transform: none;
+    font-size: 12.5px;
+    letter-spacing: 0;
+}
+
+.ad-banner .button:hover {
+    border: 1px solid #851212;
+    background-color: #851212;
+    cursor: pointer;
+}
