@@ -128,3 +128,13 @@ ul {
     background-color: red;
     margin: 15px;
 } */
+
+
+  
+  .pagination a.active {
+    background-color: #0f0d0d;
+    color: #fafbfb;
+    opacity: 1;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

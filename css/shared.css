@@ -147,6 +147,93 @@ h4 {
 }
 
 
+.submenu-expand{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top:55px;
+    color:#fafbfb;
+    font-size: 15px;
+}
+
+
+.submenu-expand-bg{
+    position: absolute;
+    background-color: #0f0d0d;
+    width: 100%;
+    height: 50px;
+    top:77px;
+    display: none;
+}
+
+
+.media-set#media-sub{
+    position: absolute;
+    width: 150px;
+    right: 86px;
+    display: none;
+}
+
+.media-set#help-sub{
+    position: absolute;
+    width: 116px;
+    right:0px;
+    display: none;
+}
+
+.media-expand{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 16px;
+    font-weight: 300;
+}
+
+.help-expand{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 16px;
+    font-weight: 300;
+}
+
+.media-submenu-item{
+    color: #eee;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 16px;
+    
+}
+
+.media-sub-cont{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: none;
+}
+
+.help-sub-cont{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: none;
+}
+
+
+
+
+a.subLink{
+    font-weight: 300;
+    color: #eee;
+    text-decoration: none;
+}
+
+a.subLink:hover{
+    color:#eee;
+    border-bottom: 1px solid #eee;
+}
 .center-text{
     text-align: center;
 }
@@ -405,6 +492,7 @@ input[type="submit"]:hover{
 }
 .topnav a {
     color: white;
+    font-weight: 300;
     padding: 12px 16px;
     text-decoration: none;
     font-size: 18px;
@@ -517,4 +605,16 @@ a:hover {
     border: 1px solid #851212;
     background-color: #851212;
     cursor: pointer;
+}
+
+
+
+.arrow-down-1{
+    position: relative;
+    top:-2px;
+}
+
+.arrow-down-2{
+    position: relative;
+    top:-2px;
 }
