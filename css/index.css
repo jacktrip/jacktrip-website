@@ -1,9 +1,13 @@
-
-
-.poster-img img{
-    width: 100%;
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('../fonts/dancingscript-regular-webfont.woff2') format('woff2'), url('../fonts/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+.poster-img img {
+    width: 100%;
+}
 
 #myVideo {
     position: absolute;
@@ -12,10 +16,9 @@
     min-width: 100%;
     display: block;
     margin: 0 auto;
+}
 
-  }
-
-  .unmuteBtn{
+.unmuteBtn {
     width: 50px;
     height: auto;
     top: 20px;
@@ -23,11 +26,11 @@
     z-index: 101;
     position: absolute;
     cursor: pointer;
-  }
+}
 
-  .unmuteBtn img{
+.unmuteBtn img {
     width: 80%;
-  }
+}
 
 
 /* =Hero
@@ -48,7 +51,6 @@
     /* border-bottom: 1px solid #0f0d0d; */
 }
 
-
 .hero {
     position: relative;
     width: 100%;
@@ -62,7 +64,7 @@
     /* layer fill content */
     color: white;
     border-bottom: 20px solid #46667A;
-} 
+}
 
 .hero-image {
     background: url("../images/guitar_player_hero.jpg") no-repeat;
@@ -99,7 +101,6 @@
 
 .hero h2 {
     font-size: 24px;
-    
 }
 
 .hero p {
@@ -110,7 +111,7 @@
     background-color: white;
 }
 
-.introduction{
+.introduction {
     position: relative;
     width: 100%;
     /* max-width: 1200px; */
@@ -118,27 +119,27 @@
     background-color: #0f0d0d;
 }
 
-.main-img-01 img{
-    width:100%;
+.main-img-01 img {
+    width: 100%;
 }
 
-.main-img-02 img{
-    width:100%;
+.main-img-02 img {
+    width: 100%;
 }
 
-.align-center-content{
+.align-center-content {
     align-items: center;
 }
 
-.sec-padding{
+.sec-padding {
     padding: 75px 0;
 }
 
-.marg-top{
-    margin-top:5%;
+.marg-top {
+    margin-top: 5%;
 }
 
-.latency{
+.latency {
     background-color: #0D2233;
     position: relative;
     width: 100%;
@@ -146,7 +147,7 @@
     margin: 0 auto;
 }
 
-.video-container-hero  {
+.video-container-hero {
     position: relative;
     max-width: 700px;
     padding-bottom: 54.25%;
@@ -157,33 +158,37 @@
     margin: 5px 0;
 }
 
-.video-container-hero iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.video-container-hero iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-label, legend {
+label,
+legend {
     font-weight: 400;
 }
 
-input[type="submit"]{
-    float:right;
-    margin-top:15px;
+input[type="submit"] {
+    float: right;
+    margin-top: 15px;
 }
 
-.poster-img{
+.poster-img {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -192,16 +197,16 @@ input[type="submit"]{
     margin: 0 auto;
 }
 
-.pic-full-length{
+.pic-full-length {
     /* width: 100%;
     height: auto; */
 }
 
-.pic-full-length img{
+.pic-full-length img {
     width: 100%;
 }
 
-.bottomIndexCont{
+.bottomIndexCont {
     display: flex;
     /* flex-wrap: wrap; */
     align-content: center;
@@ -212,34 +217,32 @@ input[type="submit"]{
     /* background-color: #161718; */
 }
 
-.left-side-content.hero01{
+.left-side-content.hero01 {
     background-color: aqua;
 }
 
-.right-side-content.hero02{
+.right-side-content.hero02 {
     background-color: rgb(241, 10, 210);
 }
 
-.prod-img img{
-    width:100%;
-}
-
-
-
-
-.amazon-btn img{
+.prod-img img {
     width: 100%;
 }
 
-.three_col{
+.amazon-btn img {
+    width: 100%;
+}
+
+.three_col {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     align-content: center;
     /* padding: 0 30px 0 30px; */
 }
+
 
 /* .col-cat{
     width: 300px;
@@ -251,24 +254,24 @@ input[type="submit"]{
     text-shadow: 1px 1px black;
 } */
 
-.col-cat img{
-    width:100%;
+.col-cat img {
+    width: 100%;
 }
 
-.col-title{
+.col-title {
     color: #fff;
     /* color:#FAFBFB; */
-    padding:0 30px;
+    padding: 0 30px;
     text-align: left;
     font-size: 21px;
     transform: translate(0, -200px);
 }
 
-.col-p{
+.col-p {
     color: #DADADA;
     /* color: #EBEBEB; */
     /* color:#FAFBFB; */
-    padding:30px;
+    padding: 30px;
     text-align: left;
     transform: translate(0, -200px);
 }
@@ -283,19 +286,19 @@ input[type="submit"]{
     letter-spacing: 0;
 }
 
-.imgCenter{
+.imgCenter {
     /* position: absolute;
     top: 0%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0%);*/
     background-size: cover;
-    height: 100%; 
+    height: 100%;
     background-position: center center;
     background-image: url(../images/small_orchastra_strip.jpg);
 }
 
-.font-title-home{
+.font-title-home {
     text-shadow: 1px 1px black;
 }
 
@@ -304,6 +307,7 @@ input[type="submit"]{
     pointer-events: auto;
     z-index: 100;
 }
+
 .prod-ad-2 {
     border-radius: 15px;
     pointer-events: auto;
@@ -311,4 +315,67 @@ input[type="submit"]{
 
 .prod-ad-cont {
     display: none;
+}
+
+.swiper-container {
+    position: absolute !important;
+    width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #f9fbfa; */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #0f0c0c;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #F61B1B;
+}
+
+.swiper-pagination-bullet-active {
+    background: #F61B1B;
+}
+
+.left-side-img img {
+    width: 100%;
+}
+
+.swiper-cont-left {
+    font-family: 'dancing_script_otregular', Arial, sans-serif;
+}
+
+a.time-date {
+    color: #F61B1B;
+}
+
+a.time-date:hover {
+    color: #f84949;
+}
+
+.left-image-cont3 img {
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 1px #333);
+    filter: drop-shadow(1px 1px 1px #333);
+}
+
+.right-image-cont3 img {
+    width: 100%;
 }
