@@ -1,4 +1,21 @@
 @media (min-width: 0px) {
+    .center_cont_01{
+        align-self: center; 
+        padding: 10% 15% 5% 15%;
+    }
+    .center_cont_02{
+        color: #0f0d0d;
+        font-size: 16px;
+        padding: 2% 10% 12% 10%;
+    }
+    .left_cont_04 {
+        display: none;
+    }
+
+    .right_cont_04 {
+        display: none; 
+    }
+
     .container_03 {
         width: 100%;
         position: relative;
@@ -6,7 +23,8 @@
         height: 360px;
         /* flex-direction: row; */
         display: flex;
-        margin: 0 auto;
+        margin: 0 auto; 
+        overflow: hidden;
     }
     .left-image-cont3 {
         align-self: flex-start;
@@ -894,6 +912,10 @@
 /* Larger than phablet */
 
 @media (min-width: 414px) {
+    .center_cont_01{
+        align-self: center; 
+        padding: 10% 15% 5% 15%;
+    }
     .pagination a {
         padding: 8px 16px;
     }
@@ -994,6 +1016,16 @@
 }
 
 @media (min-width: 485px) {
+    .center_cont_01{
+        align-self: center; 
+        padding: 10% 15% 5% 15%;
+    }
+    .center_cont_02{
+        color: #0f0d0d;
+        font-size: 16px;
+        padding: 2% 10% 5% 10%;
+    }
+
     .swiper-cont-right {
         padding: 3% 6%;
     }
@@ -1155,6 +1187,25 @@
     .right-image-cont3 {
         width: 100%;
         left: 0;
+    }
+    .left_cont_04 {
+        display: flex; 
+        flex-direction: row-reverse; 
+        flex-wrap: wrap;
+    }
+    .right_cont_04 {
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    .center_cont_01{
+        align-self: center; 
+        padding: 10% 15% 5% 15%;
+    }
+    .center_cont_02{
+        color:#0f0d0d; 
+        font-size: 18px; 
+        padding: 2% 5% 5% 5%;
     }
 }
 
