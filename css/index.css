@@ -488,8 +488,6 @@ a.time-date:hover {
     max-width: 1500px;
     width:100%; 
     display:flex; 
-    flex-direction: row; 
-    flex-wrap: nowrap; 
     margin: 0 5%;
     cursor: pointer;
 }
