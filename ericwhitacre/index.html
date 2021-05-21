@@ -10,6 +10,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="../images/favicon.ico">
@@ -17,19 +24,274 @@
     <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../iamges/favicon-16x16.png">
 
+    <style>
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      body{
+        line-height: 1;
+        background-color: #000;
+        font-family: 'Poppins', sans-serif;
+        color: #BBBBBB;
+      }
+      a {
+          color: #37ACC8;
+          font-weight: 400;
+      }
+      a:hover {
+          color: #66c8e0;
+      }
+      #main_container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 30px;
+      }
+
+      #hubspot{
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        width: 35%;
+        margin-top: 3%;
+      }
+
+      #logo{
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        width: 33%;
+      }
+
+      #logo img{
+        width: 100%;
+      }
+
+      .intro{
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 2%;
+        letter-spacing: 4px;
+      }
+
+      .ptxt{
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0 auto;
+        text-align: left;
+        padding-top: 2%;
+        line-height: 26px;
+        letter-spacing: .25px;
+      }
+
+      #poster{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1%;
+        
+      }
+
+      .center{
+        text-align: center;
+      }
+
+      #poster img{
+        width: 100%;
+        border: 1px solid #979797;
+      }
+
+      .time-date{
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top:1.5%;
+      }
+
+      .info-graphic{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .info-graphic img{
+        width: 100%;
+      }
+
+      .cta-cont{
+        width: 100%;
+
+        margin: 0 auto;
+        padding-top:3%;
+        flex-direction: row;
+        text-align: center;
+      }
+
+      .red-button {
+        background-color: #f61b1b;
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-left-radius: 5px;
+        text-indent: 0px;
+        display: inline-block;
+        color: #ffffff;
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        height: 44px;
+        line-height: 46px;
+        width: 130px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+      }
+      .red-button:hover {
+        background-color:#f61b1b;
+        cursor: pointer;
+      }
+      .red-button:active {
+        position:relative;
+        top:1px;
+      }
+
+      .hbspt-form{
+        margin:0 auto !important;
+      }
+
+      iframe.hs-form-iframe {
+          width: 100% !important;
+      }
+      
+    </style>
+
 </head>
 
 <body>
+  <div id="main_container">
+    <section id="logo-sec" style="padding-top:3%;">
+      <div id="logo"><img src="images/logo.svg" alt="Image of Eric Whitacre logo."></div>
+      <div class="intro">PRESENTS A VIRTUAL MUSICAL EVENT</div>
+    </section>
+    <section id="poster-sec" style="padding-top:6%;">
+      <div id="poster"><img src="images/poster.jpg" alt="Image of video poster."></div>
+    </section>
+    <section id="details-sec" style="padding-top:1%;">
+      <p class="ptxt">Please join us to see and hear this unique Facebook Live event composed and conducted by <a href="https://ericwhitacre.com/">Eric Whitacre</a> 
+        leveraging from three different choirs performing four hundred miles apart within the state of California.  This online 
+        performance will utilize <a href="https://jacktrip.org/studio.html">JackTrip Virtual Studio</a> to connect three choral groups and perform Eric’s new musical 
+        composition, “Sing Gently.”</p>
+      <p class="ptxt center" style="padding-top: 5%;">Bookmark this page and please join us here:</p>
+      <div class="time-date center">Friday, May 28th at 12 PM PST</div>
+    </section>
+    <section id="info-sec" style="padding-top:5%;">
+      <div id="desktop-info">
+        <div class="info-graphic"><img src="images/more-info-img.png" alt="Image infographic showing all the choir groups playing in the event."></div>
+      </div>
+      <div id="mobile-info">
+        
+      </div>
+    </section>
+    <section id="lm-sec" style="padding-top:5%; height: 150px;">
+      <p class="ptxt center">Interested in learning more about the power of JackTrip?</p>
+      <div class="cta-cont">
+        <div class="red-button" onclick="openInNewTab('https://jacktrip.org/');">Learn More</div>
+      </div>
+    </section>
 
-    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
-    <script>
-      hbspt.forms.create({
-        region: "na1",
-        portalId: "8327526",
-        formId: "33e182ae-2e31-4b80-a5b8-dc28490f6232"
-    });
-    </script>
 
+    <section id="hub-sec" style="padding-top:5%; padding-bottom: 10%;">
+      <p class="ptxt center">JackTrip Virtual Studio is currently available as a free beta in 53 locations worldwide. </p> 
+      <p class="ptxt center" style="font-weight: 500; color:white;">Sign up to receive updates about JackTrip via our mailing list!</bold></p>
+      <div id="hubspot">
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "8327526",
+            formId: "33e182ae-2e31-4b80-a5b8-dc28490f6232"
+        });
+        </script>
+      </div>
+    </section>
+    
+    
+  </div>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177279499-1"></script>
+   <script>
+       window.dataLayer = window.dataLayer || [];
+
+       function gtag() {
+           dataLayer.push(arguments);
+       }
+       gtag('js', new Date());
+
+       gtag('config', 'UA-177279499-1');
+   </script>
+
+   <script>
+     function openInNewTab(url) {
+       window.open(url, '_blank').focus();
+     }
+   </script>
+    
 </body>
 
 </html>
