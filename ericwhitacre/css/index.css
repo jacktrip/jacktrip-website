@@ -1,42 +1,66 @@
 @media (min-width: 0px) {
-    #hubspot {
-        width: 35%;
-        margin-top: 3%;
+    #logo-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 0 auto 0 auto;
+
+    }
+
+    #info-sec{
+        margin: 10% auto 0 auto;
+    }
+
+    #lm-sec{
+        margin: 10% auto 0 auto;
+    }
+
+    #hub-sec{
+        margin: 10% auto 10% auto;
     }
 
     #logo {
-        width: 33%;
+        width: 94%;
     }
 
-    .intro{
-        font-size: 18px;
-        padding-top: 2%;
+    .intro {
+        font-size: 16px;
+        margin-top: 8%;
         letter-spacing: 4px;
-      }
+        line-height: 21px;
+    }
 
-      .ptxt{
-        font-size: 18px;
-        padding-top: 2%;
+    .ptxt {
+        font-size: 16px;
         line-height: 26px;
         letter-spacing: .25px;
-      }
+        margin-top:10%;
+    }
 
-      #poster{
-        margin-top: 1%; 
-      }
 
-      .time-date{
+    .time-date {
         font-size: 30px;
-        margin-top:1.5%;
-      }
+        margin-top:5%;
+        line-height: 42px;
+    }
 
-      .info-graphic{
+    .info-graphic {
         width: 90%;
-      }
+    }
 
-      .cta-cont{
-        padding-top:3%;
-      }
+    .cta-cont {
+        margin-top: 10%;
+    }
+
+    #hubspot {
+        width: 94%;
+        margin-top: 10%;
+    }
 }
 
 
@@ -44,7 +68,77 @@
 
 
 
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+    #logo-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 5% auto 0 auto;
+
+    }
+
+    #info-sec{
+        margin: 5% auto 0 auto;
+    }
+
+    #lm-sec{
+        margin: 5% auto 0 auto;
+    }
+
+    #hub-sec{
+        margin: 5% auto 10% auto;
+    }
 
 
-@media (min-width: 1000px) {}
+    #logo {
+        width: 55%;
+    }
+
+    .intro {
+        font-size: 18px;
+        margin-top: 4%;
+        letter-spacing: 4px;
+        line-height: 21px;
+    }
+
+    .ptxt {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: .25px;
+        margin-top:1%;
+    }
+
+
+    .time-date {
+        font-size: 30px;
+        margin-top:1%;
+        line-height: 42px;
+    }
+
+    .info-graphic {
+        width: 90%;
+    }
+
+    .cta-cont {
+        margin-top: 5%;
+    }
+
+    #hubspot {
+        width: 64%;
+        margin-top: 10%;
+    }
+
+
+    @media (min-width: 850px) {
+        #logo {
+            width: 43%;
+        }
+    }
+
+    /* @media (min-width: 1000px) {} */
