@@ -12,15 +12,15 @@
 
     }
 
-    #info-sec{
+    #info-sec {
         margin: 10% auto 0 auto;
     }
 
-    #lm-sec{
+    #lm-sec {
         margin: 10% auto 0 auto;
     }
 
-    #hub-sec{
+    #hub-sec {
         margin: 10% auto 10% auto;
     }
 
@@ -39,13 +39,13 @@
         font-size: 16px;
         line-height: 26px;
         letter-spacing: .25px;
-        margin-top:10%;
+        margin-top: 10%;
     }
 
 
     .time-date {
         font-size: 30px;
-        margin-top:5%;
+        margin-top: 5%;
         line-height: 42px;
     }
 
@@ -83,15 +83,15 @@
 
     }
 
-    #info-sec{
+    #info-sec {
         margin: 5% auto 0 auto;
     }
 
-    #lm-sec{
+    #lm-sec {
         margin: 5% auto 0 auto;
     }
 
-    #hub-sec{
+    #hub-sec {
         margin: 5% auto 10% auto;
     }
 
@@ -108,16 +108,16 @@
     }
 
     .ptxt {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 26px;
         letter-spacing: .25px;
-        margin-top:1%;
+        margin-top: 1%;
     }
 
 
     .time-date {
         font-size: 30px;
-        margin-top:1%;
+        margin-top: 1%;
         line-height: 42px;
     }
 
@@ -141,4 +141,4 @@
         }
     }
 
-    /* @media (min-width: 1000px) {} */
+}
