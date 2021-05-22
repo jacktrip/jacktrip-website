@@ -499,3 +499,32 @@ a.time-date:hover {
 .full_06 img{
     width: 100%;
 }
+
+
+
+#ew-info img{
+    width: 100%;
+}
+
+#ew-bg img{
+    width: 100%;
+}
+
+
+#ew-desktop-cont{
+    position: relative;
+    max-width: 1200px;
+    height:340px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#ew-bg{
+    
+    position: absolute;
+}
+
+#ew-info{
+
+    position: absolute;
+}
