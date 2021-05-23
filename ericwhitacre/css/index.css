@@ -1,4 +1,19 @@
 @media (min-width: 0px) {
+    #poster{
+        display: none;
+    }
+
+    #mobile-poster{
+        display: block;
+    }
+
+    #desktop-info{
+        display:none;
+    }
+    #mobile-info{
+        display: block;
+    }
+
     #logo-sec {
         margin: 10% auto 0 auto;
     }
@@ -64,7 +79,22 @@
 }
 
 
-@media (min-width: 320px) {}
+@media (min-width: 650px) {
+    #desktop-info{
+        display:block;
+    }
+    #mobile-info{
+        display: none;
+    }
+
+    #poster{
+        display: block;
+    }
+
+    #mobile-poster{
+        display: none;
+    }
+}
 
 
 
@@ -140,5 +170,6 @@
             width: 43%;
         }
     }
+    
 
 }
