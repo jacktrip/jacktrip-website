@@ -211,3 +211,21 @@ p {
     font-weight: 300;
     padding:0 30px;
 }
+
+ul.studioNav {
+    text-align:left; 
+    margin: 3% 5% 0% 5%;
+    list-style-type: disc;
+    font-size:15px;
+    font-weight: 500;
+    color: #eee;
+}
+
+ul.studioNav li {
+    margin: 0% 1% 1% 1%;
+}
+
+ul.studioNav a {
+    font-weight: 300;
+    color: #eee;
+}
