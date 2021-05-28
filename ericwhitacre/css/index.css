@@ -1,6 +1,13 @@
 @media (min-width: 0px) {
+    .image-jt-desktop{
+        display:none;
+    }
     #poster{
         display: none;
+    }
+
+    #poster2{
+        display: block;
     }
 
     #mobile-poster{
@@ -91,8 +98,17 @@
         display: block;
     }
 
+    #poster2{
+        display: none;
+    }
+
+
     #mobile-poster{
         display: none;
+    }
+
+    .image-jt-desktop{
+        display:block;
     }
 }
 
