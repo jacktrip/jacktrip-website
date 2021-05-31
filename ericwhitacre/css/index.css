@@ -1,5 +1,10 @@
 @media (min-width: 0px) {
 
+    .hubspot-form-txt{
+        padding: 0 0; 
+        
+    }
+
     .video-form-cont{
         flex-direction: column; 
     }
@@ -89,8 +94,20 @@
     }
 }
 
+@media (min-width: 414px){
+    .hubspot-form-txt{
+        padding: 0 10%; 
+        
+    }
+}
+
 
 @media (min-width: 650px) {
+    .hubspot-form-txt{
+        padding: 0 18%; 
+        
+    }
+    
     #desktop-info{
         display:block;
     }
