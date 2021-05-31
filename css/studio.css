@@ -218,7 +218,7 @@ ul.studioNav {
     list-style-type: disc;
     font-size:15px;
     font-weight: 500;
-    color: #eee;
+    color: #FFC778;
 }
 
 ul.studioNav li {
@@ -227,5 +227,9 @@ ul.studioNav li {
 
 ul.studioNav a {
     font-weight: 300;
-    color: #eee;
+    color: #FFC778;
+}
+
+ul.studioNav a:hover{
+    color:#ffb349;
 }

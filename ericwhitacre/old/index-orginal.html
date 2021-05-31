@@ -216,11 +216,9 @@
       }
 
       .title-poster{
-        width: 80%;
-        height: auto;
+        width: 100%;
+        height:auto;
         margin-bottom: 5%;
-        display: flex;
-        align-self: center;
       }
       
       .title-poster img{
@@ -297,31 +295,6 @@
         border: 1px solid #979797;
       }
 
-      .youtube-video-container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-      }
-
-      .youtube-video-container::after {
-        display: block;
-        content: "";
-        padding-top: 56.25%;
-      }
-
-      .youtube-video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-      .video-form-cont{
-        width: 100%; 
-        display: flex; 
-        max-width:1200px;
-      }
-
     </style>
     
     <link rel="stylesheet" href="css/index.css">
@@ -335,35 +308,31 @@
       <div class="intro">PRESENTS A VIRTUAL MUSICAL EVENT</div>
     </section>
     <section id="poster-sec" style="width: 100%;">
-      <div class="video-form-cont">
-        <div class="video-left" style="align-self: center; max-width: 600px; display: flex; position: relative; margin: 0 auto; flex-direction: column; align-self: start;">
-          <div class="title-poster"><img src="images/sing_gently.png" alt="Sing Gently Title"></div>
-          <iframe class="youtube-video-container" width="560" height="315" src="https://www.youtube.com/embed/SJgB5QmyDfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <p class="ptxt" style="margin:7% auto;"><a href="https://fb.watch/5QV9WTQM3x/" target="_blank">Click here</a> to view the entire Facebook Live presentation!</p>
-        </div>
-        <div class="form-right" style="align-self: center; max-width: 600px; display: flex; flex-wrap: wrap; flex-direction: column;">
-          <p class="ptxt center" style="display: flex; align-self: center; font-weight: 500; color: white; padding: 0 18%; margin-top:0;">Sign up to receive updates about JackTrip via our mailing list!</bold></p>
-          <div id="hubspot">
-            <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
-            <script>
-              hbspt.forms.create({
-                region: "na1",
-                portalId: "8327526",
-                formId: "33e182ae-2e31-4b80-a5b8-dc28490f6232"
-            });
-            </script>
-          </div>
-        </div>
+
+      <div id="poster">
+        <iframe  style="width: 100%;" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEricWhitacreOfficial%2Fvideos%2F922435291884333%2F&show_text=false&width=560&t=0" width="1202" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <!-- <iframe  style="width: 100%;" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEricWhitacreOfficial%2Fvideos%2F388996579013563%2F&show_text=false&width=560&t=0" width="1202" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe> -->
       </div>
-     
+      <a href="https://jacktrip.org/" target="_blank"><div class="image-jt-desktop" style="margin:0 auto; position: relative; max-width: 300px;"><img style="width: 100%;" src="images/powered_by_jt.png" alt="Powered By JackTrip logo."></div></a>
+        <!-- <img src="images/poster.jpg" alt="Image of video poster."> -->
+
+      <div id="mobile-poster">
+        <div class="title-poster"><img src="images/sing_gently.png" alt="Sing Gently Title"></div>
+        <div id="poster2">
+          <iframe style="width: 100%;" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEricWhitacreOfficial%2Fvideos%2F922435291884333%2F&show_text=false&width=560&t=0"width="1202" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          <!-- <iframe  style="width: 100%;" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEricWhitacreOfficial%2Fvideos%2F388996579013563%2F&show_text=false&width=560&t=0" width="1202" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe> -->
+        </div>
+        <a href="https://jacktrip.org/" target="_blank"><div class="image-jt"><img src="images/powered_by_jt.png" alt="Powered By JackTrip logo."></div></a>
+        <div class="host-poster"><img src="images/hosted_info.png" alt="Picture of hosted event by Eric Whitacre and Mike Dickey (Co-Founder) of JackTrip."></div>
+      </div>
     </section>
     <section id="details-sec">
       <p class="ptxt">Please join us to watch this unique Facebook Live event hosted by <a href="https://ericwhitacre.com/" target="_blank">Eric Whitacre</a> 
         featuring three different choirs performing live four hundred miles apart within the state of California.  This online 
         performance will utilize <a href="https://jacktrip.org/studio.html" target="_blank">JackTrip Virtual Studio</a> to connect three choral
         groups to perform Eric’s new musical composition, “<a href="https://www.halleonard.com/product/368593/sing-gently" target="_blank">Sing Gently</a>” for upper voices.</p>
-      <!-- <p class="ptxt center" style="padding-top: 5%;">Bookmark this page and please join us here:</p>
-      <div class="time-date center">Friday, May 28th at 12 PM PST</div> -->
+      <p class="ptxt center" style="padding-top: 5%;">Bookmark this page and please join us here:</p>
+      <div class="time-date center">Friday, May 28th at 12 PM PST</div>
     </section>
     <section id="info-sec" >
       <div id="desktop-info">
@@ -393,7 +362,17 @@
 
 
     <section id="hub-sec">
-     
+      <p class="ptxt center" style="font-weight: 500; color:white;">Sign up to receive updates about JackTrip via our mailing list!</bold></p>
+      <div id="hubspot">
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "8327526",
+            formId: "33e182ae-2e31-4b80-a5b8-dc28490f6232"
+        });
+        </script>
+      </div>
     </section>
     
     
