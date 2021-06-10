@@ -193,9 +193,7 @@ p {
 
 
 .amazon_btn_vs-top img{
-
     width:125px;
-   
 }
 
 
@@ -219,6 +217,7 @@ ul.studioNav {
     font-size:15px;
     font-weight: 500;
     color: #FFC778;
+    padding: 0 30px;
 }
 
 ul.studioNav li {
@@ -232,4 +231,33 @@ ul.studioNav a {
 
 ul.studioNav a:hover{
     color:#ffb349;
+}
+
+.jtvs-banner-desktop{
+    display: flex;
+}
+.jtvs-banner-tablet{
+    display: flex;
+}
+
+/* .jtvs-banner-left img{
+    width: 100%;
+} */
+
+.jtvs-btn-bottom{
+    width:180px;
+    border-radius: 8px;
+    border: 1px solid #FAFBFB;
+    color:#FAFBFB;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 2% 0;
+}
+
+
+.jtvs-btn-bottom:hover{
+    background-color: #FAFBFB;
+    color:#0f0d0d;
+    cursor: pointer;
 }

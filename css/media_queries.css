@@ -5,6 +5,95 @@
     #ew-desktop-cont{
         display:none;
     } */
+    .jtvs-banner-left img{
+        width: 100%;
+    }
+
+
+    .jtvs-banner-desktop{
+        display: none;
+    }
+
+    .jtvs-banner-tablet{
+        display: flex;
+    }
+
+    .jtvs-top-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .jtvs-banner-bottom-tablet {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 0 3% 0;
+    }
+
+    .jtvs-banner-tablet{
+        background-color: #0f0d0d;
+        width: 100%;
+        /* height:200px; */
+        flex-direction: column;
+    }
+    .jtvs-btn-bottom{
+        align-self: center;
+    }
+    .jtvs-button-cont-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+    .jtvs-button-cont-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 12%;
+    }
+    .jtvs-banner-bottom{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        width: 100%;
+    }
+    .jtvs-banner-top{
+        height: 48%;
+    }
+
+    .jtvs-btn-top{
+        color: #FAFBFB;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding: 4% 10%;
+    }
+
+    .jtvs-banner-desktop{
+        background-color: #0f0d0d;
+        width: 100%;
+        height:200px;
+        flex-direction: row;
+    }
+    .jtvs-banner-left{
+        height: 100%;
+        padding: 10%;
+        /* align-self: center; */
+        display: flex;
+    }
+    .jtvs-banner-right{
+        align-self: center;
+        display: flex;
+        padding: 0% 10% 10% 10%;
+        flex-direction: column;
+    }
+    .banner-top-txt{
+        color: #FAFBFB;
+        font-size: 21px;
+        font-weight: 500;
+        text-align: left;
+        display: flex;
+        /* padding: 2.5% 0 3.5% 3%; */
+        line-height: 28px;
+    }
 
     #ew-bg{
         width: 100%;
@@ -792,7 +881,7 @@
         background-color: #46667A;
         min-height: 300px;
         transform: none;
-        margin: 0 60px;
+        margin: 0 50px;
     }
     /* background-color: #583240; */
     .right-side-content.txt-blk-bg {
@@ -800,7 +889,7 @@
         background-color: #46667A;
         min-height: 300px;
         transform: none;
-        margin: 0 60px;
+        margin: 0 50px;
     }
     #fname {
         width: 100%;
@@ -1352,6 +1441,43 @@
 }
 
 @media (min-width: 750px) {
+
+    .jtvs-banner-right{
+        align-self: center;
+        display: flex;
+        padding: 0 0 0 5%;
+        flex-direction: column;
+    }
+
+    .jtvs-banner-left {
+        height: 100%;
+        padding: 0 5% 0 0;
+        align-self: center;
+        display: flex;
+    }
+
+    .jtvs-banner-left img {
+        width: auto;
+    }
+
+    .jtvs-top-cont{
+        display: flex;
+        flex-direction: row;
+        padding: 5% 5% 1% 5%;
+    }
+
+    .jtvs-banner-bottom-tablet {
+        flex-direction: row;
+        padding: 1% 0 5% 0;
+    }
+
+    .jtvs-button-cont-left {
+        padding-bottom:0;
+    }
+
+    .jtvs-button-cont-right {
+        padding-bottom: 0;
+    }
 
     #ew-bg{
         width: 100%;
@@ -2195,5 +2321,78 @@ margin-top: 290px;
     }
     .form-bg2 {
         margin-right: 0px;
+    }
+
+    .jtvs-top-cont{
+        display: flex;
+        flex-direction: row;
+    }
+    .jtvs-banner-desktop{
+        display: flex;
+    }
+
+    .jtvs-banner-tablet{
+        display: none;
+    }
+    .jtvs-btn-bottom{
+        align-self: center;
+    }
+    .jtvs-button-cont-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .jtvs-button-cont-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .jtvs-banner-bottom{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        width: 100%;
+    }
+    .jtvs-banner-top{
+        height: 40%;
+    }
+
+    .jtvs-btn-top{
+        color: #FAFBFB;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .jtvs-banner-desktop{
+        background-color: #0f0d0d;
+        width: 100%;
+        height:200px;
+        flex-direction: row;
+    }
+    .jtvs-banner-left{
+        height: 200px;
+        padding: 0 0 0 5%;
+        align-self: center;
+        display: flex;
+    }
+    .jtvs-banner-right{
+        width: 80%;
+        height: 200px;      
+        align-self: center;
+        display: flex;
+        padding-right: 5%;
+        flex-direction: column;
+    }
+    .banner-top-txt{
+        color: #FAFBFB;
+        font-size: 21px;
+        font-weight: 500;
+        text-align: center;
+        display: flex;
+        padding: 2.5% 0 3.5% 3%;
+        line-height: 28px;
     }
 }
