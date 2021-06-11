@@ -358,12 +358,16 @@ input[type="submit"] {
     width: 100%;
 }
 
+.text-title-lg{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .swiper-cont-left {
-    font-family: 'dancing_script_otregular', Arial, sans-serif;
+    
 }
 
 a.time-date {
-    color: #F61B1B;
+    color: #fff;
 }
 
 a.time-date:hover {
@@ -528,3 +532,6 @@ a.time-date:hover {
 
     position: absolute;
 }
+
+
+

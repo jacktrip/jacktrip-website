@@ -5,6 +5,56 @@
     #ew-desktop-cont{
         display:none;
     } */
+
+    /* .text-title-lg {
+        font-size: 48px;
+    }
+
+    .sub-text-top{
+        font-size: 21px;
+        padding-top: 0.75%;
+    } */
+
+    .alex-btn{
+        width: 160px;
+        border-radius: 8px;
+        border: 1px solid #FAFBFB;
+        color: #FAFBFB;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        align-self: center;
+        padding: 10px 0;
+        margin-top: 5%;
+    }
+    
+    .alex-btn:hover{
+        background-color: #FAFBFB;
+        color:#0f0d0d;
+        cursor: pointer;
+    }
+    
+
+    .text-title-lg {
+        font-size: 18px;
+        padding:0 10%;
+    }
+
+    .sub-text-top{
+        font-size: 12px;
+        padding:25px 10% 0 10%;
+    }
+
+    p.alex-txt{
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+        padding:0 15%;
+        
+    }
+
+
+
+
     .jtvs-banner-left img{
         width: 100%;
     }
@@ -19,8 +69,8 @@
     }
 
     .jtvs-top-cont{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
     }
     .jtvs-banner-bottom-tablet {
         display: flex;
@@ -77,7 +127,7 @@
         height: 100%;
         padding: 10%;
         /* align-self: center; */
-        display: flex;
+        /* display: flex; */
     }
     .jtvs-banner-right{
         align-self: center;
@@ -192,21 +242,21 @@
         width: 150%;
         left: -25%;
     }
-    .alex-txt {
-        margin: 0 0 5% 0;
-    }
+
     .swiper-cont {
-        width: 75%;
-        max-width: 1050px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         background-color: #0f0d0d;
-        padding-bottom: 3%;
+        /* padding-bottom: 3%; */
         Margin: 0;
-        border-radius: 15px;
+        /* border-radius: 15px; */
         opacity: 0.9;
+        height: 100%;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,1) 100%); 
     }
     .swiper-cont-left {
         /* background-color: #000; */
@@ -218,6 +268,7 @@
         flex-direction: column;
         position: relative;
         margin: 0 auto;
+        
     }
     .swiper-img-left {
         width: 100%;
@@ -1077,6 +1128,28 @@
 /* Larger than phablet */
 
 @media (min-width: 414px) {
+    .text-title-lg {
+        font-size: 18px;
+        padding:0 5%;
+    }
+
+    .sub-text-top{
+        font-size: 12px;
+        
+        padding:30px 5% 0 5%;
+    }
+
+    p.alex-txt{
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+        padding:0 10%;
+    }
+
+    .alex-btn{
+       
+        margin-top: 5%;
+    }
+
     #ew-info{
         width: 70%;
         right:15%;
@@ -1150,6 +1223,10 @@
 }
 
 @media (min-width: 425px) {
+    .sub-text-top{
+        font-size: 12px;
+        padding:50px 10% 0 10%;
+    }
 
     .news-logo {
         padding: 20px 0 5px 35px;
@@ -1242,6 +1319,28 @@
 }
 
 @media (min-width: 550px) {
+    
+    .text-title-lg {
+        font-size: 21px;
+        padding:0 5%;
+    }
+
+    .sub-text-top{
+        font-size: 14px;
+        padding-top: 12%;
+        padding:50px 0 0 0;
+    }
+
+    .alex-txt{
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+
+    .alex-btn{
+        
+        margin-top: 2%;
+    }
+
     #ew-info{
         width: 60%;
         right:20%;
@@ -1374,6 +1473,29 @@
 }
 
 @media (min-width: 650px) {
+
+    .text-title-lg {
+        font-size: 21px;
+        padding:0 5%;
+    }
+
+    .sub-text-top{
+        font-size: 14px;
+        padding-top: 20px;
+        padding:50px 0 0 0;
+    }
+
+
+    p.alex-txt{
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+
+    .alex-btn{
+   
+        margin-top: 2%;
+    }
+
     #ew-info{
         width: 50%;
         right:25%;
@@ -1441,6 +1563,31 @@
 }
 
 @media (min-width: 750px) {
+
+    .text-title-lg {
+        font-size: 30px;
+    }
+
+    .sub-text-top{
+        font-size: 16px;
+        padding-top: 50px;
+    }
+
+    .alex-btn{
+        
+        margin-top: 0.75%;
+    }
+    
+    .alex-btn:hover{
+        background-color: #FAFBFB;
+        color:#0f0d0d;
+        cursor: pointer;
+    }
+    
+    p.alex-txt{
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+    }
 
     .jtvs-banner-right{
         align-self: center;
@@ -1573,7 +1720,7 @@
         left: auto;
         align-self: flex-end;
     }
-    .swiper-cont {
+    /* .swiper-cont {
         width: 75%;
         max-width: 1140px;
         flex-direction: row;
@@ -1581,7 +1728,7 @@
         align-content: center;
         padding: 0 50px;
         height: 260px;
-    }
+    } */
     .swiper-cont-left {
         padding: 8% 3%;
         width: 100%;
@@ -1941,9 +2088,14 @@
     #ew-info{
         width: 45%;
     }
+
+    
+
 }
 
 @media (min-width: 895px) {
+    
+
     #ew-bg{
         width: 100%;
         left: 0%;
@@ -1987,6 +2139,19 @@
 }
 
 @media (min-width: 950px) {
+    .text-title-lg {
+        font-size: 40px;
+    }
+
+    .sub-text-top{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    p.alex-txt{
+        font-size: 18px;
+        margin-bottom: 0.5rem;
+    }
     #ew-bg img{
         margin-top:0%;
     } 
@@ -2078,6 +2243,8 @@
 }
 
 @media (min-width: 1000px) {
+   
+
     #ew-bg{
         width: 100%;
         left: 0%;
@@ -2196,6 +2363,10 @@ margin-top: 290px;
 }
 
 @media (min-width: 1111px) {
+    
+    
+    
+
     .swiper-cta {
         font-size: 14px;
         padding: 10px 25px;
@@ -2268,6 +2439,18 @@ margin-top: 290px;
 /* Larger than Desktop HD */
 
 @media (min-width: 1200px) {
+
+    .text-title-lg {
+        font-size: 48px;
+    }
+
+    .sub-text-top{
+        font-size: 21px;
+        padding-top: 20px;
+    }
+
+
+    
     #ew-info{
 
         right: 0;
