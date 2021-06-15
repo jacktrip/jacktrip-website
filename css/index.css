@@ -410,6 +410,16 @@ a.time-date:hover {
     width: 100%;
 }
 
+.full_03{
+    max-width: 325px;
+}
+
+.full_03 img{
+    width: 100%;
+    padding-top:20px;
+}
+
+
 .slide_container_04{
     position: relative; 
     height: 340px; 
