@@ -49,7 +49,7 @@ function init() {
     // prodAdBtn02.style.cursor = "pointer";
 
     columnBtn01.onclick = function () {
-        window.open('https://github.com/jacktrip/jacktrip', '_blank');
+        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
         console.log('hit');
     };
 
