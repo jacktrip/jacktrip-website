@@ -166,6 +166,12 @@ h4 {
     display: none;
 }
 
+.media-set#found-sub{
+    position: absolute;
+    width: 150px;
+    right: 570px;
+    display: none;
+}
 
 .media-set#media-sub{
     position: absolute;
@@ -189,6 +195,14 @@ h4 {
     font-weight: 300;
 }
 
+.found-expand{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 16px;
+    font-weight: 300;
+}
+
 .help-expand{
     color: white;
     text-align: center;
@@ -203,6 +217,24 @@ h4 {
     font-size: 16px;
     padding: 12px 16px;
     
+}
+
+.found-submenu-item{
+    color: #eee;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 16px;
+    
+}
+
+
+
+.found-sub-cont{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: none;
 }
 
 .media-sub-cont{
