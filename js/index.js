@@ -4,27 +4,33 @@ var columnBtn03 = document.querySelector("#col03");
 
 var media_btn = document.querySelector("#media");
 var help_btn = document.querySelector("#help");
+var found_btn = document.querySelector("#foundation");
 
 var submenu_bg = document.querySelector(".submenu-expand-bg");
+var found_set = document.querySelector(".submenu-expand .media-set#found-sub");
 var media_set = document.querySelector(".submenu-expand .media-set#media-sub");
 var help_set = document.querySelector(".submenu-expand .media-set#help-sub");
 
-var found = document.querySelector("#found");
+// var found = document.querySelector("#found");
 var stu = document.querySelector("#stu");
 var tech = document.querySelector("#tech");
 var hom = document.querySelector("#hom");
 
 var sub_media_cont = document.querySelector(".media-sub-cont");
 var sub_help_cont = document.querySelector(".help-sub-cont");
+var sub_found_cont = document.querySelector(".found-sub-cont");
 
+var found_expand_btn = document.querySelector(".found-expand");
 var media_expand_btn = document.querySelector(".media-expand");
 var help_expand_btn = document.querySelector(".help-expand");
 var arrow_down_1 = document.querySelector('.arrow-down-1');
 var arrow_down_2 = document.querySelector('.arrow-down-2');
 var arrow_down_3 = document.querySelector('.arrow-down-3');
 var arrow_down_4 = document.querySelector('.arrow-down-4');
+var arrow_down_5 = document.querySelector('.arrow-down-5');
+var arrow_down_6 = document.querySelector('.arrow-down-6');
 
-var menu_btns = [hom, found, tech, stu];
+var menu_btns = [hom, tech, stu];
 
 var prodAdBtn01 = document.querySelector(".prod-ad-1");
 // var prodAdBtn02 = document.querySelector(".prod-ad-2");
@@ -49,7 +55,7 @@ function init() {
     // prodAdBtn02.style.cursor = "pointer";
 
     columnBtn01.onclick = function () {
-        window.open('https://github.com/jacktrip/jacktrip', '_blank');
+        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
         console.log('hit');
     };
 
@@ -87,13 +93,24 @@ function init() {
 var hideSub = () => {
     media_set.style.zIndex = "1";
     help_set.style.zIndex = "1";
+    found_set.style.zIndex = "1";
     submenu_bg.style.display = "none";
     media_set.style.display = "none";
     help_set.style.display = "none";
+    found_set.style.display = "none";
     arrow_down_1.style.top = "-2px";
     arrow_down_2.style.top = "-2px";
+    arrow_down_5.style.top = "-2px";
 };
 
+var showFoundSub = () =>{
+    hideSub();
+    submenu_bg.style.display = "block";
+    found_set.style.display = "block";
+    found_set.style.zIndex = "100";
+    arrow_down_5.style.top = "0px";
+
+};
 
 var showMediaSub = () =>{
     hideSub();
@@ -118,15 +135,24 @@ var subMediaActive = () =>{
     arrow_down_1.style.top = "0px";
 };
 
+var subFoundActive = () =>{
+    submenu_bg.style.display = "block";
+    found_set.style.display = "block";
+    found_set.style.zIndex = "100";
+    arrow_down_5.style.top = "0px";
+};
+
 media_set.addEventListener("mouseover", subMediaActive);
 help_set.addEventListener("mouseover", showHelpSub);
+found_set.addEventListener("mouseover", subFoundActive);
 
 media_btn.addEventListener("mouseover", showMediaSub);
 help_btn.addEventListener("mouseover", showHelpSub);
+found_btn.addEventListener("mouseover", showFoundSub);
 
 media_set.addEventListener("mouseout", hideSub);
 help_set.addEventListener("mouseout", hideSub);
-
+found_set.addEventListener("mouseout", hideSub);
 
 menu_btns.forEach(item => {
     item.addEventListener('mouseover', event => {
@@ -136,6 +162,7 @@ menu_btns.forEach(item => {
 
 var m_expand = true;
 var h_expand = true;
+var f_expand = true;
 
 var expand_media = (x) => {
     if(x){
@@ -163,6 +190,19 @@ var expand_help = (x) => {
       
 };
 
+var expand_found = (x) => {
+    if(x){
+        sub_found_cont.style.display = "block";
+        arrow_down_5.style.transform = 'rotate(180deg)'; 
+        f_expand = false;
+      }else{
+        sub_found_cont.style.display = "none";
+        arrow_down_5.style.transform = 'rotate(0deg)'; 
+        f_expand = true;
+      }
+      
+};
+
 
 
 
@@ -171,6 +211,9 @@ media_expand_btn.addEventListener("click", function(){
 });
 help_expand_btn.addEventListener("click", function(){
     expand_help(h_expand);
+});
+found_expand_btn.addEventListener("click", function(){
+    expand_found(f_expand);
 });
 
 hideSub();

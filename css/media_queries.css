@@ -2484,6 +2484,14 @@ margin-top: 290px;
     #myLinks a#media:hover {
         cursor: pointer;
     }
+
+    #myLinks a#foundation {
+        height: 75px;
+        cursor: pointer;
+    }
+    #myLinks a#foundation:hover {
+        cursor: pointer;
+    }
 }
 
 
