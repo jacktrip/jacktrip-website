@@ -58,8 +58,38 @@
         
     }
 
+    .slide-03-logo{
+        text-align: center;
+        align-self: center; 
+    }
 
+    .slide-03-logo img{
+        width: 60%;
+        margin: 15px auto 10px auto;
+    }
 
+    .slide-03-txt1{
+        text-align: center;
+        align-self: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 14%;
+    }
+
+    .slide-03-txt2{
+        margin-top: 25px;
+        font-size: 13px;
+    }
+
+    .slide-03-cta{
+        margin-top:10px; 
+        font-size: 14px; 
+        font-weight: 600;
+    }
+
+    .slide-03-cta img{
+        width: 7px;
+    }
 
     .jtvs-banner-left img{
         width: 100%;
@@ -696,7 +726,7 @@
         margin-bottom: 5px;
         text-align: left;
         padding-right: 30px;
-        margin-top: 15px;
+        margin-top: 110px;
         /* transform: translate(0, -100%); */
     }
     .banner-bar-s {
@@ -1288,6 +1318,12 @@
 }
 
 @media (min-width: 485px) {
+
+    .slide-03-logo img{
+        width: 80%;
+        margin: 15px auto 10px auto;
+    }
+
     #ew-info{
         width: 70%;
     }
@@ -1501,6 +1537,8 @@
 
 @media (min-width: 650px) {
 
+   
+
     .text-title-lg {
         font-size: 21px;
         padding:0 5%;
@@ -1590,6 +1628,38 @@
 }
 
 @media (min-width: 750px) {
+    .slide-03-logo{
+        text-align: center;
+        align-self: center; 
+    }
+
+    .slide-03-logo img{
+        width: 80%;
+        margin: 15px auto 10px auto;
+    }
+
+    .slide-03-txt1{
+        text-align: center;
+        align-self: center;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 14%;
+    }
+
+    .slide-03-txt2{
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .slide-03-cta{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .slide-03-cta img{
+        width: 7px;
+    }
 
     .title_03{
         font-weight: 600; 
@@ -2187,6 +2257,39 @@
 }
 
 @media (min-width: 950px) {
+    .slide-03-logo{
+        text-align: center;
+        align-self: center; 
+    }
+
+    .slide-03-logo img{
+        width: 80%;
+        margin: 15px auto 10px auto;
+    }
+
+    .slide-03-txt1{
+        text-align: center;
+        align-self: center;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 14%;
+    }
+
+    .slide-03-txt2{
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    .slide-03-cta{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .slide-03-cta img{
+        width: 7px;
+    }
+
     .text-title-lg {
         font-size: 40px;
     }

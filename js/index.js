@@ -60,7 +60,7 @@ function init() {
     };
 
     columnBtn02.onclick = function () {
-        window.open('foundation.html', '_self');
+        window.open('about.html', '_self');
         console.log('hit');
     };
 
