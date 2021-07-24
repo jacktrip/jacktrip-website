@@ -55,7 +55,7 @@ function init() {
     // prodAdBtn02.style.cursor = "pointer";
 
     columnBtn01.onclick = function () {
-        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
+        window.open('studio.html', '_self');
         console.log('hit');
     };
 
@@ -65,7 +65,7 @@ function init() {
     };
 
     columnBtn03.onclick = function () {
-        window.open('studio.html', '_self');
+        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
         console.log('hit');
     };
 
