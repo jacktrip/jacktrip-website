@@ -26,6 +26,7 @@ var defaultBtn = true;
 
 
 function btn1TxtChange(x) {
+    /*
     var str = new String("$1.00");
     var normal = "$1.00";
     if (x) {
@@ -36,6 +37,7 @@ function btn1TxtChange(x) {
     } else {
         textC1.innerHTML = normal;
     }
+    */
 }
 
 function btn2TxtChange(x) {
