@@ -1,0 +1,336 @@
+@media (min-width: 0px) {
+
+    .pfontsize{
+        font-size: 12px;
+        margin-top:2%;
+    }
+
+    .vid-thumb-cont {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 100%;
+        align-content: center;
+        position: relative;
+        /* margin: 0 auto; */
+    }
+    
+
+    .vid01Btn {
+        width: 30%;
+        flex-grow: 3;
+        /* margin: 25px; */
+        padding: 15px 10px 15px 0;
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid01Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .vid02Btn {
+        width: 30%;
+        flex-grow: 3;
+        padding: 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid02Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .vid03Btn {
+        width: 30%;
+        flex-grow: 3;
+        padding: 15px 0 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid03Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .hubspot-form-txt {
+        padding: 0 0;
+
+    }
+
+    .video-form-cont {
+        flex-direction: column;
+    }
+
+    .image-jt-desktop {
+        display: none;
+    }
+
+    #poster {
+        display: none;
+    }
+
+    #poster2 {
+        display: block;
+    }
+
+    #mobile-poster {
+        display: block;
+    }
+
+    #desktop-info {
+        display: none;
+    }
+
+    #mobile-info {
+        display: block;
+    }
+
+    #logo-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 0 auto 0 auto;
+
+    }
+
+    #info-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #lm-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #hub-sec {
+        margin: 10% auto 10% auto;
+    }
+
+    #logo {
+        width: 94%;
+    }
+
+    .intro {
+        font-size: 16px;
+        margin-top: 8%;
+        letter-spacing: 4px;
+        line-height: 21px;
+    }
+
+    .ptxt {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: .25px;
+        margin-top: 10%;
+    }
+
+
+    .time-date {
+        font-size: 30px;
+        margin-top: 5%;
+        line-height: 42px;
+    }
+
+    .info-graphic {
+        width: 90%;
+    }
+
+    .cta-cont {
+        margin-top: 10%;
+    }
+
+    #hubspot {
+        width: 94%;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 414px) {
+    .hubspot-form-txt {
+        padding: 0 10%;
+
+    }
+}
+
+
+@media (min-width: 650px) {
+    .pfontsize{
+        font-size: 16px;
+        margin-top:2%;
+        margin-bottom: 10%;
+    }
+
+    .hubspot-form-txt {
+        padding: 0 18%;
+
+    }
+
+    #desktop-info {
+        display: block;
+    }
+
+    #mobile-info {
+        display: none;
+    }
+
+    #poster {
+        display: block;
+    }
+
+    #poster2 {
+        display: none;
+    }
+
+
+    #mobile-poster {
+        display: none;
+    }
+
+    .image-jt-desktop {
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 750px) {
+    .vid-thumb-cont {
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .vid01Btn {
+        width: 150px;
+        flex-grow: 3;
+        /* margin: 25px; */
+        padding: 15px 10px 15px 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .vid01Btn img {
+        width: 100%;
+       
+    }
+
+    .vid02Btn {
+        width: 150px;
+        flex-grow: 3;
+        padding: 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+    }
+
+    .vid02Btn img {
+        width: 100%;
+
+    }
+
+    .vid03Btn {
+        width: 150px;
+        flex-grow: 3;
+        padding: 15px 0 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+    }
+
+    .vid03Btn img {
+        width: 100%;
+ 
+    }
+    
+
+    #logo-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 5% auto 0 auto;
+
+    }
+
+    #info-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #lm-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #hub-sec {
+        margin: 5% auto 10% auto;
+    }
+
+
+    #logo {
+        width: 55%;
+    }
+
+    .intro {
+        font-size: 18px;
+        margin-top: 4%;
+        letter-spacing: 4px;
+        line-height: 21px;
+    }
+
+    .ptxt {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: .25px;
+        margin-top: 1%;
+    }
+
+
+    .time-date {
+        font-size: 30px;
+        margin-top: 1%;
+        line-height: 42px;
+    }
+
+    .info-graphic {
+        width: 90%;
+    }
+
+    .cta-cont {
+        margin-top: 5%;
+    }
+
+    #hubspot {
+        width: 64%;
+        margin-top: 10%;
+    }
+
+
+    @media (min-width: 850px) {
+        #logo {
+            width: 43%;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .video-form-cont {
+            flex-direction: row;
+        }
+    }
+
+
+}
