@@ -1,5 +1,47 @@
 @media (min-width: 0px) {
 
+    .btn-ctn{
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: nowrap; 
+        margin: 5% auto;
+    }
+
+    .form-right{
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .title-poster {
+        width: 96%;
+        margin: 0 auto;
+      }
+
+    .text-00-top{
+        font-size: 12px;
+        font-weight: 500;
+        color: white;
+        position: absolute;
+        padding: 0 10%;
+        top: 50%; 
+    }
+
+    .text-00-bottom{
+        font-size: 11px;
+        font-weight: 300;
+        position: absolute;
+        bottom: 10%;
+        padding: 0 10%;
+    }
+
+    .right-side-header{
+        width: 100%;
+        margin: 10% auto 5% auto;
+    }
+
     .pfontsize{
         font-size: 12px;
         margin-top:2%;
@@ -170,7 +212,7 @@
     .pfontsize{
         font-size: 16px;
         margin-top:2%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     .hubspot-form-txt {
@@ -207,6 +249,45 @@
 
 
 @media (min-width: 750px) {
+    .btn-ctn{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 5% 20%;
+        margin: 5% auto 5% auto;
+    }
+
+    .title-poster {
+        width: 70%;
+        margin: 0 auto;
+      }
+
+    .text-00-top{
+        font-size: 21px; 
+        font-weight: 500; 
+        color: white; 
+        position: absolute; 
+        right: 5%; 
+        width: 40%; 
+        top: 36%; 
+        line-height: 30px;
+    }
+
+    .text-00-bottom{
+        font-size: 16px; 
+        font-weight: 300; 
+        line-height: 24px; 
+        position: absolute; 
+        right: 5%; 
+        bottom: 13%; 
+        width: 40%; 
+        letter-spacing: .5px;
+    }
+
+    .right-side-header{
+        align-self: center; 
+        width: 100%;
+    }
     .vid-thumb-cont {
         flex-direction: row;
         width: 100%;
@@ -256,15 +337,19 @@
     
 
     #logo-sec {
-        margin: 5% auto 0 auto;
+        margin:  0 auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: nowrap;
     }
 
     #poster-sec {
-        margin: 5% auto 0 auto;
+        margin: 2% auto;
     }
 
     #details-sec {
-        margin: 5% auto 0 auto;
+        margin: 2% auto 0 auto;
 
     }
 
@@ -286,10 +371,11 @@
     }
 
     .intro {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 4%;
         letter-spacing: 4px;
         line-height: 21px;
+        text-align: center;
     }
 
     .ptxt {
@@ -316,19 +402,32 @@
 
     #hubspot {
         width: 64%;
-        margin-top: 10%;
+        margin-top: 4%;
     }
 
 
     @media (min-width: 850px) {
         #logo {
-            width: 43%;
+            width: 75%;
+            margin: 0 auto; 
         }
     }
 
     @media (min-width: 1000px) {
+
+        .right-side-header{
+            align-self: center; 
+            width: 60%;
+        }
         .video-form-cont {
             flex-direction: row;
+        }
+
+        .btn-ctn{
+            display: flex; 
+            flex-direction: column; 
+            flex-wrap: nowrap; 
+            margin: 0 auto;
         }
     }
 

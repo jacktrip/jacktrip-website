@@ -310,11 +310,11 @@
     }
 
     .title-poster {
-      width: 80%;
+      width: 75%;
       /* height: auto; */
-      margin-bottom: 5%;
+      /* margin-bottom: 5%; */
       /* display: flex; */
-      align-self: center;
+      margin: 0 auto;
     }
 
     .title-poster img {
@@ -391,7 +391,7 @@
       border: 1px solid #979797;
     }
 
-    
+
 
     .video-form-cont {
       width: 100%;
@@ -424,6 +424,16 @@
       width: 100%;
       position: absolute;
     }
+
+    .poster-bg img{
+      width: 100%;
+    }
+
+    #jt_logo img{
+      width: 100%;
+    }
+
+
   </style>
 
   <link rel="stylesheet" href="css/index.css">
@@ -433,55 +443,99 @@
 <body>
   <div id="main_container">
     <section id="logo-sec">
-      <div id="logo"><img src="images/logo.svg" alt="Image of Eric Whitacre logo."></div>
-      <div class="intro">PRESENTS A VIRTUAL MUSICAL EVENT</div>
+      <div class="left-side-header" style="align-self: center;">
+        <div id="logo"><img src="images/logo.svg" alt="Image of Eric Whitacre logo."></div>
+        <div class="intro">PRESENTS A VIRTUAL MUSICAL EVENT</div>
+      </div>
+      <div class="right-side-header">
+      <div class="title-poster"><img src="images/sing_gently.png" alt="Sing Gently Title"></div>
+      </div>
     </section>
     <section id="poster-sec" style="width: 100%;">
       <div class="video-form-cont">
         <div class="video-left"
           style="align-self: center; max-width: 600px; display: flex; position: relative; margin: 0 auto; flex-direction: column; align-self: start;">
-          <div class="title-poster"><img src="images/sing_gently.png" alt="Sing Gently Title"></div>
+          
 
-          <div class="video-responsive">
-          <video id="galVideo" width="560" height="315" poster="images/poster-sing.jpg">
-            <source src="video/video_01.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video> 
-        </div>
+          <div class="video-responsive" style="position: relative;">
+            
+            <video id="galVideo" width="560" height="315" poster="images/poster-sing.jpg">
+              <source src="video/video_01.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="poster-bg"><img src="images/poster_bg2.jpg" alt="Video poster background with the back of Eric Whitacre."></div>
+    
+          </div>
 
 
           <div class="vid-thumb-cont">
-            <div class="vid01Btn"><img src="images/video_thumb_01.jpg" alt="Video Thumb of Eric Whitacre and online singers.">
+            <div class="vid01Btn"><img src="images/video_thumb_01.jpg"
+                alt="Video Thumb of Eric Whitacre and online singers.">
               <p class="pfontsize">Sing Gently</p>
             </div>
-            <div class="vid02Btn"><img src="images/video_thumb_02.jpg" alt="Video Thumb of Eric Whitacre and Mike Dickey.">
-              <p class="pfontsize">Mike Dickey</p>
-            </div>
-            <div class="vid03Btn"><img src="images/video_thumb_03.jpg" alt="Video Thumb of Ragazzi Boys singer.">
+            <div class="vid02Btn"><img src="images/video_thumb_02.jpg" alt="Video Thumb of Ragazzi Boys singer.">
               <p class="pfontsize">Behind the Scenes</p>
             </div>
+            <div class="vid03Btn"><img src="images/video_thumb_03.jpg"
+              alt="Video Thumb of Eric Whitacre and Mike Dickey.">
+            <p class="pfontsize">Mike Dickey Interview</p>
           </div>
-          <!-- <p class="ptxt" style="margin: 6.5% auto;"><a href="https://fb.watch/5QV9WTQM3x/" target="_blank">Click here</a> to view the entire Facebook Live presentation, which includes an introduction by Eric Whitacre and Q&A with Mike Dickey, Co-Founder of JackTrip Labs.</p> -->
+          </div>
+
+          <div class="text-blank">
+            <div style="font-size: 18px; font-weight:400; color: white;  line-height: 30px; letter-spacing: .5px; text-align: center;">
+              &nbsp; 
+              <br>
+              &nbsp; 
+            </div>
+          </div>
+
+          <div class="text-01">
+            <div style="font-size: 18px; font-weight:400; color: white;  line-height: 30px; letter-spacing: .5px; text-align: center;">
+              World Premiere of "Sing Gently" for upper voices<br>
+              &nbsp; 
+            </div>
+          </div>
+          <div class="text-02">
+            <div style="font-size: 18px; font-weight:400; color: white;  line-height: 30px; letter-spacing: .5px; text-align: center;">
+              The making of "Sing Gently" - a behind the scenes look  <br>at a virtual choir
+            </div>
+          </div>
+          <div class="text-03">
+            <div style="font-size: 18px; font-weight:400; color: white;  line-height: 30px; letter-spacing: .5px; text-align: center;"
+            >A conversation between Eric Whitacre and Mike Dickey, <br>co-founder of JackTrip Labs
+          </div>
+          </div>  
         </div>
-        <div class="form-right"
-          style="align-self: center; max-width: 600px; display: flex; flex-wrap: wrap; flex-direction: column;">
-          <p class="ptxt center hubspot-form-txt">Sign up to receive updates about JackTrip via our mailing list!</p>
+        <div class="form-right">
+          <p class="ptxt center hubspot-form-txt" style="margin-top: 0;">Sign up to receive updates about JackTrip via our mailing list!</p>
           <div id="hubspot">
             <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
             <script>
               hbspt.forms.create({
-                region: "na1",
-                portalId: "8327526",
-                formId: "33e182ae-2e31-4b80-a5b8-dc28490f6232"
-              });
+              region: "na1",
+              portalId: "8327526",
+              formId: "ff285951-6fa7-4906-a305-8612ab091a6f"
+            });
             </script>
+          </div>
+          <div class="btn-ctn" >
+            <p class="ptxt" style="margin:4% auto 0 auto;">Visit us at <a  href="https://jacktrip.org/studio.html" target="_blank">jacktrip.org</a> to learn more.</p>
+            <p class="ptxt" style="margin:3% auto 0 auto;">For sales inquiries: <a  href="mailto: sales@jacktrip.org" target="_blank">sales@jacktrip.org</a>.</p>
           </div>
         </div>
       </div>
 
     </section>
     <section id="details-sec">
-      <p class="ptxt">Please join us to watch this unique event hosted by <a href="https://ericwhitacre.com/"
+      <p class="ptxt">
+        “<a href="https://www.halleonard.com/product/368593/sing-gently" target="_blank">Sing Gently</a>” for upper voices is hosted by <a href="https://ericwhitacre.com/"
+        target="_blank">Eric Whitacre</a> and features three different choirs singing together over four hundred miles apart 
+        within the state of California. This online performance was made possible with the power of <a href="https://jacktrip.org/studio.html" target="_blank">
+          JackTrip Virtual Studio</a> on May 21, 2021.
+      </p>
+      <!-- <p class="ptxt">Please join us to watch this unique event hosted by <a href="https://ericwhitacre.com/"
           target="_blank">Eric Whitacre</a> and
         featuring three different choirs performing live four hundred miles apart within the state of California. This
         online
@@ -489,7 +543,7 @@
         to connect three choral
         groups to perform Eric’s new musical composition, “<a
           href="https://www.halleonard.com/product/368593/sing-gently" target="_blank">Sing Gently</a>” for upper
-        voices.</p>
+        voices.</p> -->
       <!-- <p class="ptxt center" style="padding-top: 5%;">Bookmark this page and please join us here:</p>
       <div class="time-date center">Friday, May 28th at 12 PM PST</div> -->
     </section>
@@ -534,7 +588,7 @@
   <script src='js/jquery-3.3.1.min.js'></script>
   <script src="js/index.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
- 
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177279499-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
