@@ -1,5 +1,14 @@
 @media (min-width: 0px) {
 
+    .vid-description{
+        font-size: 18px; 
+        font-weight:400; 
+        color: white;  
+        line-height: 30px; 
+        letter-spacing: .5px; 
+        text-align: center; 
+        padding: 0;
+    }
     .btn-ctn{
         display: flex; 
         flex-direction: column; 
@@ -12,7 +21,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 12% auto 0 auto;
     }
 
     .title-poster {
@@ -249,6 +258,11 @@
 
 
 @media (min-width: 750px) {
+    .vid-description{
+        padding: 0 30px;
+    }
+
+    
     .btn-ctn{
         display: flex;
         flex-direction: column;
@@ -407,6 +421,7 @@
 
 
     @media (min-width: 850px) {
+        
         #logo {
             width: 75%;
             margin: 0 auto; 
@@ -414,6 +429,9 @@
     }
 
     @media (min-width: 1000px) {
+        .form-right{
+            margin:0 auto;
+        }
 
         .right-side-header{
             align-self: center; 
