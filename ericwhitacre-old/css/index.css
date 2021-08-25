@@ -1,0 +1,218 @@
+@media (min-width: 0px) {
+
+    .hubspot-form-txt{
+        padding: 0 0; 
+        
+    }
+
+    .video-form-cont{
+        flex-direction: column; 
+    }
+    .image-jt-desktop{
+        display:none;
+    }
+    #poster{
+        display: none;
+    }
+
+    #poster2{
+        display: block;
+    }
+
+    #mobile-poster{
+        display: block;
+    }
+
+    #desktop-info{
+        display:none;
+    }
+    #mobile-info{
+        display: block;
+    }
+
+    #logo-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 0 auto 0 auto;
+
+    }
+
+    #info-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #lm-sec {
+        margin: 10% auto 0 auto;
+    }
+
+    #hub-sec {
+        margin: 10% auto 10% auto;
+    }
+
+    #logo {
+        width: 94%;
+    }
+
+    .intro {
+        font-size: 16px;
+        margin-top: 8%;
+        letter-spacing: 4px;
+        line-height: 21px;
+    }
+
+    .ptxt {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: .25px;
+        margin-top: 10%;
+    }
+
+
+    .time-date {
+        font-size: 30px;
+        margin-top: 5%;
+        line-height: 42px;
+    }
+
+    .info-graphic {
+        width: 90%;
+    }
+
+    .cta-cont {
+        margin-top: 10%;
+    }
+
+    #hubspot {
+        width: 94%;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 414px){
+    .hubspot-form-txt{
+        padding: 0 10%; 
+        
+    }
+}
+
+
+@media (min-width: 650px) {
+    .hubspot-form-txt{
+        padding: 0 18%; 
+        
+    }
+    
+    #desktop-info{
+        display:block;
+    }
+    #mobile-info{
+        display: none;
+    }
+
+    #poster{
+        display: block;
+    }
+
+    #poster2{
+        display: none;
+    }
+
+
+    #mobile-poster{
+        display: none;
+    }
+
+    .image-jt-desktop{
+        display:block;
+    }
+}
+
+
+
+@media (min-width: 750px) {
+
+    #logo-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #poster-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #details-sec {
+        margin: 5% auto 0 auto;
+
+    }
+
+    #info-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #lm-sec {
+        margin: 5% auto 0 auto;
+    }
+
+    #hub-sec {
+        margin: 5% auto 10% auto;
+    }
+
+
+    #logo {
+        width: 55%;
+    }
+
+    .intro {
+        font-size: 18px;
+        margin-top: 4%;
+        letter-spacing: 4px;
+        line-height: 21px;
+    }
+
+    .ptxt {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: .25px;
+        margin-top: 1%;
+    }
+
+
+    .time-date {
+        font-size: 30px;
+        margin-top: 1%;
+        line-height: 42px;
+    }
+
+    .info-graphic {
+        width: 90%;
+    }
+
+    .cta-cont {
+        margin-top: 5%;
+    }
+
+    #hubspot {
+        width: 64%;
+        margin-top: 10%;
+    }
+
+
+    @media (min-width: 850px) {
+        #logo {
+            width: 43%;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .video-form-cont{
+            flex-direction: row; 
+        }
+    }
+    
+
+}
