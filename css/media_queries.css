@@ -1,4 +1,12 @@
 @media (min-width: 0px) {
+    .nwa_banner-desktop{
+        display: none;
+    }
+
+    .nwa_banner-mobile{
+        display: block;
+    }
+
     .slide_container_001{
         display: flex;
         flex-direction: column;
@@ -1669,6 +1677,14 @@
 }
 
 @media (min-width: 750px) {
+
+    .nwa_banner-desktop{
+        display: block;
+    }
+
+    .nwa_banner-mobile{
+        display: none;
+    }
 
     .slide_container_001{
         display:flex; 
