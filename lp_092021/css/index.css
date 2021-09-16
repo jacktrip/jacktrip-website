@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.sec-01{
+    background-color: #000000;
+    width: 100%;
+    height:80px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sec-02{
+    background-color: #323232;
+    width: 100%;
+    /* padding-bottom: 20%; */
+    position: relative;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+}
+
+.sec-03{
+    background-color: #000000;
+    width: 100%;
+    padding-bottom: 75px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sec-04{
+    padding: 75px 0;
+    background-color: #323232;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sec-05{
+    background-color: #000000;
+    width: 100%;
+    padding-bottom: 10%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main-cont-header{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+    padding: 0 40px;
+
+    
+    /* border: 1px solid red; */
+}
+
+.main-cont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+    
+}
+
+.logo{
+    width: 100%;
+    max-width: 180px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+}
+
+.logo img{
+    width: 100%;
+}
+
+.red-button {
+    background-color: #f61b1b;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    text-indent: 0px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    height: 44px;
+    line-height: 46px;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .red-button:hover {
+    background-color: #f61b1b;
+    cursor: pointer;
+  }
+
+  .red-button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .btn{
+    right: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%);
+    margin-right: 40px; */
+  }
+
+  .hero_img img{
+    width: 100%;
+    
+  }
+
+  .hero_img{
+    height: 388px;
+    width: 58%;
+    background-image: url("../images/guitar_player_3.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    
+    background-position: 50% 50%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+  }
+
+  .txt-dis{
+    font-size: 16px;
+    color: white;
+    /* width: 40%; */
+    align-self: center;
+    /* padding: 0 50px; */
+    line-height: 30px;
+  }
+
+  .flex-set{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+  }
+
+  .one-to{
+    flex-grow: 3;
+    max-width: 180px;
+    margin: 50px 75px 25px 75px;
+    height: auto;
+    text-align: center;
+  }
+
+  .one-to img{
+    width: 100%;
+  }
+
+  .one-to-title{
+      font-weight: 600;
+      font-size: 18px;
+      border-bottom: 1px solid #fff;
+      margin: 0 80px 5px 80px;
+      line-height: 30px;
+  }
+
+  .headline-title {
+    width: 100%; 
+    font-size: 21px; 
+    font-weight: 600; 
+    text-align:center; 
+    margin-top: 75px;
+    line-height: 30px;
+    padding: 0 30px;
+  }
+
+  .video-left{
+    align-self: center; 
+    /* max-width: 600px;  */
+    display: flex; 
+    position: relative; 
+    margin: 0 auto; 
+    flex-direction: column; 
+    align-self: start; 
+    width: auto;
+}
+
+.youtube-video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #fff;
+  }
+
+  .youtube-video-container::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+
+  .youtube-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .poster-bg{
+    position: absolute;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+
+  .poster-bg img{
+    width: 100%;
+  }
+
+  .how-to-title{
+    margin: 75px auto 50px auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    position: relative;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+.form-right{
+    /* max-width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 12% auto 0 auto;
+}
+
+.ptxt {
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: left;
+
+  }
+
+  li.b{
+    margin: 30px auto;
+  }
+
+  ol.a{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  a {
+    color: #37ACC8;
+    font-weight: 400;
+  }
+
+  a:hover {
+    color: #66c8e0;
+  }
