@@ -1,0 +1,445 @@
+@media (min-width: 0px) {
+
+    .main-cont.mar{
+        margin: 100px 30px 0 30px;
+        width: 100%;
+    }
+
+    .form-right{
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 12% auto 0 auto;
+    }
+
+    .hubspot-form-txt {
+        padding: 0 0;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .how-to-start{
+        width: 100%;
+        max-width: 600px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .quotes{
+        flex-direction: row;
+        width: 10%;
+        margin: 0 auto;
+        flex-grow: 3;
+        font-size: 16px;
+        line-height: 30px;
+        font-style: italic;
+        padding: 30px;
+    }
+
+    .vfontsize{
+        font-size: 14px;
+        margin-top:2%;
+        margin-bottom: 5%;
+    }
+
+    .vid-title-cat{
+        margin: 0 auto 50px auto;
+        max-width: 1200px;
+        text-align: center;
+        position: relative;
+        font-size: 21px;
+        font-weight: 600;
+        padding: 0 30px;
+        line-height: 30px;
+    }
+
+    .sec-01 {
+        flex-direction: column;
+        /* height: 160px; */
+    }
+
+    .logo {
+        transform: translateY(32%);
+    }
+
+    .btn{
+        transform: translateY(40%);
+        margin-right: 120px;
+        display: none;
+    }
+
+    .main-cont{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:0;
+    }
+
+    .hero_img{
+        width: 100%;
+    }
+
+    .hero_img{
+        border-left: 0;
+        border-right: 0;
+      }
+
+      .txt-dis {
+        font-size: 15px;
+        padding:  25px;
+    }
+
+    .sec-title{
+        color:#F21B1B; 
+        font-size:18px; 
+        font-weight: 600;
+    }
+
+    #poster-sec {
+        margin: 10% auto 0 auto;
+    }
+    .video-form-cont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .video-left{
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+        flex-direction: column;
+        align-self: start;
+        padding: 0 30px;
+    }
+    .vid-thumb-cont {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 100%;
+        align-content: center;
+        position: relative;
+        padding: 0 30px;
+    }
+
+    .vid01Btn {
+        width: 30%;
+        flex-grow: 3;
+        /* margin: 25px; */
+        padding: 15px 10px 15px 0;
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid01Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .vid02Btn {
+        width: 30%;
+        flex-grow: 3;
+        padding: 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid02Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .vid03Btn {
+        width: 30%;
+        flex-grow: 3;
+        padding: 15px 0 15px 10px;
+        /* margin: 25px; */
+        height: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .vid03Btn img {
+        width: 100%;
+        border:1px solid #fff;
+    }
+
+    .pfontsize{
+        font-size: 12px;
+        margin-top:2%;
+    }
+    
+
+}
+
+@media (min-width: 414px) {
+    .hubspot-form-txt {
+        padding: 0 10%;
+
+    }
+}
+
+
+@media (min-width: 425px) {
+    .sec-01 {
+        flex-direction: column;
+        height: 80px;
+        
+    }
+
+    .main-cont{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:0;
+    }
+
+    .main-cont.mar{
+        margin: 100px 30px 0 30px;
+    }
+
+    .logo {
+        transform: translateY(32%);
+    }
+
+    .btn{
+        transform: translateY(40%);
+        margin-right: 120px;
+        display: block;
+    }
+    
+}
+
+
+@media (min-width: 650px){
+    .pfontsize{
+        font-size: 16px;
+        margin-top:2%;
+        margin-bottom: 5%;
+    }
+
+    .hubspot-form-txt {
+        padding: 0 10% 50px 10%;
+        
+    }
+
+    
+}
+
+@media (min-width: 735px){
+    .video-left {
+
+        /* padding:0; */
+        /* padding-left:30px; */
+    }
+    .vid-thumb-cont {
+        flex-direction: row;
+        margin: 0 auto;
+        flex-grow: 3;
+    }
+}
+
+
+@media (min-width: 750px) {
+
+    .mar{
+        margin: 0 auto;
+    }
+    .video-form-cont {
+        width:80%;
+    }
+
+    .sec-01 {
+        flex-direction: row;
+
+    }
+
+    .logo{
+        transform: translateY(-50%);
+    }
+
+    .logo {
+        transform: translateY(-50%);
+    }
+
+    .btn{
+        transform: translateY(-50%);
+        margin-right: 40px;
+    }
+
+    #poster-sec {
+        margin: 2% auto;
+    }
+    .vid-thumb-cont {
+        /* flex-direction: column; */
+        width: 100%;
+        /* margin: 0 auto;
+        flex-grow: 3; */
+    }
+
+    .vid01Btn {
+        width: 150px;
+        flex-grow: 3;
+        padding: 15px 0 15px 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .vid01Btn img {
+        width: 100%;
+       
+    }
+
+    .vid02Btn {
+        width: 150px;
+        flex-grow: 3;
+        padding: 15px 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    .vid02Btn img {
+        width: 100%;
+
+    }
+
+    .vid03Btn {
+        width: 150px;
+        flex-grow: 3;
+        padding: 15px 0 15px 10px;
+
+        height: auto;
+        text-align: center;
+    }
+
+    .vid03Btn img {
+        width: 100%;
+ 
+    }
+
+
+}
+
+
+
+@media (min-width: 835px) {
+    .how-to-start{
+        width: 45%;
+        max-width: 600px;
+        line-height: 30px;
+        margin: 0 75px 75px 75px;
+    }
+
+    .form-right {
+        margin: 0 auto 0 auto;
+    }
+
+    .main-cont.mar{
+        margin: 100px auto 0 auto;
+    }
+
+    .form-right {
+        width: 50%;
+        
+    }
+}
+
+
+
+@media (min-width: 850px) {
+
+    .txt-dis {
+        font-size: 16px;
+    }
+
+    .txt-dis {
+        width: 55%;
+
+    }
+
+    .main-cont{
+        padding: 0 30px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+
+    .hero_img{
+        border-left: 10px solid #000;
+        border-right: 10px solid #000;
+      }
+
+    .sec-title{
+        color:#F21B1B; 
+        font-size:21px; 
+        font-weight: 600;
+    }
+    
+    
+}
+
+@media (min-width: 1000px){
+    .form-right{
+        margin: 0 75px 0 75px;
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+    .quotes{
+        padding: 0 10px 0 0;
+    }
+    .video-form-cont {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .video-left{
+        width: 50%;
+        max-width: 700px;
+        flex-grow: 3;
+        /* margin: 0 20px; */
+        height: auto;
+        text-align: center;
+    }
+
+    .vid-thumb-cont {
+        flex-direction: column;
+        margin: 0 auto;
+        flex-grow: 3;
+        width: 10%;
+        padding: 0;
+        
+    }
+
+    .vid01Btn {
+        padding: 0 10px 15px 10px;
+
+    }
+
+    .vid02Btn {
+        padding: 12px 10px;
+
+    }
+
+    .vid03Btn {
+        padding: 12px 10px;
+
+    }
+
+    
+}
+
+
