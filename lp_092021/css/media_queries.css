@@ -395,6 +395,9 @@
 }
 
 @media (min-width: 1200px) {
+    .quotes{
+        padding: 0 10px 0 0;
+    }
     .video-form-cont {
         display: flex;
         flex-wrap: wrap;
