@@ -1,4 +1,37 @@
 @media (min-width: 0px) {
+
+
+        .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+            padding: 0 10px;
+        }
+
+       
+    .col-btn.button {
+        color: #FFF;
+        border: 1px solid #F61B1B;
+        background-color: #F61B1B;
+        cursor: pointer;
+        text-transform: none;
+        font-size: 12.5px;
+        letter-spacing: 0;
+        position: absolute;
+        right: 15px;
+        bottom: 18px;
+    }
+
+   
+
+    .bottom-sec-txt{
+        color: #fff; 
+        position:absolute; 
+        width:50%; bottom:0; 
+        position:absolute; 
+        left: 15px; 
+        bottom: 25px; 
+        font-size: 14px; 
+        font-weight: 300;
+    }
+
     .nwa_banner-desktop{
         display: none;
     }
@@ -849,15 +882,20 @@
         flex-grow: 3;
         max-width: 340px;
         flex-grow: 3;
-        max-height: 1200px;
-        background-color: black;
-        margin: 25px auto;
-        text-shadow: 1px 1px black;
+        max-height: 340px;
+        /* background-color: black; */
+        margin: 30px;
+        /* text-shadow: 1px 1px black; */
+        position: relative;
+    }
+
+    .col-cat img{
+        width: 100%;
     }
     .bottomIndexCont {
         /* height:1700px; */
         flex-wrap: wrap;
-        padding-top: 75px;
+        padding-top: 50px;
         height: auto;
     }
     .fineprint.txtAlignR {
@@ -1133,6 +1171,40 @@
 
 @media (min-width: 375px) {
 
+    .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+        padding: 0 20px;
+    }
+
+    .col-btn.button {
+        color: #FFF;
+        border: 1px solid #F61B1B;
+        background-color: #F61B1B;
+        cursor: pointer;
+        text-transform: none;
+        font-size: 12.5px;
+        letter-spacing: 0;
+        position: absolute;
+        right: 30px;
+        bottom: 22px;
+    }
+
+    .bottom-sec-txt{
+        color: #fff; 
+        position:absolute; 
+        width:50%; bottom:0; 
+        position:absolute; 
+        left: 30px; 
+        bottom: 25px; 
+        font-size: 17px; 
+        font-weight: 300;
+    }
+
+
+    .col-cat {
+        margin: 30px auto;
+
+    }
+
     #ew-info{
         width: 80%;
         right:10%;
@@ -1145,7 +1217,7 @@
         padding: 8px 16px;
     }
     .col-cat {
-        height: 1100px;
+        /* height: 1100px; */
     }
     .sub {
         display: flex;
@@ -1586,7 +1658,7 @@
 
 @media (min-width: 650px) {
 
-   
+
 
     .text-title-lg {
         font-size: 21px;
@@ -2603,7 +2675,7 @@
         padding: 0 0 0 30px;
     }
     .col-cat {
-        max-height: 1075px;
+        /* max-height: 1075px; */
     }
     #aff1.aff {
         display: block;

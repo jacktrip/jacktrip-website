@@ -45,7 +45,7 @@
     min-height: 700px;
     text-align: center;
     position: relative;
-    background-color: #fafbfb;
+    background-color: #f9f9f9;
     /* layer fill content */
     color: white;
     /* border-bottom: 1px solid #0f0d0d; */
@@ -60,10 +60,10 @@
     min-height: 700px;
     text-align: center;
     position: relative;
-    background-color: #0D2233;
+    background-color: #323232;
     /* layer fill content */
     color: white;
-    border-bottom: 20px solid #46667A;
+    /* border-bottom: 20px solid #46667A; */
 }
 
 .hero-image {
@@ -256,15 +256,17 @@ input[type="submit"] {
 
 .col-cat img {
     width: 100%;
+    /* border-radius: 15px; */
 }
 
 .col-title {
     color: #fff;
-    /* color:#FAFBFB; */
-    padding: 0 30px;
-    text-align: left;
-    font-size: 21px;
-    transform: translate(0, -200px);
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
 }
 
 .col-p {
@@ -276,15 +278,7 @@ input[type="submit"] {
     transform: translate(0, -200px);
 }
 
-.col-btn.button {
-    color: #FFF;
-    border: 1px solid #F61B1B;
-    background-color: #F61B1B;
-    cursor: pointer;
-    text-transform: none;
-    font-size: 12.5px;
-    letter-spacing: 0;
-}
+
 
 .imgCenter {
     /* position: absolute;
@@ -542,6 +536,7 @@ a.time-date:hover {
 
     position: absolute;
 }
+
 
 
 
