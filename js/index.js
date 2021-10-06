@@ -60,12 +60,12 @@ function init() {
     };
 
     columnBtn02.onclick = function () {
-        window.open('foundation.html', '_self');
+        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
         console.log('hit');
     };
 
     columnBtn03.onclick = function () {
-        window.open('https://jacktrip.github.io/jacktrip/', '_blank');
+        window.open('foundation.html', '_self');
         console.log('hit');
     };
 
