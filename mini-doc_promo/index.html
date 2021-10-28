@@ -14,6 +14,7 @@
         width: 100%;
         max-width: 1280px;
         margin: 0 auto;
+        position: relative;
     }
 
     #logo{
@@ -30,8 +31,21 @@
 
     #myVideo{
         width:100%;
-        
         border: 1px solid #333;
+        position: absolute;
+    }
+
+    #endSlate{
+        display: none;
+        width: 100%;
+        max-width: 1280px;
+        border: 1px solid #333;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    #endSlate img{
+        width:100%;
     }
 
 </style>
@@ -39,15 +53,23 @@
     <div id="container">
         <div id="logo"><img src="images/logo_white.svg" alt="JackTrip Logo"></div>
         <video id="myVideo" controls autoplay muted poster="images/poster.jpg">
-            <source src="video/sing_gently_promo_with_endcard.mp4" type="video/mp4">
+            <source src="video/extended_promo.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+        <div id="endSlate"><img src="images/complete_event.jpg" alt="On video complete end slate."></div>
     </div>
 
     <script>
+        var end = document.getElementById("endSlate");
         var myVid = document.getElementById("myVideo");
+
+        function goToURL() {
+            window.open('https://jacktrip.org/get-started/');
+        }
+
         myVid.onended = function() {
-            window.open('https://jacktrip.org/ericwhitacre');
+            end.style.display = "block";
+            end.addEventListener("click", goToURL);
         };
     </script>
     
