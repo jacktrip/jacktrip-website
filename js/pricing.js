@@ -41,11 +41,11 @@ function btn1TxtChange(x) {
 }
 
 function btn2TxtChange(x) {
-    var str = new String("$10.00");
-    var normal = "$10.00";
+    var str = new String("$10");
+    var normal = "$10";
     if (x) {
         var betweenChars = '&nbsp &nbsp &nbsp';
-        var result = str.strike() + betweenChars + "$7.00";
+        var result = str.strike() + betweenChars + "$7";
         textC2.innerHTML = result;
 
     } else {
@@ -54,11 +54,11 @@ function btn2TxtChange(x) {
 }
 
 function btn3TxtChange(x) {
-    var str = new String("$25.00");
-    var normal = "$25.00";
+    var str = new String("$25");
+    var normal = "$25";
     if (x) {
         var betweenChars = '&nbsp &nbsp &nbsp';
-        var result = str.strike() + betweenChars + "$17.50";
+        var result = str.strike() + betweenChars + "$17";
         textC3.innerHTML = result;
 
     } else {
@@ -67,11 +67,11 @@ function btn3TxtChange(x) {
 }
 
 function btn4TxtChange(x) {
-    var str = new String("$50.00");
-    var normal = "$50.00";
+    var str = new String("$50");
+    var normal = "$50";
     if (x) {
         var betweenChars = '&nbsp &nbsp &nbsp';
-        var result = str.strike() + betweenChars + "$35.00";
+        var result = str.strike() + betweenChars + "$35";
         textC4.innerHTML = result;
 
     } else {
@@ -80,11 +80,11 @@ function btn4TxtChange(x) {
 }
 
 function btn5TxtChange(x) {
-    var str = new String("$100.00");
-    var normal = "$100.00";
+    var str = new String("$100");
+    var normal = "$100";
     if (x) {
         var betweenChars = '&nbsp &nbsp &nbsp';
-        var result = str.strike() + betweenChars + "$70.00";
+        var result = str.strike() + betweenChars + "$70";
         textC5.innerHTML = result;
 
     } else {
@@ -93,11 +93,11 @@ function btn5TxtChange(x) {
 }
 
 function btn6TxtChange(x) {
-    var str = new String("$250.00");
-    var normal = "$250.00";
+    var str = new String("$250");
+    var normal = "$250";
     if (x) {
         var betweenChars = '&nbsp &nbsp';
-        var result = str.strike() + betweenChars + "$175.00";
+        var result = str.strike() + betweenChars + "$175";
         textC6.innerHTML = result;
 
     } else {
@@ -106,11 +106,11 @@ function btn6TxtChange(x) {
 }
 
 function btn7TxtChange(x) {
-    var str = new String("$500.00");
-    var normal = "$500.00";
+    var str = new String("$500");
+    var normal = "$500";
     if (x) {
         var betweenChars = '&nbsp';
-        var result = str.strike() + betweenChars + "$350.00";
+        var result = str.strike() + betweenChars + "$350";
         textC7.innerHTML = result;
 
     } else {
@@ -119,11 +119,11 @@ function btn7TxtChange(x) {
 }
 
 function btn8TxtChange(x) {
-    var str = new String("$1000.00");
-    var normal = "$1000.00";
+    var str = new String("$1000");
+    var normal = "$1000";
     if (x) {
         var betweenChars = '&nbsp';
-        var result = str.strike() + betweenChars + "$700.00";
+        var result = str.strike() + betweenChars + "$700";
         textC8.innerHTML = result;
 
     } else {

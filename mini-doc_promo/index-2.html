@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-documentary Promo</title>
+</head>
+
+<style>
+    body{
+        background-color: black;
+    }
+    #container{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #logo{
+        max-width:250px;
+        width: 100%;
+        margin: 0 auto;
+        padding:30px;
+    }
+
+    #logo img{
+        width:100%;
+       
+    }
+
+    #myVideo{
+        width:100%;
+        border: 1px solid #333;
+        position: absolute;
+    }
+
+    #endSlate{
+        display: none;
+        width: 100%;
+        max-width: 1280px;
+        border: 1px solid #333;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    #endSlate img{
+        width:100%;
+    }
+
+</style>
+<body>
+    <div id="container">
+        <div id="logo"><img src="images/logo_white.svg" alt="JackTrip Logo"></div>
+        <video id="myVideo" controls autoplay muted poster="images/poster.jpg">
+            <source src="video/extended_promo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="endSlate"><img src="images/website.jpg" alt="On video complete end slate."></div>
+    </div>
+
+    <script>
+        var end = document.getElementById("endSlate");
+        var myVid = document.getElementById("myVideo");
+
+        function goToURL() {
+            window.open('https://jacktrip.org/');
+        }
+
+        myVid.onended = function() {
+            end.style.display = "block";
+            end.addEventListener("click", goToURL);
+        };
+    </script>
+    
+</body>
+</html>
