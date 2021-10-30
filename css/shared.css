@@ -296,12 +296,12 @@ a.subLink:hover{
 }
 
 .footer{
-    background-color: #0f0d0d;
+    background-color: #000;
     /* border-top: 1px solid #f21b1b; */
 }
 
 .dark-text-title{
-    color: #0f0d0d;
+    color: #000;
     font-weight: 300;
 }
 
@@ -535,7 +535,7 @@ input[type="submit"]:hover{
     font-size: 18px;
     text-align: center;
     display: block;
-    background: #0f0d0d;
+    background: #000;
 }
 
 
@@ -609,7 +609,7 @@ a:hover {
     width: 100%;
     /* max-width: 1200px; */
     margin: 0 auto;
-    background-color: #0f0d0d;
+    background-color: #000;
 }
 
 .red-links{
