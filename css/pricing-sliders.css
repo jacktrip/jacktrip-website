@@ -1,0 +1,135 @@
+.sliders-cont{
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    max-width: 600px;
+    
+}
+#slider1, #slider2{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #8F9193;
+    outline: none;
+    /* opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; */
+    
+}
+
+/* .slider:hover {
+opacity: 1;
+} */
+
+
+#slider1::-webkit-slider-thumb, #slider1::-moz-range-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    background: #3079B5;
+    border:none;
+}
+
+/* #slider1::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #F61B1B;
+    cursor: pointer;
+    border:none;
+} */
+
+#slider2::-webkit-slider-thumb, #slider2::-moz-range-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    background: #3079B5;
+    border:none;
+}
+
+/* #slider2::-moz-range-thumb{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #F61B1B;
+    cursor: pointer;
+    border:none;
+} */
+
+#selector1, #selector2{
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#SelectValue1, #SelectValue2{
+  width: 14%;
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3079B5;
+  /* margin: 0 1% 0 14%; */
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+#SelectValue2{
+    width: 11%;
+}
+
+#SelectValue1::after, #SelectValue2::after{
+    content:'';
+    /* position: absolute; */
+    bottom:-14px;
+    left:0;
+}
+
+.SelectValueDescription{
+    float: right;
+    width: 200px;
+
+}
+
+.SelectProductType{
+    align-self: center;
+    /* font-size: 21px; */
+    font-weight: 500;
+    width: 80%;
+    text-align: left;
+}
+
+#control-cont{
+    /* width: 60%; */
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    /* padding-right: 30px; */
+  }
+
+.players{
+    font-weight: 700;
+}
+
+.music-hours{
+    font-weight: 700;
+} 
+
+.price{
+    font-weight: 700;
+}
