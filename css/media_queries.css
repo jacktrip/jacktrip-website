@@ -1,5 +1,48 @@
 @media (min-width: 0px) {
 
+    #musHoursTotal{
+        font-size: 30px;
+        font-weight: 700;
+        color: #3079B5;
+    }
+
+    .hour-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px 30px;
+    }
+
+    #NumMusHours{
+        font-weight: 500;
+        text-align: center;
+        width:100%;
+        font-size: 21px;
+        color:#575d60;
+    }
+
+    #slider1::-webkit-slider-thumb, #slider1::-moz-range-thumb{
+        width: 35px;
+        height: 35px;
+    }
+
+    #slider2::-webkit-slider-thumb, #slider2::-moz-range-thumb{
+        width: 35px;
+        height: 35px;
+    }
+
+    #control-cont{
+        padding-right: 30px;
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .SelectProductType{
+        font-size: 16px;
+        padding-left: 50px;
+        color:#575d60;
+    }
 
         .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
             padding: 0 10px;
@@ -725,7 +768,7 @@
         flex-wrap: wrap;
         width: 320px;
         margin: 25px 30px;
-        height: auto;
+        height: 280px;
         /* opacity: .5; */
         background-color: #46667A;
         border-radius: 10px;
@@ -734,7 +777,7 @@
     }
     .sub_title {
         flex-wrap: wrap;
-        padding: 27px 0 10px 30px;
+        padding: 27px 0 0 30px;
         width: 100%;
         height: auto;
         font-size: 20px;
@@ -759,13 +802,13 @@
         padding: 0 10px 0 30px;
         width: 100%;
         height: auto;
-        font-size: 30px;
+        font-size: 40px;
         text-align: left;
     }
     .mus-hours {
-        padding: 0 10px 30px 30px;
-        width: 60%;
-        height: auto;
+        padding: 0 10px 50px 30px;
+        width: 80%;
+        height: 50px;
         font-size: 12px;
         text-align: left;
     }
@@ -1171,6 +1214,10 @@
 
 @media (min-width: 375px) {
 
+    .SelectProductType{
+        padding-left: 45px;
+    }
+
     .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
         padding: 0 20px;
     }
@@ -1225,7 +1272,7 @@
         flex-wrap: wrap;
         width: 320px;
         margin: 25px 30px;
-        height: auto;
+        height: 280px;
         /* opacity: .5; */
         background-color: #46667A;
         border-radius: 10px;
@@ -1234,7 +1281,7 @@
     }
     .sub_title {
         flex-wrap: wrap;
-        padding: 27px 0 20px 30px;
+        padding: 27px 0 0 30px;
         width: 45%;
         height: auto;
         font-size: 20px;
@@ -1259,13 +1306,13 @@
         padding: 0 10px 0 30px;
         width: 100%;
         height: auto;
-        font-size: 30px;
+        font-size: 40px;
         text-align: left;
     }
     .mus-hours {
-        padding: 0 10px 30px 30px;
-        width: 60%;
-        height: auto;
+        padding: 0 10px 50px 30px;
+        width: 80%;
+        height: 50px;
         font-size: 12px;
         text-align: left;
     }
@@ -1396,6 +1443,10 @@
 }
 
 @media (min-width: 425px) {
+
+    .SelectProductType{
+        padding-left: 40px;
+    }
     .sub-text-top{
         font-size: 12px;
         padding:50px 10% 0 10%;
@@ -1439,6 +1490,10 @@
 }
 
 @media (min-width: 485px) {
+
+    .SelectProductType{
+        padding-left: 30px;
+    }
 
     .slide-03-logo img{
         width: 80%;
@@ -1503,7 +1558,9 @@
 }
 
 @media (min-width: 550px) {
-    
+    .SelectProductType{
+        padding-left: 25px;
+    }
     .text-title-lg {
         font-size: 21px;
         padding:0 5%;
@@ -1658,7 +1715,9 @@
 
 @media (min-width: 650px) {
 
-
+    .SelectProductType{
+        padding-left: 15px;
+    }
 
     .text-title-lg {
         font-size: 21px;
@@ -1749,6 +1808,27 @@
 }
 
 @media (min-width: 750px) {
+
+    #slider1::-webkit-slider-thumb, #slider1::-moz-range-thumb{
+        width: 25px;
+        height: 25px;
+    }
+
+    #slider2::-webkit-slider-thumb, #slider2::-moz-range-thumb{
+        width: 25px;
+        height: 25px;
+    }
+
+    .SelectProductType{
+        font-size: 21px;
+        padding-left: 20px;
+
+    }
+    #control-cont{
+        width: 60%;
+        padding-left: 0;
+        padding-right: 30px;
+      }
 
     .nwa_banner-desktop{
         display: block;
@@ -2716,6 +2796,30 @@ margin-top: 290px;
         padding: 0 30px;
     }
 }
+
+/* @media (min-width: 1025px) {
+    #musHoursTotal{
+        font-size: 21px;
+        font-weight: 700;
+        color: #3079B5;
+    }
+
+    .hour-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #NumMusHours{
+        font-weight: 500;
+        text-align: center;
+        width:37%;
+        font-size: 18px;
+        color:#575d60;
+    }
+
+} */
 
 @media (min-width: 1111px) {
     
