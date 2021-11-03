@@ -187,7 +187,11 @@ maximum-scale=1.0, user-scalable=no" />
 
   <section id="subscription" class="subscription main" style="margin-top:0; margin-bottom: 75px;">
     <div class="subscription_cont">
+      <div class="hour-cont">
+        <div id="NumMusHours">You chose <span id="musHoursTotal">0</span> studio hours!<br> We recommend:</div>
 
+      </div>
+      
       <div class="sub" style="background-color: #3079B5;">
         <div class="sub_title">Free</div>
         <div class="subPrice" id="c1Txt" style="font-weight: 600;">FREE</div>
@@ -198,17 +202,10 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <div class="mus-hours">Connect to studios as much as you like</div>
     </div>
+    
 
     <div id="control-cont">
-      <div class="sliders-cont" id="s1">
-        <div id="selector1">
-            <!-- <div class="SelectBtn"></div> -->
-            <div id="SelectValue1"></div>
-            <div class="SelectProductType"> Musician Hours</div>
-        </div>
-        <input type="range" min="0" max="3500" value="0" id="slider1">
-      </div>
-
+      
       <div class="sliders-cont" id="s2">
         <div id="selector2">
             <!-- <div class="SelectBtn"></div> -->
@@ -217,6 +214,17 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
         <input type="range" min="0" max="480" value="0" id="slider2">
       </div>
+
+      <div class="sliders-cont" id="s1" style="margin-top:0;">
+        <div id="selector1">
+            <!-- <div class="SelectBtn"></div> -->
+            <div id="SelectValue1"></div>
+            <div class="SelectProductType"> Hours of rehearsal per month</div>
+        </div>
+        <input type="range" min="0" max="200" value="0" id="slider1">
+      </div>
+
+      
     </div>
     </div>
   </section>
@@ -284,7 +292,7 @@ maximum-scale=1.0, user-scalable=no" />
     gtag('config', 'UA-177279499-1');
   </script>
   <!-- <script src="js/pricing.js"></script> -->
-  <script src="js/pricing-sliders.js"></script>
+  <script src="js/pricing-sliders-2.js"></script>
   <script src="js/index.js"></script>
   <script type="text/javascript">
     function autorun() {
