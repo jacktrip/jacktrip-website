@@ -768,7 +768,7 @@
         flex-wrap: wrap;
         width: 320px;
         margin: 25px 30px;
-        height: 280px;
+        height: 370px;
         /* opacity: .5; */
         background-color: #46667A;
         border-radius: 10px;
@@ -805,7 +805,39 @@
         font-size: 40px;
         text-align: left;
     }
-    .mus-hours {
+    .mus-hours-1 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 80px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-2 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-3 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-4 {
+        padding: 0 10px 25px 30px;
+        width: 80%;
+        height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .peer {
         padding: 0 10px 50px 30px;
         width: 80%;
         height: 50px;
@@ -1272,7 +1304,7 @@
         flex-wrap: wrap;
         width: 320px;
         margin: 25px 30px;
-        height: 280px;
+        height: 370px;
         /* opacity: .5; */
         background-color: #46667A;
         border-radius: 10px;
@@ -1309,7 +1341,39 @@
         font-size: 40px;
         text-align: left;
     }
-    .mus-hours {
+    .mus-hours-1 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 80px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-2 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 40px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-3 {
+        padding: 0 10px 10px 30px;
+        width: 80%;
+        height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mus-hours-4 {
+        padding: 0 10px 25px 30px;
+        width: 80%;
+        height: 25px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .peer {
         padding: 0 10px 50px 30px;
         width: 80%;
         height: 50px;
